@@ -1,0 +1,6 @@
+{
+    "id": "01_benign_content_script",
+    "name": "Benign Content Script",
+    "description": "Reads page text and logs it locally.",
+    "expected_findings": 0
+}

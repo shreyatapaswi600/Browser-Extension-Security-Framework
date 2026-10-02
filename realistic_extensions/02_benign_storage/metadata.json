@@ -1,0 +1,6 @@
+{
+    "id": "02_benign_storage",
+    "name": "Benign Extension Storage",
+    "description": "Reads extension storage without transmitting the value.",
+    "expected_findings": 0
+}

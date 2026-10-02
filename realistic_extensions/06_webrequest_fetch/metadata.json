@@ -1,0 +1,6 @@
+{
+    "id": "06_webrequest_fetch",
+    "name": "WebRequest Information To Network",
+    "description": "Uses webRequest callback information in a network operation.",
+    "expected_findings": 1
+}

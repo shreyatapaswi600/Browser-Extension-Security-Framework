@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analysera totala utgifter"
+   },
+   "Sorry": {
+      "message": "Besök Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Totalt belopp som spenderas"
+   },
+   "appDesc": {
+      "message": "\nHåll koll på dina utgifter med Amazon ™ & Flipkart ™ utgiftskalkylator\n"
+   },
+   "appTitle": {
+      "message": "Utgiftskalkylator för Amazon ™ och Flipkart ™"
+   },
+   "feedback": {
+      "message": "Respons"
+   },
+   "fetch": {
+      "message": "Hämtning-"
+   },
+   "instruction": {
+      "message": "Instruktion"
+   },
+   "instructionfour": {
+      "message": "  4. Klicka på \"Analysera totala utgifter i det sista steget\n                totala utgifter"
+   },
+   "instructionone": {
+      "message": "1. Öppna webbplatsen Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Gå till avsnittet \"Min beställning\" och klicka på förlängningsikonen"
+   },
+   "instructiontwo": {
+      "message": "2. Logga in på ditt konto"
+   },
+   "mostPurchased": {
+      "message": "Mest köpta produkten"
+   },
+   "noteOther": {
+      "message": "Vänligen öppna Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Besök mitt beställningsavsnitt"
+   },
+   "rate": {
+      "message": "Gradera oss"
+   },
+   "reAnalyze": {
+      "message": "Återanalysera totala utgifter"
+   }
+}

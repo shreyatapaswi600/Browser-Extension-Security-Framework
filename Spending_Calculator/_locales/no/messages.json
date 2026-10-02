@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analysere totale utgifter"
+   },
+   "Sorry": {
+      "message": "Vennligst besøk Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Totalt beløp brukt"
+   },
+   "appDesc": {
+      "message": "\nHold oversikt over utgiftene dine med Amazon ™ & Flipkart ™ -kalkulatoren\n"
+   },
+   "appTitle": {
+      "message": "Bruker kalkulator for Amazon ™ og Flipkart ™"
+   },
+   "feedback": {
+      "message": "Tilbakemelding"
+   },
+   "fetch": {
+      "message": "Henter-"
+   },
+   "instruction": {
+      "message": "Instruksjon"
+   },
+   "instructionfour": {
+      "message": "  4. I det siste trinnet klikker du på \"Analyser totalutgifter\" for å få\n                totale utgifter"
+   },
+   "instructionone": {
+      "message": "1. Åpne nettstedet Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Gå til delen \"Min ordre\" og klikk på utvidelsesikonet"
+   },
+   "instructiontwo": {
+      "message": "2. Logg på kontoen din"
+   },
+   "mostPurchased": {
+      "message": "Mest kjøpt produkt"
+   },
+   "noteOther": {
+      "message": "Vennligst åpne Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Vennligst besøk bestillingsdelen min"
+   },
+   "rate": {
+      "message": "Rangere oss"
+   },
+   "reAnalyze": {
+      "message": "Analyser de totale utgiftene"
+   }
+}

@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Toplam harcamaları analiz edin"
+   },
+   "Sorry": {
+      "message": "Lütfen Amazon/Flipkart'ı ziyaret edin"
+   },
+   "TotalAmount": {
+      "message": "Harcanan toplam tutar"
+   },
+   "appDesc": {
+      "message": "\nAmazon ™ & Flipkart ™ Harcama Hesap Makinesi ile masraflarınızı takip edin\n"
+   },
+   "appTitle": {
+      "message": "Amazon ™ ve Flipkart ™ için harcama hesap makinesi"
+   },
+   "feedback": {
+      "message": "Geri bildirim"
+   },
+   "fetch": {
+      "message": "Getirme-"
+   },
+   "instruction": {
+      "message": "Talimat"
+   },
+   "instructionfour": {
+      "message": "  4. Son adımda, \"Toplam Harcayı Analiz Et\" ye tıklayın.\n                toplam harcama"
+   },
+   "instructionone": {
+      "message": "1. Flipkart/Amazon web sitesini açın"
+   },
+   "instructionthree": {
+      "message": "3. \"Siparişim\" bölümüne gidin ve uzantı simgesini tıklayın"
+   },
+   "instructiontwo": {
+      "message": "2. Hesabınızda oturum açın"
+   },
+   "mostPurchased": {
+      "message": "En çok satın alınan ürün"
+   },
+   "noteOther": {
+      "message": "Lütfen Flipkart/Amazon'u açın"
+   },
+   "order": {
+      "message": "Lütfen sipariş bölümümü ziyaret edin"
+   },
+   "rate": {
+      "message": "Bizi değerlendirin"
+   },
+   "reAnalyze": {
+      "message": "Toplam harcamaları yeniden analiz et"
+   }
+}

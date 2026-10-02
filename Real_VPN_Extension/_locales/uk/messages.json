@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "Доступ до серверів по всьому світу"
+   },
+   "account": {
+      "message": "Акаунт"
+   },
+   "ams": {
+      "message": "Амстердам"
+   },
+   "april": {
+      "message": "Квітень"
+   },
+   "atl": {
+      "message": "Атланта"
+   },
+   "au": {
+      "message": "Австралія"
+   },
+   "august": {
+      "message": "Серпень"
+   },
+   "blr": {
+      "message": "Бенгалуру"
+   },
+   "bom": {
+      "message": "Мумбаї"
+   },
+   "br": {
+      "message": "Бразилія"
+   },
+   "ca": {
+      "message": "Канада"
+   },
+   "cdg": {
+      "message": "Париж"
+   },
+   "chooseYourPlan": {
+      "message": "Обрати тариф"
+   },
+   "cl": {
+      "message": "Чилі"
+   },
+   "claimOffer": {
+      "message": "Отримати пропозицію"
+   },
+   "connected": {
+      "message": "Підключено"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "Стабільний та швидкий інтернет"
+   },
+   "contactUs": {
+      "message": "Зв'язатися з нами"
+   },
+   "continueFree": {
+      "message": "Продовжити безкоштовно"
+   },
+   "continueText": {
+      "message": "Або продовжити без акаунту"
+   },
+   "copyLink": {
+      "message": "Копіювати посилання"
+   },
+   "de": {
+      "message": "Німеччина"
+   },
+   "deal": {
+      "message": "Пропозиція"
+   },
+   "december": {
+      "message": "Грудень"
+   },
+   "del": {
+      "message": "Делі"
+   },
+   "dfw": {
+      "message": "Даллас"
+   },
+   "disableWebRtc": {
+      "message": "Вимкнути WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "Вимкніть WebRTC, щоб запобігти витоку вашої реальної IP-адреси."
+   },
+   "disconnected": {
+      "message": "Відключено"
+   },
+   "downloadApp": {
+      "message": "Завантажити додаток"
+   },
+   "editInfo": {
+      "message": "Редагувати інформацію"
+   },
+   "email": {
+      "message": "Електронна пошта"
+   },
+   "es": {
+      "message": "Іспанія"
+   },
+   "ewr": {
+      "message": "Нью-Йорк"
+   },
+   "extDesc": {
+      "message": "Безкоштовний ВПН / VPN, необмежені дані, висока швидкість, безпечне шифрування, відсутність логів і легкість у використанні."
+   },
+   "extName": {
+      "message": "Безкоштовний VPN / ВПН - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Фейсбук"
+   },
+   "fastestSpeeds": {
+      "message": "Найвищі швидкості"
+   },
+   "february": {
+      "message": "Лютий"
+   },
+   "fr": {
+      "message": "Франція"
+   },
+   "fra": {
+      "message": "Франкфурт"
+   },
+   "free": {
+      "message": "Безкоштовно"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "Повне повернення коштів"
+   },
+   "get1VPNForAndroid": {
+      "message": "Отримати 1VPN для Android"
+   },
+   "getAndroidApp": {
+      "message": "Для Android"
+   },
+   "getPremium": {
+      "message": "Отримати Premium"
+   },
+   "goToLocationsPage": {
+      "message": "Перейти до сторінки локацій"
+   },
+   "goToOptionsPage": {
+      "message": "Перейти до сторінки налаштувань"
+   },
+   "hnl": {
+      "message": "Гонолулу"
+   },
+   "icn": {
+      "message": "Сеул"
+   },
+   "il": {
+      "message": "Ізраїль"
+   },
+   "in": {
+      "message": "Індія"
+   },
+   "installAndroidToUnlock": {
+      "message": "Встановіть додаток Android для розблокування"
+   },
+   "installInstructions": {
+      "message": "Натисніть на значок головоломки поруч із адресним рядком. Потім натисніть на значок шпильки, щоб закріпити розширення."
+   },
+   "installModalText": {
+      "message": "Розблокуйте цю локацію, попросивши іншого користувача встановити розширення за цим посиланням:"
+   },
+   "installSuccess": {
+      "message": "1VPN було успішно встановлено"
+   },
+   "itm": {
+      "message": "Осака"
+   },
+   "january": {
+      "message": "Січень"
+   },
+   "jnb": {
+      "message": "Йоганнесбург"
+   },
+   "jp": {
+      "message": "Японія"
+   },
+   "july": {
+      "message": "Липень"
+   },
+   "june": {
+      "message": "Червень"
+   },
+   "kr": {
+      "message": "Південна Корея"
+   },
+   "lax": {
+      "message": "Лос-Анджелес"
+   },
+   "leaveReviewToUnlock": {
+      "message": "Залиште оцінку 5 зірок щоб розблокувати цю локацію"
+   },
+   "lhr": {
+      "message": "Лондон"
+   },
+   "linkCopied": {
+      "message": "Посилання скопійовано!"
+   },
+   "linkedin": {
+      "message": "Лінкедін"
+   },
+   "loading": {
+      "message": "Завантаження..."
+   },
+   "locations": {
+      "message": "Локації"
+   },
+   "login": {
+      "message": "Увійти"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "Не вдалося завантажити ваш акаунт. Спробуйте ще раз."
+   },
+   "loginCouldNotReachServers": {
+      "message": "Не вдалося підключитися до серверів. Спробуйте ще раз пізніше."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "Введіть адресу електронної пошти та пароль"
+   },
+   "loginInvalidCredentials": {
+      "message": "Невірні облікові дані"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "Невірний або відсутній токен 2FA"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "Невірна відповідь від сервера"
+   },
+   "loginNetworkError": {
+      "message": "Помилка мережі"
+   },
+   "loginTwoFaRequired": {
+      "message": "Потрібен код 2FA"
+   },
+   "logout": {
+      "message": "Вийти"
+   },
+   "mad": {
+      "message": "Мадрид"
+   },
+   "man": {
+      "message": "Манчестер"
+   },
+   "march": {
+      "message": "Березень"
+   },
+   "may": {
+      "message": "Травень"
+   },
+   "mel": {
+      "message": "Мельбурн"
+   },
+   "menu": {
+      "message": "Меню"
+   },
+   "mex": {
+      "message": "Мехіко"
+   },
+   "mia": {
+      "message": "Маямі"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "Більше локацій та вища швидкість"
+   },
+   "mx": {
+      "message": "Мексика"
+   },
+   "nl": {
+      "message": "Нідерланди"
+   },
+   "november": {
+      "message": "Листопад"
+   },
+   "nrt": {
+      "message": "Токіо"
+   },
+   "october": {
+      "message": "Жовтень"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "Опції"
+   },
+   "ord": {
+      "message": "Чикаго"
+   },
+   "password": {
+      "message": "Пароль"
+   },
+   "pl": {
+      "message": "Польща"
+   },
+   "plan": {
+      "message": "План підписки"
+   },
+   "premium": {
+      "message": "Преміум"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "Основний домен заблоковано. Використовується "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " як резервний."
+   },
+   "rateUsMessage": {
+      "message": "Якщо вам подобається 1VPN, будь ласка, приділіть хвилину, щоб оцінити нас."
+   },
+   "rateYourExperience": {
+      "message": "Оцініть свій досвід"
+   },
+   "referToUnlock": {
+      "message": "Запросити щоб розблокувати"
+   },
+   "resetPassword": {
+      "message": "Скинути пароль"
+   },
+   "reviewModalButton": {
+      "message": "Залишити відгук"
+   },
+   "reviewModalTitle": {
+      "message": "Залиште 5-зірковий відгук, щоб розблокувати це місце"
+   },
+   "reviewToUnlock": {
+      "message": "Відгук для розблокування"
+   },
+   "ro": {
+      "message": "Румунія"
+   },
+   "sao": {
+      "message": "Сан-Паулу"
+   },
+   "save33OnPremium": {
+      "message": "Заощадьте 33% на Преміум"
+   },
+   "save33OnPremiumUntil": {
+      "message": "Заощадьте 33% на преміум до"
+   },
+   "save33Percent": {
+      "message": "Заощадь 33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "Скануйте або натисніть на QR-код"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "Скануйте QR або натисніть кнопку, щоб завантажити додаток."
+   },
+   "scl": {
+      "message": "Сантьяго"
+   },
+   "se": {
+      "message": "Швеція"
+   },
+   "sea": {
+      "message": "Сіетл"
+   },
+   "september": {
+      "message": "Вересень"
+   },
+   "sg": {
+      "message": "Сінгапур"
+   },
+   "sgp": {
+      "message": "Сінгапур"
+   },
+   "shareModalTitle": {
+      "message": "Поділіться 1VPN, щоб розблокувати це місце"
+   },
+   "shareText": {
+      "message": "Я щойно спробував 1VPN — безкоштовний, простий і безпечний VPN з необмеженими даними та високою швидкістю. Перевірте на https://1vpn.org?from=share"
+   },
+   "signUp": {
+      "message": "Реєстрація"
+   },
+   "sjc": {
+      "message": "Сан-Франциско"
+   },
+   "spoofGeolocation": {
+      "message": "Підробка геолокації"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "Підробіть API геолокації HTML5, щоб відповідати вашому поточному розташуванню VPN."
+   },
+   "sto": {
+      "message": "Стокгольм"
+   },
+   "syd": {
+      "message": "Сідней"
+   },
+   "telegram": {
+      "message": "Телеграм"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "10-денна гарантія повернення грошей"
+   },
+   "tlv": {
+      "message": "Тель-Авів"
+   },
+   "toUnlockThisLocation": {
+      "message": "Щоб розблокувати цю локацію попросіть іншого користувача встановити 1VPN за цим посиланням:"
+   },
+   "tryAndroidApp": {
+      "message": "Спробувати додаток для Android"
+   },
+   "tryOurAndroidApp": {
+      "message": "Спробуйте Android-додаток"
+   },
+   "twoFaToken": {
+      "message": "Токен 2FA"
+   },
+   "uk": {
+      "message": "Велика Британія"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "Розблокуйте всі функції з Premium"
+   },
+   "unlockAllServerLocations": {
+      "message": "Розблокувати всі серверні локації"
+   },
+   "until": {
+      "message": "До"
+   },
+   "upgrade": {
+      "message": "Nâng cấp"
+   },
+   "upgradeLocation": {
+      "message": "Перейдіть на преміум план підписки, щоб отримати доступ до цієї локації"
+   },
+   "upgradeModalText": {
+      "message": "на річному плані. Відкрий більше локацій та швидше з’єднання з 10-денною гарантією повернення коштів."
+   },
+   "upgradeText1": {
+      "message": "Перейти на преміум-версію"
+   },
+   "upgradeText2": {
+      "message": "для більшої кількості локацій та кращої швидкості"
+   },
+   "upgradeToPremium": {
+      "message": "Перейти на Premium"
+   },
+   "us": {
+      "message": "США"
+   },
+   "use": {
+      "message": "США"
+   },
+   "username": {
+      "message": "Ім'я користувача"
+   },
+   "uss": {
+      "message": "США"
+   },
+   "usw": {
+      "message": "США"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "Варшава"
+   },
+   "x": {
+      "message": "X (Твіттер)"
+   },
+   "yto": {
+      "message": "Торонто"
+   },
+   "za": {
+      "message": "Південна Африка"
+   }
+}

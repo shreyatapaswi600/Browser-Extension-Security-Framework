@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "አጠቃላይ ወጪን ይተንትኑ"
+   },
+   "Sorry": {
+      "message": "እባክዎን አማዞን / ፍሎፒካርት ይጎብኙ"
+   },
+   "TotalAmount": {
+      "message": "ጠቅላላ ገንዘብ ያሳለፈው"
+   },
+   "appDesc": {
+      "message": "\nወጪዎችዎን ከአማዞን ™ እና Flipiart ™ የወጪ ካልኩሌተር ይከታተሉ\n"
+   },
+   "appTitle": {
+      "message": "ለአማዞን ™ እና Fliparkard ™ የወጪ ወጪ ካልኩሌተር"
+   },
+   "feedback": {
+      "message": "ግብረመልስ"
+   },
+   "fetch": {
+      "message": "ማምጣት -"
+   },
+   "instruction": {
+      "message": "መመሪያ"
+   },
+   "instructionfour": {
+      "message": "  4. በመጨረሻው ደረጃ \"ጠቅላላ ወጪን\" ን ጠቅ ያድርጉ\n                አጠቃላይ ወጪ"
+   },
+   "instructionone": {
+      "message": "1. የፍላሽ ቦታን / የአማዞን ድር ጣቢያ ይክፈቱ"
+   },
+   "instructionthree": {
+      "message": "3. ወደ \"ትዕዛዝ\" ክፍል ይሂዱ እና የቅጥያ አዶውን ጠቅ ያድርጉ"
+   },
+   "instructiontwo": {
+      "message": "2. ወደ ሂሳብዎ ይግቡ"
+   },
+   "mostPurchased": {
+      "message": "በጣም የተገዛ ምርት"
+   },
+   "noteOther": {
+      "message": "እባክዎን ተጣጣፊ / አማዞን ይክፈቱ"
+   },
+   "order": {
+      "message": "እባክዎን የትዕዛዝ ክፍልን ይጎብኙ"
+   },
+   "rate": {
+      "message": "ደረጃ ይስጡን"
+   },
+   "reAnalyze": {
+      "message": "አጠቃላይ ወጪን እንደገና ይተዋወቃል"
+   }
+}

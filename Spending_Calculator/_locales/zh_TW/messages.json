@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "分析總支出"
+   },
+   "Sorry": {
+      "message": "請訪問亞馬遜/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "總金額"
+   },
+   "appDesc": {
+      "message": "\n使用Amazon™＆Flipkart™支出計算器跟踪您的費用\n"
+   },
+   "appTitle": {
+      "message": "Amazon™和Flipkart™的支出計算器"
+   },
+   "feedback": {
+      "message": "反饋"
+   },
+   "fetch": {
+      "message": "提取 -"
+   },
+   "instruction": {
+      "message": "操作說明"
+   },
+   "instructionfour": {
+      "message": "  4.在最後一步中，單擊“分析總支出”以獲取\n                總共花費"
+   },
+   "instructionone": {
+      "message": "1.打開Flipkart/Amazon網站"
+   },
+   "instructionthree": {
+      "message": "3.轉到“我的訂單”部分，然後單擊擴展圖標"
+   },
+   "instructiontwo": {
+      "message": "2.登錄您的帳戶"
+   },
+   "mostPurchased": {
+      "message": "大多數購買的產品"
+   },
+   "noteOther": {
+      "message": "請打開Flipkart/Amazon"
+   },
+   "order": {
+      "message": ""
+   },
+   "rate": {
+      "message": "評價我們"
+   },
+   "reAnalyze": {
+      "message": "重新分析總支出"
+   }
+}

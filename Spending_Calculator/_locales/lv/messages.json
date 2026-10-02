@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analizēt kopējos izdevumus"
+   },
+   "Sorry": {
+      "message": "Lūdzu, apmeklējiet Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Kopējā iztērētā summa"
+   },
+   "appDesc": {
+      "message": "\nSekojiet saviem izdevumiem, izmantojot Amazon ™ & Flipkart ™ izdevumu kalkulatoru"
+   },
+   "appTitle": {
+      "message": "Izdevumu kalkulators Amazon ™ un Flipkart ™"
+   },
+   "feedback": {
+      "message": "Atsauksmes"
+   },
+   "fetch": {
+      "message": "Atnest-"
+   },
+   "instruction": {
+      "message": "Instrukcija"
+   },
+   "instructionfour": {
+      "message": "  4. Pēdējā solī noklikšķiniet uz \"Analizēt kopējos izdevumus\", lai iegūtu\n                Kopējie izdevumi"
+   },
+   "instructionone": {
+      "message": "1. Atveriet vietni Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Dodieties uz sadaļu \"mans pasūtījums\" un noklikšķiniet uz paplašinājuma ikonas"
+   },
+   "instructiontwo": {
+      "message": "2. Pierakstieties savā kontā"
+   },
+   "mostPurchased": {
+      "message": "Lielākā daļa iegādātā produkta"
+   },
+   "noteOther": {
+      "message": "Lūdzu, atveriet Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Lūdzu, apmeklējiet manu pasūtījumu sadaļu"
+   },
+   "rate": {
+      "message": "Novērtē mūs"
+   },
+   "reAnalyze": {
+      "message": "Atkārtoti analizēt kopējos izdevumus"
+   }
+}

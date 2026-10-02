@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Анализирайте общите разходи"
+   },
+   "Sorry": {
+      "message": "Моля, посетете Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Обща изразходвана сума"
+   },
+   "appDesc": {
+      "message": "\nСледете разходите си с калкулатора за разход Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Калкулатор за харчене за Amazon ™ и Flipkart ™"
+   },
+   "feedback": {
+      "message": "Обратна връзка"
+   },
+   "fetch": {
+      "message": "Извличане-"
+   },
+   "instruction": {
+      "message": "Инструкция"
+   },
+   "instructionfour": {
+      "message": "  4. В последната стъпка щракнете върху „Анализирайте общите разходи“, за да получите\n                Общи разходи"
+   },
+   "instructionone": {
+      "message": "1. Отворете уебсайта Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Отидете в секцията „Моята поръчка“ и щракнете върху иконата за разширение"
+   },
+   "instructiontwo": {
+      "message": "2. Влезте във вашия акаунт"
+   },
+   "mostPurchased": {
+      "message": "Най -закупен продукт"
+   },
+   "noteOther": {
+      "message": "Моля, отворете Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Моля, посетете раздела ми за поръчки"
+   },
+   "rate": {
+      "message": "Оцени ни"
+   },
+   "reAnalyze": {
+      "message": "Повторно анализиране на общите разходи"
+   }
+}

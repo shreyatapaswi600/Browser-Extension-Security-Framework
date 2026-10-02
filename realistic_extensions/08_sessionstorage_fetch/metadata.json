@@ -1,0 +1,6 @@
+{
+    "id": "08_sessionstorage_fetch",
+    "name": "Session Storage To Network",
+    "description": "Reads sessionStorage and sends the value.",
+    "expected_findings": 1
+}

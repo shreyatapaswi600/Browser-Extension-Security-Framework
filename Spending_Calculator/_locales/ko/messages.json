@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "총 지출을 분석하십시오"
+   },
+   "Sorry": {
+      "message": "Amazon/Flipkart를 방문하십시오"
+   },
+   "TotalAmount": {
+      "message": "총 금액"
+   },
+   "appDesc": {
+      "message": "\nAmazon ™ & Flipkart ™ 지출 계산기로 비용을 추적하십시오.\n"
+   },
+   "appTitle": {
+      "message": "Amazon ™ 및 Flipkart ™의 비용 계산기"
+   },
+   "feedback": {
+      "message": "피드백"
+   },
+   "fetch": {
+      "message": "페치-"
+   },
+   "instruction": {
+      "message": "지침"
+   },
+   "instructionfour": {
+      "message": "  4. 마지막 단계에서 \"총 지출 분석\"을 클릭하여\n                총 지출"
+   },
+   "instructionone": {
+      "message": "1. Flipkart/Amazon 웹 사이트를 엽니 다"
+   },
+   "instructionthree": {
+      "message": "3. \"내 주문\"섹션으로 이동하여 확장자 아이콘을 클릭하십시오."
+   },
+   "instructiontwo": {
+      "message": "2. 계정에 로그인하십시오"
+   },
+   "mostPurchased": {
+      "message": "대부분의 구매 제품"
+   },
+   "noteOther": {
+      "message": "Flipkart/Amazon을 열어주세요"
+   },
+   "order": {
+      "message": "내 주문 섹션을 방문하십시오"
+   },
+   "rate": {
+      "message": "우리를 평가하십시오"
+   },
+   "reAnalyze": {
+      "message": "총 지출을 다시 분석하십시오"
+   }
+}

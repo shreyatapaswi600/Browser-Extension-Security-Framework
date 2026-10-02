@@ -1,0 +1,6 @@
+{
+    "id": "15_xhr",
+    "name": "XMLHttpRequest Transmission",
+    "description": "Uses XMLHttpRequest to transmit cookie data.",
+    "expected_findings": 1
+}

@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analyse der Gesamtausgaben"
+   },
+   "Sorry": {
+      "message": "Bitte besuchen Sie Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Gesamtbetrag ausgegeben"
+   },
+   "appDesc": {
+      "message": "\nBehalten Sie Ihre Ausgaben mit dem Amazon ™ & Flipkart ™ -Scalktorner im Auge\n"
+   },
+   "appTitle": {
+      "message": "Ausgabenrechner für Amazon ™ und Flipkart ™"
+   },
+   "feedback": {
+      "message": "Rückmeldung"
+   },
+   "fetch": {
+      "message": "Abrufen"
+   },
+   "instruction": {
+      "message": "Anweisung"
+   },
+   "instructionfour": {
+      "message": "  4. Klicken Sie im letzten Schritt auf \"Totalausgaben analysieren\", um die zu erhalten\n                Gesamtausgaben"
+   },
+   "instructionone": {
+      "message": "1. Öffnen Sie die Website von Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Gehen Sie zum Abschnitt \"Meine Bestellung\" und klicken Sie auf das Erweiterungssymbol"
+   },
+   "instructiontwo": {
+      "message": "2. Melden Sie sich in Ihrem Konto an"
+   },
+   "mostPurchased": {
+      "message": "Am meisten gekaufte Produkte"
+   },
+   "noteOther": {
+      "message": "Bitte öffnen Sie Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Bitte besuchen Sie meinen Bestellabschnitt"
+   },
+   "rate": {
+      "message": "Bewerten Sie uns"
+   },
+   "reAnalyze": {
+      "message": "Totalausgaben neu analysieren"
+   }
+}

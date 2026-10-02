@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analitzar la despesa total"
+   },
+   "Sorry": {
+      "message": "Visiteu Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Import total gastat"
+   },
+   "appDesc": {
+      "message": "\nFeu un seguiment de les vostres despeses amb la calculadora de despesa Amazon ™ i Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Calculadora de despeses per Amazon ™ i Flipkart ™"
+   },
+   "feedback": {
+      "message": "Comentaris"
+   },
+   "fetch": {
+      "message": "Recaptació-"
+   },
+   "instruction": {
+      "message": "Instrucció"
+   },
+   "instructionfour": {
+      "message": "  4. Al pas final, feu clic a \"Analitzeu la despesa total\" per obtenir el\n                despesa total"
+   },
+   "instructionone": {
+      "message": "1. Obriu el lloc web de Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Aneu a la secció \"El meu ordre\" i feu clic a la icona d'extensió"
+   },
+   "instructiontwo": {
+      "message": "2. Inicieu la sessió al vostre compte"
+   },
+   "mostPurchased": {
+      "message": "Producte més comprat"
+   },
+   "noteOther": {
+      "message": "Obriu Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Visiteu la meva secció de comandes"
+   },
+   "rate": {
+      "message": "Puntua'ns"
+   },
+   "reAnalyze": {
+      "message": "Reanalitzar la despesa total"
+   }
+}

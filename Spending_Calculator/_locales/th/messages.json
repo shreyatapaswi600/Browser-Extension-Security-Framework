@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "วิเคราะห์การใช้จ่ายทั้งหมด"
+   },
+   "Sorry": {
+      "message": "กรุณาเยี่ยมชม Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "จำนวนเงินทั้งหมดที่ใช้ไป"
+   },
+   "appDesc": {
+      "message": "\nติดตามค่าใช้จ่ายของคุณด้วยเครื่องคำนวณการใช้จ่ายของ Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "เครื่องคิดเลขใช้จ่ายสำหรับ Amazon ™และ Flipkart ™"
+   },
+   "feedback": {
+      "message": "ข้อเสนอแนะ"
+   },
+   "fetch": {
+      "message": "การดึง-"
+   },
+   "instruction": {
+      "message": "คำแนะนำ"
+   },
+   "instructionfour": {
+      "message": "  4. ในขั้นตอนสุดท้ายคลิก \"วิเคราะห์การใช้จ่ายทั้งหมด\" เพื่อรับไฟล์\n                ค่าใช้จ่ายทั้งหมด"
+   },
+   "instructionone": {
+      "message": "1. เปิดเว็บไซต์ Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. ไปที่ส่วน \"คำสั่งซื้อของฉัน\" และคลิกที่ไอคอนส่วนขยาย"
+   },
+   "instructiontwo": {
+      "message": "2. ลงชื่อเข้าใช้บัญชีของคุณ"
+   },
+   "mostPurchased": {
+      "message": "ผลิตภัณฑ์ที่ซื้อมากที่สุด"
+   },
+   "noteOther": {
+      "message": "กรุณาเปิด Flipkart/Amazon"
+   },
+   "order": {
+      "message": "กรุณาเยี่ยมชมส่วนคำสั่งซื้อของฉัน"
+   },
+   "rate": {
+      "message": "ให้คะแนนเรา"
+   },
+   "reAnalyze": {
+      "message": "วิเคราะห์การใช้จ่ายทั้งหมดอีกครั้ง"
+   }
+}

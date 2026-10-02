@@ -1,0 +1,6 @@
+{
+    "id": "04_cookie_encoded_fetch",
+    "name": "Encoded Cookie Transmission",
+    "description": "Encodes cookie data before transmission.",
+    "expected_findings": 1
+}

@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "Dünya çapındaki sunuculara erişim"
+   },
+   "account": {
+      "message": "Hesap"
+   },
+   "ams": {
+      "message": "Amsterdam"
+   },
+   "april": {
+      "message": "Nisan"
+   },
+   "atl": {
+      "message": "Atlanta"
+   },
+   "au": {
+      "message": "Avustralya"
+   },
+   "august": {
+      "message": "Ağustos"
+   },
+   "blr": {
+      "message": "Bengaluru"
+   },
+   "bom": {
+      "message": "Mumbai"
+   },
+   "br": {
+      "message": "Brezilya"
+   },
+   "ca": {
+      "message": "Kanada"
+   },
+   "cdg": {
+      "message": "Paris"
+   },
+   "chooseYourPlan": {
+      "message": "Paketini seç"
+   },
+   "cl": {
+      "message": "Şili"
+   },
+   "claimOffer": {
+      "message": "Teklifi al"
+   },
+   "connected": {
+      "message": "Bağlandı"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "Kararlı ve hızlı internet"
+   },
+   "contactUs": {
+      "message": "Bize Ulaş"
+   },
+   "continueFree": {
+      "message": "Ücretsiz devam et"
+   },
+   "continueText": {
+      "message": "Veya hesapsız devam et"
+   },
+   "copyLink": {
+      "message": "Bağlantıyı kopyala"
+   },
+   "de": {
+      "message": "Almanya"
+   },
+   "deal": {
+      "message": "Teklif"
+   },
+   "december": {
+      "message": "Aralık"
+   },
+   "del": {
+      "message": "Delhi"
+   },
+   "dfw": {
+      "message": "Dallas"
+   },
+   "disableWebRtc": {
+      "message": "WebRTC'yi devre dışı bırak"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "Gerçek IP adresinizin sızmasını önlemek için WebRTC'yi devre dışı bırakın."
+   },
+   "disconnected": {
+      "message": "Bağlantı Kesildi"
+   },
+   "downloadApp": {
+      "message": "Uygulamayı indir"
+   },
+   "editInfo": {
+      "message": "Bilgileri Düzenle"
+   },
+   "email": {
+      "message": "E-posta"
+   },
+   "es": {
+      "message": "İspanya"
+   },
+   "ewr": {
+      "message": "New York"
+   },
+   "extDesc": {
+      "message": "Ücretsiz VPN, sınırsız veri, hızlı bağlantı, güvenli şifreleme, kayıt yok politikası ve kullanımı kolay."
+   },
+   "extName": {
+      "message": "Ücretsiz VPN - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Facebook"
+   },
+   "fastestSpeeds": {
+      "message": "En yüksek hızlar"
+   },
+   "february": {
+      "message": "Şubat"
+   },
+   "fr": {
+      "message": "Fransa"
+   },
+   "fra": {
+      "message": "Frankfurt"
+   },
+   "free": {
+      "message": "Ücretsiz"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "Memnun kalmazsanız tam geri ödeme"
+   },
+   "get1VPNForAndroid": {
+      "message": "Android için 1VPN al"
+   },
+   "getAndroidApp": {
+      "message": "Android uygulamasını indir"
+   },
+   "getPremium": {
+      "message": "Premium al"
+   },
+   "goToLocationsPage": {
+      "message": "Konumlar Sayfasına Git"
+   },
+   "goToOptionsPage": {
+      "message": "Seçenekler Sayfasına Git"
+   },
+   "hnl": {
+      "message": "Honolulu"
+   },
+   "icn": {
+      "message": "Seul"
+   },
+   "il": {
+      "message": "İsrail"
+   },
+   "in": {
+      "message": "Hindistan"
+   },
+   "installAndroidToUnlock": {
+      "message": "Android uygulamasını yükleyerek açın"
+   },
+   "installInstructions": {
+      "message": "Adres çubuğunun yanındaki puzzle simgesine tıklayın. Ardından uzantıyı sabitlemek için raptiye simgesine tıklayın."
+   },
+   "installModalText": {
+      "message": "Bu konumu açmak için başka bir kullanıcıdan bu bağlantıyla uzantıyı yüklemesini isteyin:"
+   },
+   "installSuccess": {
+      "message": "1VPN başarıyla kuruldu"
+   },
+   "itm": {
+      "message": "Osaka"
+   },
+   "january": {
+      "message": "Ocak"
+   },
+   "jnb": {
+      "message": "Johannesburg"
+   },
+   "jp": {
+      "message": "Japonya"
+   },
+   "july": {
+      "message": "Temmuz"
+   },
+   "june": {
+      "message": "Haziran"
+   },
+   "kr": {
+      "message": "Güney Kore"
+   },
+   "lax": {
+      "message": "Los Angeles"
+   },
+   "leaveReviewToUnlock": {
+      "message": "Bu konumu açmak için 5 yıldızlı yorum bırakın"
+   },
+   "lhr": {
+      "message": "Londra"
+   },
+   "linkCopied": {
+      "message": "Bağlantı kopyalandı!"
+   },
+   "linkedin": {
+      "message": "LinkedIn"
+   },
+   "loading": {
+      "message": "Yükleniyor..."
+   },
+   "locations": {
+      "message": "Konumlar"
+   },
+   "login": {
+      "message": "Giriş Yap"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "Hesabınız yüklenemedi. Lütfen tekrar deneyin."
+   },
+   "loginCouldNotReachServers": {
+      "message": "Sunuculara ulaşılamadı. Lütfen daha sonra tekrar deneyin."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "Lütfen e-posta adresinizi ve şifrenizi girin"
+   },
+   "loginInvalidCredentials": {
+      "message": "Geçersiz kimlik bilgileri"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "Geçersiz veya eksik 2FA belirteci"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "Sunucudan geçersiz yanıt"
+   },
+   "loginNetworkError": {
+      "message": "Ağ hatası"
+   },
+   "loginTwoFaRequired": {
+      "message": "2FA kodu gerekli"
+   },
+   "logout": {
+      "message": "Oturumu Kapat"
+   },
+   "mad": {
+      "message": "Madrid"
+   },
+   "man": {
+      "message": "Manchester"
+   },
+   "march": {
+      "message": "Mart"
+   },
+   "may": {
+      "message": "Mayıs"
+   },
+   "mel": {
+      "message": "Melbourne"
+   },
+   "menu": {
+      "message": "Menü"
+   },
+   "mex": {
+      "message": "Meksiko"
+   },
+   "mia": {
+      "message": "Miami"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "Daha fazla konum ve daha yüksek hız"
+   },
+   "mx": {
+      "message": "Meksika"
+   },
+   "nl": {
+      "message": "Hollanda"
+   },
+   "november": {
+      "message": "Kasım"
+   },
+   "nrt": {
+      "message": "Tokyo"
+   },
+   "october": {
+      "message": "Ekim"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "Seçenekler"
+   },
+   "ord": {
+      "message": "Chicago"
+   },
+   "password": {
+      "message": "Şifre"
+   },
+   "pl": {
+      "message": "Polonya"
+   },
+   "plan": {
+      "message": "Plan"
+   },
+   "premium": {
+      "message": "Premium"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "Ana alan adı engellendi. Yedek olarak "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " kullanılıyor."
+   },
+   "rateUsMessage": {
+      "message": "1VPN'den memnunsanız, lütfen bizi değerlendirmek için bir dakikanızı ayırın."
+   },
+   "rateYourExperience": {
+      "message": "Deneyiminizi değerlendirin"
+   },
+   "referToUnlock": {
+      "message": "Davet ederek aç"
+   },
+   "resetPassword": {
+      "message": "Şifreyi sıfırla"
+   },
+   "reviewModalButton": {
+      "message": "İnceleme bırak"
+   },
+   "reviewModalTitle": {
+      "message": "Bu konumun kilidini açmak için 5 yıldızlı yorum bırakın"
+   },
+   "reviewToUnlock": {
+      "message": "Yorum yaparak aç"
+   },
+   "ro": {
+      "message": "Romanya"
+   },
+   "sao": {
+      "message": "São Paulo"
+   },
+   "save33OnPremium": {
+      "message": "Premium'da %33 tasarruf"
+   },
+   "save33OnPremiumUntil": {
+      "message": "Premium'da %33 tasarruf, süre"
+   },
+   "save33Percent": {
+      "message": "%33 tasarruf"
+   },
+   "scanOrClickQRCode": {
+      "message": "QR kodunu tarayın veya tıklayın"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "Android uygulamamızı indirmek için QR kodunu tarayın veya aşağıdaki butona tıklayın."
+   },
+   "scl": {
+      "message": "Santiago"
+   },
+   "se": {
+      "message": "İsveç"
+   },
+   "sea": {
+      "message": "Seattle"
+   },
+   "september": {
+      "message": "Eylül"
+   },
+   "sg": {
+      "message": "Singapur"
+   },
+   "sgp": {
+      "message": "Singapur"
+   },
+   "shareModalTitle": {
+      "message": "Bu konumun kilidini açmak için 1VPN’i paylaşın"
+   },
+   "shareText": {
+      "message": "Az önce 1VPN’i denedim. Sınırsız veri ve yüksek hız sunan ücretsiz, basit ve güvenli bir VPN. https://1vpn.org?from=share adresine göz atın"
+   },
+   "signUp": {
+      "message": "Kaydol"
+   },
+   "sjc": {
+      "message": "San Francisco"
+   },
+   "spoofGeolocation": {
+      "message": "Geolokasyon sahtekarlığı"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "Mevcut VPN konumunuzu eşleştirmek için HTML5 Coğrafi Konum API'sini sahteleyin."
+   },
+   "sto": {
+      "message": "Stockholm"
+   },
+   "syd": {
+      "message": "Sidney"
+   },
+   "telegram": {
+      "message": "Telegram"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "10 gün para iadesi garantisi"
+   },
+   "tlv": {
+      "message": "Tel Aviv"
+   },
+   "toUnlockThisLocation": {
+      "message": "Bu konumu açmak için başka bir kullanıcıdan bu linkle 1VPN yüklemesini isteyin:"
+   },
+   "tryAndroidApp": {
+      "message": "Android uygulamasını dene"
+   },
+   "tryOurAndroidApp": {
+      "message": "Android Uygulamamızı Deneyin"
+   },
+   "twoFaToken": {
+      "message": "2FA belirteci"
+   },
+   "uk": {
+      "message": "Birleşik Krallık"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "Tüm özellikleri Premium ile aç"
+   },
+   "unlockAllServerLocations": {
+      "message": "Tüm sunucu konumlarını aç"
+   },
+   "until": {
+      "message": "kadar"
+   },
+   "upgrade": {
+      "message": "Yükselt"
+   },
+   "upgradeLocation": {
+      "message": "Bu konuma erişmek için planını yükselt"
+   },
+   "upgradeModalText": {
+      "message": "yıllık planda. Daha fazla konum ve daha yüksek hız 10 gün para iade garantisiyle."
+   },
+   "upgradeText1": {
+      "message": "Yükselt"
+   },
+   "upgradeText2": {
+      "message": "daha fazla konum ve daha yüksek hızlar için"
+   },
+   "upgradeToPremium": {
+      "message": "Premium’a yükselt"
+   },
+   "us": {
+      "message": "Amerika Birleşik Devletleri"
+   },
+   "use": {
+      "message": "Amerika Birleşik Devletleri"
+   },
+   "username": {
+      "message": "Kullanıcı Adı"
+   },
+   "uss": {
+      "message": "Amerika Birleşik Devletleri"
+   },
+   "usw": {
+      "message": "Amerika Birleşik Devletleri"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "Varşova"
+   },
+   "x": {
+      "message": "X (Twitter)"
+   },
+   "yto": {
+      "message": "Toronto"
+   },
+   "za": {
+      "message": "Güney Afrika"
+   }
+}

@@ -1,0 +1,312 @@
+<!doctype html>
+<!--
+  - This file is part of Adblock Plus <https://adblockplus.org/>,
+  - Copyright (C) 2006-present eyeo GmbH
+  -
+  - Adblock Plus is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License version 3 as
+  - published by the Free Software Foundation.
+  -
+  - Adblock Plus is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  -
+  - You should have received a copy of the GNU General Public License
+  - along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="icons/abp-32.png" />
+    <script defer src="polyfill.js"></script>
+    <script defer src="issue-reporter-redesign.js"></script>
+    <title data-i18n="issueReporter_page_title"></title>
+  </head>
+  <body hidden>
+    <!-- Notification -->
+    <div id="notification">
+      <span
+        id="notification-text"
+        data-i18n="issueReporter_data_gathering_tab"
+      ></span>
+      <button class="icon close tertiary" id="hide-notification">
+        <span data-i18n="common_notification_hide" class="sr-only"></span>
+      </button>
+    </div>
+    <header>
+      <div class="logo">
+        <img id="logo" alt="" src="skin/icons/logo/abp-full.svg" />
+        <p data-i18n="issueReporter_page_title"></p>
+      </div>
+      <io-steps
+        i18n-labels="
+        issueReporter_reportIssueButton_label
+        issueReporter_detailsButton_label
+        issueReporter_reviewButton_label
+      "
+      ></io-steps>
+    </header>
+
+    <main>
+      <div class="page" id="reportIssuePage">
+        <span
+          id="sr-warning"
+          tabindex="0"
+          class="sr-only"
+          data-i18n="issueReporter_screenreader_warning"
+        ></span>
+
+        <h1 data-i18n="issueReporter_reportIssue_heading"></h1>
+        <p data-i18n="issueReporter_reportIssue_description"></p>
+
+        <div id="screenshotInfoBanner" class="info-banner">
+          <span class="info-icon"></span>
+          <p data-i18n="issueReporter_screenshot_highlight_hint"></p>
+        </div>
+        <div id="screenshotWarningBanner" class="warning-banner">
+          <span class="warning-icon"></span>
+          <p data-i18n="issueReporter_screenshot_warning"></p>
+        </div>
+
+        <div id="reportIssueLayout">
+          <div id="screenshotContainer">
+            <!-- io-highlighter will be injected here -->
+          </div>
+
+          <div id="issueSidebar">
+            <h2 data-i18n="issueReporter_issueType_heading"></h2>
+            <div id="typeSelectorGroup">
+              <div class="issue-option">
+                <input
+                  type="radio"
+                  id="typeFalsePositive"
+                  value="false positive"
+                  name="type"
+                />
+                <label for="typeFalsePositive">
+                  <span
+                    class="option-title"
+                    data-i18n="issueReporter_falsePositive_label"
+                  ></span>
+                  <span
+                    class="option-desc"
+                    data-i18n="issueReporter_falsePositive_description"
+                  ></span>
+                </label>
+              </div>
+
+              <div class="issue-option">
+                <input
+                  type="radio"
+                  id="typeFalseNegative"
+                  value="false negative"
+                  name="type"
+                />
+                <label for="typeFalseNegative">
+                  <span
+                    class="option-title"
+                    data-i18n="issueReporter_falseNegative_label"
+                  ></span>
+                  <span
+                    class="option-desc"
+                    data-i18n="issueReporter_falseNegative_description"
+                  ></span>
+                </label>
+              </div>
+
+              <div class="issue-option">
+                <input type="radio" id="typeOther" value="other" name="type" />
+                <label for="typeOther">
+                  <span
+                    class="option-title"
+                    data-i18n="issueReporter_other_label"
+                  ></span>
+                  <span
+                    class="option-desc"
+                    data-i18n="issueReporter_other_description"
+                  ></span>
+                </label>
+              </div>
+
+              <div id="otherMessageContainer" hidden>
+                <label
+                  for="otherMessage"
+                  data-i18n="issueReporter_otherMessage_label"
+                ></label>
+                <textarea id="otherMessage"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page" id="detailsPage" hidden>
+        <h1 data-i18n="issueReporter_detailsPage_heading"></h1>
+
+        <div id="includeConfigContainer" class="form-section checkbox-option">
+          <input id="includeConfig" type="checkbox" />
+          <label
+            for="includeConfig"
+            data-i18n="issueReporter_config_label"
+          ></label>
+        </div>
+
+        <div id="includeDebugContainer" class="form-section checkbox-option">
+          <input id="includeDebug" type="checkbox" checked />
+          <label
+            for="includeDebug"
+            data-i18n="issueReporter_debug_label"
+          ></label>
+        </div>
+
+        <div id="regularEmailSection" class="form-section">
+          <p class="section-note" data-i18n="issueReporter_email_note"></p>
+          <div class="form-row">
+            <label
+              for="email"
+              data-i18n="issueReporter_email_optional_label"
+            ></label>
+            <input type="email" id="email" maxlength="200" />
+          </div>
+        </div>
+
+        <div id="premiumEmailSection" class="form-section" hidden>
+          <div class="premium-email-header">
+            <span class="premium-badge">
+              <span class="premium-crown"></span>
+              <span class="premium-text">Premium</span>
+            </span>
+          </div>
+          <div class="premium-email-options">
+            <div class="premium-email-option">
+              <input
+                type="radio"
+                id="usePremiumEmail"
+                name="emailChoice"
+                value="premium"
+                checked
+              />
+              <label for="usePremiumEmail">
+                <span data-i18n="issueReporter_usePremiumEmail_label"></span>
+                <span
+                  id="premiumEmailDisplay"
+                  class="premium-email-display"
+                ></span>
+              </label>
+            </div>
+            <div class="premium-email-option">
+              <input
+                type="radio"
+                id="reportAnonymously"
+                name="emailChoice"
+                value="anonymous"
+              />
+              <label
+                for="reportAnonymously"
+                data-i18n="issueReporter_reportAnonymously_label"
+              ></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-row">
+            <label
+              for="comment"
+              data-i18n="issueReporter_comment_optional_label"
+            ></label>
+            <textarea id="comment"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="page" id="reviewPage" hidden>
+        <h1 data-i18n="issueReporter_reviewPage_heading"></h1>
+        <p data-i18n="issueReporter_reviewPage_description"></p>
+
+        <div id="reportPreview" tabindex="0"></div>
+
+        <div id="reportConsentContainer" class="checkbox-option">
+          <input id="reportConsent" type="checkbox" />
+          <label
+            for="reportConsent"
+            data-i18n="issueReporter_reportConsent_label"
+          ></label>
+        </div>
+
+        <div id="sendingState" hidden>
+          <p id="sendReportMessage" data-i18n="issueReporter_sending"></p>
+          <div id="sendingProgressContainer">
+            <progress id="sendingProgress"></progress>
+          </div>
+        </div>
+
+        <p id="error" hidden></p>
+
+        <div id="result" hidden></div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <div>
+          <a
+            id="privacyPolicy"
+            data-i18n="issueReporter_privacyPolicy"
+            data-doclink="reporter_privacy"
+          ></a>
+        </div>
+        <button id="cancel" data-i18n="cancel" class="secondary"></button>
+        <button
+          id="back"
+          data-i18n="issueReporter_back_label"
+          class="secondary"
+          hidden
+        ></button>
+        <button
+          id="continue"
+          data-i18n="continue"
+          class="primary"
+          disabled
+        ></button>
+        <button
+          id="send"
+          data-i18n="issueReporter_sendButton_label"
+          class="primary"
+          hidden
+        ></button>
+      </div>
+      <div id="other-issues" data-i18n="issueReporter_other_issues"></div>
+    </footer>
+
+    <div id="screenshotConsentModal" class="modal" hidden>
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="warning-icon"></span>
+          <h2 data-i18n="issueReporter_screenshot_consent_title"></h2>
+        </div>
+        <div class="modal-body">
+          <p data-i18n="issueReporter_screenshot_warning"></p>
+          <p
+            class="consent-question"
+            data-i18n="issueReporter_screenshot_consent_question"
+          ></p>
+        </div>
+        <div class="modal-footer">
+          <button
+            id="consentCancel"
+            class="secondary"
+            data-i18n="issueReporter_screenshot_consent_return"
+          ></button>
+          <button
+            id="consentConfirm"
+            class="primary"
+            data-i18n="issueReporter_screenshot_consent_confirm"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

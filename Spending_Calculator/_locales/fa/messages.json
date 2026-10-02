@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "هزینه های کل را تجزیه و تحلیل کنید"
+   },
+   "Sorry": {
+      "message": "لطفا از آمازون/Flipkart دیدن کنید"
+   },
+   "TotalAmount": {
+      "message": "کل مبلغ صرف شده"
+   },
+   "appDesc": {
+      "message": "\nهزینه های خود را با ماشین حساب هزینه Amazon ™ & FlipKart yound پیگیری کنید\n"
+   },
+   "appTitle": {
+      "message": "صرف ماشین حساب برای Amazon ™ و Flipkart"
+   },
+   "feedback": {
+      "message": "بازخورد"
+   },
+   "fetch": {
+      "message": "واکشی کردن"
+   },
+   "instruction": {
+      "message": "دستورالعمل"
+   },
+   "instructionfour": {
+      "message": "  4- در مرحله آخر ، \"تجزیه و تحلیل کل هزینه ها\" را کلیک کنید تا\n                هزینه کل"
+   },
+   "instructionone": {
+      "message": "1. وب سایت Flipkart/Amazon را باز کنید"
+   },
+   "instructionthree": {
+      "message": "3. به بخش \"سفارش من\" بروید و روی نماد پسوند کلیک کنید"
+   },
+   "instructiontwo": {
+      "message": "2. وارد حساب خود شوید"
+   },
+   "mostPurchased": {
+      "message": "بیشتر محصول خریداری شده"
+   },
+   "noteOther": {
+      "message": "لطفا Flipkart/Amazon را باز کنید"
+   },
+   "order": {
+      "message": "لطفا به بخش سفارش من مراجعه کنید"
+   },
+   "rate": {
+      "message": "به ما رای دهید"
+   },
+   "reAnalyze": {
+      "message": "هزینه های کل را دوباره تجزیه و تحلیل کنید"
+   }
+}

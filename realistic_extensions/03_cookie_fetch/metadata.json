@@ -1,0 +1,6 @@
+{
+    "id": "03_cookie_fetch",
+    "name": "Cookie To Fetch",
+    "description": "Reads document.cookie and sends it through fetch.",
+    "expected_findings": 1
+}

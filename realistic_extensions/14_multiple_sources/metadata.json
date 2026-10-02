@@ -1,0 +1,6 @@
+{
+    "id": "14_multiple_sources",
+    "name": "Multiple Sensitive Sources",
+    "description": "Two independent sensitive sources reach two network sinks.",
+    "expected_findings": 2
+}

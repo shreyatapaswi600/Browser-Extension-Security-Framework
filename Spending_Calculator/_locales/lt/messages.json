@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Išanalizuokite visas išlaidas"
+   },
+   "Sorry": {
+      "message": "Apsilankykite „Amazon“/„Flipkart“"
+   },
+   "TotalAmount": {
+      "message": "Bendra išleista suma"
+   },
+   "appDesc": {
+      "message": "\nStebėkite savo išlaidas naudodamiesi „Amazon ™ & Flipkart ™“ išlaidų skaičiuokle\n"
+   },
+   "appTitle": {
+      "message": "Išlaidų skaičiuoklė „Amazon ™“ ir „Flipkart ™“"
+   },
+   "feedback": {
+      "message": "Atsiliepimas"
+   },
+   "fetch": {
+      "message": "Gavimas"
+   },
+   "instruction": {
+      "message": "Instrukcija"
+   },
+   "instructionfour": {
+      "message": "  4. Paskutiniame etape spustelėkite „Išanalizuokite visas išlaidas“, kad gautumėte\n                Bendros išlaidos"
+   },
+   "instructionone": {
+      "message": "1. Atidarykite „Flipkart“/„Amazon“ svetainę"
+   },
+   "instructionthree": {
+      "message": "3. Eikite į skyrių „Mano užsakymas“ ir spustelėkite plėtinio piktogramą"
+   },
+   "instructiontwo": {
+      "message": "2. Prisijunkite prie savo paskyros"
+   },
+   "mostPurchased": {
+      "message": "Labiausiai įsigytas produktas"
+   },
+   "noteOther": {
+      "message": "Prašau atidaryti „Flipkart“/„Amazon“"
+   },
+   "order": {
+      "message": "Apsilankykite mano užsakymo skyriuje"
+   },
+   "rate": {
+      "message": "Įvertinkite mus"
+   },
+   "reAnalyze": {
+      "message": "Iš naujo analizuokite visas išlaidas"
+   }
+}

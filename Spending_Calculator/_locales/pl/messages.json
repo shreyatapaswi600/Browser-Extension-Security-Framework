@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Przeanalizuj całkowite wydatki"
+   },
+   "Sorry": {
+      "message": "Odwiedź Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Całkowita kwota wydana"
+   },
+   "appDesc": {
+      "message": "\nŚledź swoje wydatki za pomocą kalkulatora wydatków Amazon ™ i Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Kalkulator wydatków dla Amazon ™ i Flipkart ™"
+   },
+   "feedback": {
+      "message": "Informacja zwrotna"
+   },
+   "fetch": {
+      "message": "Ujmujący-"
+   },
+   "instruction": {
+      "message": "Instrukcja"
+   },
+   "instructionfour": {
+      "message": "  4. W ostatnim kroku kliknij „Analizuj całkowite wydatki”, aby uzyskać\n                całkowite wydatki"
+   },
+   "instructionone": {
+      "message": "1. Otwórz stronę Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Przejdź do sekcji „moje zamówienie” i kliknij ikonę rozszerzenia"
+   },
+   "instructiontwo": {
+      "message": "2. Zaloguj się na swoje konto"
+   },
+   "mostPurchased": {
+      "message": "Najczęściej zakupiony produkt"
+   },
+   "noteOther": {
+      "message": "Otwórz Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Odwiedź moją sekcję zamówienia"
+   },
+   "rate": {
+      "message": "Oceń nas"
+   },
+   "reAnalyze": {
+      "message": "Ponownie analizować całkowite wydatki"
+   }
+}

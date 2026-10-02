@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Menganalisis total pengeluaran"
+   },
+   "Sorry": {
+      "message": "Silakan kunjungi Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Jumlah total yang dihabiskan"
+   },
+   "appDesc": {
+      "message": "\nPantau pengeluaran Anda dengan kalkulator pengeluaran Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Kalkulator pengeluaran untuk Amazon ™ dan Flipkart ™"
+   },
+   "feedback": {
+      "message": "Masukan"
+   },
+   "fetch": {
+      "message": "Mengambil-"
+   },
+   "instruction": {
+      "message": "Petunjuk"
+   },
+   "instructionfour": {
+      "message": "  4. Pada langkah terakhir, klik \"Analisis total pengeluaran\" untuk mendapatkan\n                total pengeluaran"
+   },
+   "instructionone": {
+      "message": "1. Buka situs web Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Buka bagian \"Pesanan Saya\" & klik ikon ekstensi"
+   },
+   "instructiontwo": {
+      "message": "2. Masuk ke akun Anda"
+   },
+   "mostPurchased": {
+      "message": "Sebagian besar produk yang dibeli"
+   },
+   "noteOther": {
+      "message": "Harap buka Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Silakan kunjungi bagian pesanan saya"
+   },
+   "rate": {
+      "message": "Nilai kami"
+   },
+   "reAnalyze": {
+      "message": "Menganalisis ulang total pengeluaran"
+   }
+}

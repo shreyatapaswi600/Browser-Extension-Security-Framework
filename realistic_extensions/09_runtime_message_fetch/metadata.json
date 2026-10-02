@@ -1,0 +1,6 @@
+{
+    "id": "09_runtime_message_fetch",
+    "name": "Runtime Message To Network",
+    "description": "Uses an incoming runtime message in a network request.",
+    "expected_findings": 1
+}

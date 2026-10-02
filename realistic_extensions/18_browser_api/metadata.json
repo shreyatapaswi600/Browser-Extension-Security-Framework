@@ -1,0 +1,6 @@
+{
+    "id": "18_browser_api",
+    "name": "Firefox Browser API",
+    "description": "Uses the browser.cookies API and transmits the result.",
+    "expected_findings": 1
+}

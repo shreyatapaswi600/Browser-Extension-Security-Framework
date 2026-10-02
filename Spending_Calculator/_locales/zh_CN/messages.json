@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "分析总支出"
+   },
+   "Sorry": {
+      "message": "请访问亚马逊/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "总金额"
+   },
+   "appDesc": {
+      "message": "\n使用Amazon™＆Flipkart™支出计算器跟踪您的费用\n"
+   },
+   "appTitle": {
+      "message": "Amazon™和Flipkart™的支出计算器"
+   },
+   "feedback": {
+      "message": "反馈"
+   },
+   "fetch": {
+      "message": "提取 -"
+   },
+   "instruction": {
+      "message": "操作说明"
+   },
+   "instructionfour": {
+      "message": "  4.在最后一步中，单击“分析总支出”以获取\n                总共花费"
+   },
+   "instructionone": {
+      "message": "1.打开Flipkart/Amazon网站"
+   },
+   "instructionthree": {
+      "message": "3.转到“我的订单”部分，然后单击扩展图标"
+   },
+   "instructiontwo": {
+      "message": "2.登录您的帐户"
+   },
+   "mostPurchased": {
+      "message": "大多数购买的产品"
+   },
+   "noteOther": {
+      "message": "请打开Flipkart/Amazon"
+   },
+   "order": {
+      "message": ""
+   },
+   "rate": {
+      "message": "评价我们"
+   },
+   "reAnalyze": {
+      "message": "重新分析总支出"
+   }
+}

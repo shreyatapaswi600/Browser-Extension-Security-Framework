@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Проаналізуйте загальні витрати"
+   },
+   "Sorry": {
+      "message": "Будь ласка, відвідайте Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Загальна сума витрачена"
+   },
+   "appDesc": {
+      "message": "\nСлідкуйте за своїми витратами за допомогою калькулятора витрат Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Калькулятор витрат на Amazon ™ та Flipkart ™"
+   },
+   "feedback": {
+      "message": "Зворотний зв'язок"
+   },
+   "fetch": {
+      "message": "Витягування-"
+   },
+   "instruction": {
+      "message": "Інструкція"
+   },
+   "instructionfour": {
+      "message": "  4. На останньому кроці натисніть \"проаналізуйте загальні витрати\", щоб отримати\n                Загальні витрати"
+   },
+   "instructionone": {
+      "message": "1. Відкрийте веб -сайт Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Перейдіть до розділу \"Моє замовлення\" та натисніть значок розширення"
+   },
+   "instructiontwo": {
+      "message": "2. Увійдіть у свій рахунок"
+   },
+   "mostPurchased": {
+      "message": "Більшість придбаних продуктів"
+   },
+   "noteOther": {
+      "message": "Відкрийте Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Будь ласка, відвідайте мій розділ замовлення"
+   },
+   "rate": {
+      "message": "Оцініть нас"
+   },
+   "reAnalyze": {
+      "message": "Повторно проаналізуйте загальні витрати"
+   }
+}

@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "एकूण खर्चाचे विश्लेषण करा"
+   },
+   "Sorry": {
+      "message": "कृपया Amazon मेझॉन/फ्लिपकार्टला भेट द्या"
+   },
+   "TotalAmount": {
+      "message": "एकूण रक्कम खर्च"
+   },
+   "appDesc": {
+      "message": "\nAmazon मेझॉन ™ आणि फ्लिपकार्ट ™ खर्च कॅल्क्युलेटरसह आपल्या खर्चाचा मागोवा ठेवा\n"
+   },
+   "appTitle": {
+      "message": "Amazon मेझॉन ™ आणि फ्लिपकार्ट ™ साठी कॅल्क्युलेटर खर्च"
+   },
+   "feedback": {
+      "message": "अभिप्राय"
+   },
+   "fetch": {
+      "message": "आणत आहे-"
+   },
+   "instruction": {
+      "message": "सूचना"
+   },
+   "instructionfour": {
+      "message": "  The. अंतिम चरणात, मिळविण्यासाठी \"एकूण खर्चाचे विश्लेषण करा\" क्लिक करा\n                एकूण खर्च"
+   },
+   "instructionone": {
+      "message": "1. फ्लिपकार्ट/Amazon मेझॉन वेबसाइट उघडा"
+   },
+   "instructionthree": {
+      "message": "3. \"माय ऑर्डर\" विभागात जा आणि विस्तार चिन्हावर क्लिक करा"
+   },
+   "instructiontwo": {
+      "message": "2. आपल्या खात्यात साइन इन करा"
+   },
+   "mostPurchased": {
+      "message": "सर्वाधिक खरेदी केलेले उत्पादन"
+   },
+   "noteOther": {
+      "message": "कृपया फ्लिपकार्ट/Amazon मेझॉन उघडा"
+   },
+   "order": {
+      "message": "कृपया माझ्या ऑर्डर विभागाला भेट द्या"
+   },
+   "rate": {
+      "message": "आम्हाला रेट करा"
+   },
+   "reAnalyze": {
+      "message": "एकूण खर्चाचे पुन्हा विश्लेषण करा"
+   }
+}

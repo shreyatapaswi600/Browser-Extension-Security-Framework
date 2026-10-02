@@ -1,0 +1,482 @@
+{
+   "accessServersWorldwide": {
+      "message": "存取全球伺服器"
+   },
+   "account": {
+      "message": "帳號"
+   },
+   "ams": {
+      "message": "阿姆斯特丹"
+   },
+   "april": {
+      "message": "四月"
+   },
+   "atl": {
+      "message": "亞特蘭大"
+   },
+   "au": {
+      "message": "澳洲"
+   },
+   "august": {
+      "message": "八月"
+   },
+   "blockedServersModalButton": {
+      "message": "繼續"
+   },
+   "blockedServersModalTitle": {
+      "message": "由於政府限制，部分伺服器在中國可能無法存取。我們正在努力解決此問題。感謝您的理解。"
+   },
+   "blr": {
+      "message": "班加羅爾"
+   },
+   "bom": {
+      "message": "孟買"
+   },
+   "br": {
+      "message": "巴西"
+   },
+   "ca": {
+      "message": "加拿大"
+   },
+   "cdg": {
+      "message": "巴黎"
+   },
+   "chooseYourPlan": {
+      "message": "選擇你的方案"
+   },
+   "cl": {
+      "message": "智利"
+   },
+   "claimOffer": {
+      "message": "領取優惠"
+   },
+   "connected": {
+      "message": "已連線"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "穩定且快速的網路速度"
+   },
+   "contactUs": {
+      "message": "聯絡我們"
+   },
+   "continueFree": {
+      "message": "繼續免費使用"
+   },
+   "continueText": {
+      "message": "或繼續無帳號登入"
+   },
+   "copyLink": {
+      "message": "複製連結"
+   },
+   "de": {
+      "message": "德國"
+   },
+   "deal": {
+      "message": "優惠"
+   },
+   "december": {
+      "message": "十二月"
+   },
+   "del": {
+      "message": "德里"
+   },
+   "dfw": {
+      "message": "達拉斯"
+   },
+   "disableWebRtc": {
+      "message": "停用WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "禁用WebRTC以防止洩露您的真實IP地址。"
+   },
+   "disconnected": {
+      "message": "未連線"
+   },
+   "downloadApp": {
+      "message": "下載應用程式"
+   },
+   "editInfo": {
+      "message": "編輯信息"
+   },
+   "email": {
+      "message": "電子郵件"
+   },
+   "es": {
+      "message": "西班牙"
+   },
+   "ewr": {
+      "message": "紐約"
+   },
+   "extDesc": {
+      "message": "免費VPN，無限數據，快速速度，安全加密，無日誌政策，且容易使用。"
+   },
+   "extName": {
+      "message": "免費VPN - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Facebook"
+   },
+   "fastestSpeeds": {
+      "message": "最高速度"
+   },
+   "february": {
+      "message": "二月"
+   },
+   "fr": {
+      "message": "法國"
+   },
+   "fra": {
+      "message": "法蘭克福"
+   },
+   "free": {
+      "message": "免費版"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "若不滿意可全額退費"
+   },
+   "get1VPNForAndroid": {
+      "message": "取得安卓版 1VPN"
+   },
+   "getAndroidApp": {
+      "message": "取得安卓應用程式"
+   },
+   "getPremium": {
+      "message": "取得進階版"
+   },
+   "goToLocationsPage": {
+      "message": "前往位置頁面"
+   },
+   "goToOptionsPage": {
+      "message": "前往選項頁面"
+   },
+   "hnl": {
+      "message": "檀香山"
+   },
+   "icn": {
+      "message": "首爾"
+   },
+   "il": {
+      "message": "以色列"
+   },
+   "in": {
+      "message": "印度"
+   },
+   "installAndroidToUnlock": {
+      "message": "安裝 Android 應用程式以解鎖"
+   },
+   "installInstructions": {
+      "message": "點擊位於地址列旁的拼圖圖示。然後點擊圖釘圖示以固定擴充功能。"
+   },
+   "installModalText": {
+      "message": "透過讓其他使用者使用此連結安裝擴充功能來解鎖此位置："
+   },
+   "installSuccess": {
+      "message": "1VPN已成功安裝"
+   },
+   "itm": {
+      "message": "大阪"
+   },
+   "january": {
+      "message": "一月"
+   },
+   "jnb": {
+      "message": "約翰尼斯堡"
+   },
+   "jp": {
+      "message": "日本"
+   },
+   "july": {
+      "message": "七月"
+   },
+   "june": {
+      "message": "六月"
+   },
+   "kr": {
+      "message": "韓國"
+   },
+   "lax": {
+      "message": "洛杉磯"
+   },
+   "leaveReviewToUnlock": {
+      "message": "留下 5 星評論即可解鎖此位置"
+   },
+   "lhr": {
+      "message": "倫敦"
+   },
+   "linkCopied": {
+      "message": "連結已複製！"
+   },
+   "linkedin": {
+      "message": "LinkedIn"
+   },
+   "loading": {
+      "message": "載入中..."
+   },
+   "locations": {
+      "message": "位置"
+   },
+   "login": {
+      "message": "登入"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "無法載入你的帳號。請再試一次。"
+   },
+   "loginCouldNotReachServers": {
+      "message": "無法連線到伺服器。請稍後再試。"
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "請輸入電子郵件和密碼"
+   },
+   "loginInvalidCredentials": {
+      "message": "無效的憑證"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "2FA 驗證碼無效或遺失"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "伺服器回傳無效的回應"
+   },
+   "loginNetworkError": {
+      "message": "網路錯誤"
+   },
+   "loginTwoFaRequired": {
+      "message": "需要 2FA 驗證碼"
+   },
+   "logout": {
+      "message": "退出"
+   },
+   "mad": {
+      "message": "馬德里"
+   },
+   "man": {
+      "message": "曼徹斯特"
+   },
+   "march": {
+      "message": "三月"
+   },
+   "may": {
+      "message": "五月"
+   },
+   "mel": {
+      "message": "墨爾本"
+   },
+   "menu": {
+      "message": "選單"
+   },
+   "mex": {
+      "message": "墨西哥城"
+   },
+   "mia": {
+      "message": "邁阿密"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "更多節點與更快速度"
+   },
+   "mx": {
+      "message": "墨西哥"
+   },
+   "nl": {
+      "message": "荷蘭"
+   },
+   "november": {
+      "message": "十一月"
+   },
+   "nrt": {
+      "message": "東京"
+   },
+   "october": {
+      "message": "十月"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "選項"
+   },
+   "ord": {
+      "message": "芝加哥"
+   },
+   "password": {
+      "message": "密碼"
+   },
+   "pl": {
+      "message": "波蘭"
+   },
+   "plan": {
+      "message": "計畫"
+   },
+   "premium": {
+      "message": "進階版"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "主網域已被屏蔽，正在使用 "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " 作為備援。"
+   },
+   "rateUsMessage": {
+      "message": "如果您喜歡使用 1VPN，請花一點時間為我們評分。"
+   },
+   "rateYourExperience": {
+      "message": "評價您的體驗"
+   },
+   "referToUnlock": {
+      "message": "邀請朋友解鎖"
+   },
+   "resetPassword": {
+      "message": "重設密碼"
+   },
+   "reviewModalButton": {
+      "message": "留下評論"
+   },
+   "reviewModalTitle": {
+      "message": "留下五星好評以解鎖此位置"
+   },
+   "reviewToUnlock": {
+      "message": "評論即可解鎖"
+   },
+   "ro": {
+      "message": "羅馬尼亞"
+   },
+   "sao": {
+      "message": "聖保羅"
+   },
+   "save33OnPremium": {
+      "message": "省下33%購買高級版"
+   },
+   "save33OnPremiumUntil": {
+      "message": "省下33%購買高級版，截止"
+   },
+   "save33Percent": {
+      "message": "省下33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "掃描或點擊 QR 碼"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "掃描 QR 碼或點擊下方按鈕下載我們的安卓應用程式。"
+   },
+   "scl": {
+      "message": "聖地牙哥"
+   },
+   "se": {
+      "message": "瑞典"
+   },
+   "sea": {
+      "message": "西雅圖"
+   },
+   "september": {
+      "message": "九月"
+   },
+   "sg": {
+      "message": "新加坡"
+   },
+   "sgp": {
+      "message": "新加坡"
+   },
+   "shareModalTitle": {
+      "message": "分享 1VPN 以解鎖此位置"
+   },
+   "shareText": {
+      "message": "我剛剛試用了 1VPN，這是一個免費、簡單且安全的 VPN，提供無限數據和高速服務。請造訪 https://1vpn.org?from=share 查看"
+   },
+   "signUp": {
+      "message": "註冊"
+   },
+   "sjc": {
+      "message": "舊金山"
+   },
+   "spoofGeolocation": {
+      "message": "偽造地理定位"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "偽造HTML5地理位置API以匹配您當前的VPN位置。"
+   },
+   "sto": {
+      "message": "斯德哥爾摩"
+   },
+   "syd": {
+      "message": "雪梨"
+   },
+   "telegram": {
+      "message": "Telegram"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "10 天退款保證"
+   },
+   "tlv": {
+      "message": "特拉維夫"
+   },
+   "toUnlockThisLocation": {
+      "message": "若要解鎖此位置 請讓其他使用者透過此連結安裝 1VPN："
+   },
+   "tryAndroidApp": {
+      "message": "試用安卓應用程式"
+   },
+   "tryOurAndroidApp": {
+      "message": "試用我們的安卓應用程式"
+   },
+   "twoFaToken": {
+      "message": "2FA 驗證碼"
+   },
+   "uk": {
+      "message": "英國"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "使用進階版解鎖全部功能"
+   },
+   "unlockAllServerLocations": {
+      "message": "解鎖所有伺服器位置"
+   },
+   "until": {
+      "message": "截止"
+   },
+   "upgrade": {
+      "message": "升級"
+   },
+   "upgradeLocation": {
+      "message": "升級以存取此位置。"
+   },
+   "upgradeModalText": {
+      "message": "於年費方案。解鎖更多位置與更快速度，附10天退款保證。"
+   },
+   "upgradeText1": {
+      "message": "升級"
+   },
+   "upgradeText2": {
+      "message": "以獲得更多位置和更快速度。"
+   },
+   "upgradeToPremium": {
+      "message": "升級為進階版"
+   },
+   "us": {
+      "message": "美國"
+   },
+   "use": {
+      "message": "美國"
+   },
+   "username": {
+      "message": "使用者名稱"
+   },
+   "uss": {
+      "message": "美國"
+   },
+   "usw": {
+      "message": "美國"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "華沙"
+   },
+   "x": {
+      "message": "X（推特）"
+   },
+   "yto": {
+      "message": "多倫多"
+   },
+   "za": {
+      "message": "南非"
+   }
+}

@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Phân tích tổng chi tiêu"
+   },
+   "Sorry": {
+      "message": "Vui lòng truy cập Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Tổng số tiền chi tiêu"
+   },
+   "appDesc": {
+      "message": "\nTheo dõi chi phí của bạn với máy tính chi tiêu Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Chi tiêu máy tính cho Amazon ™ và Flipkart ™"
+   },
+   "feedback": {
+      "message": "Nhận xét"
+   },
+   "fetch": {
+      "message": "Sự hấp thụ"
+   },
+   "instruction": {
+      "message": "Chỉ dẫn"
+   },
+   "instructionfour": {
+      "message": "  4. Trong bước cuối cùng, nhấp vào \"Phân tích tổng chi tiêu\" để có được\n                Tổng chi phí"
+   },
+   "instructionone": {
+      "message": "1. Mở trang web Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Chuyển đến phần \"Đơn hàng của tôi\" và nhấp vào biểu tượng tiện ích mở rộng"
+   },
+   "instructiontwo": {
+      "message": "2. Đăng nhập vào tài khoản của bạn"
+   },
+   "mostPurchased": {
+      "message": "Nhiều sản phẩm đã mua"
+   },
+   "noteOther": {
+      "message": "Vui lòng mở Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Vui lòng truy cập phần đặt hàng của tôi"
+   },
+   "rate": {
+      "message": "Đánh giá chúng tôi"
+   },
+   "reAnalyze": {
+      "message": "Tái phân tích lại tổng chi tiêu"
+   }
+}

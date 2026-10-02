@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "נתח את ההוצאות הכוללות"
+   },
+   "Sorry": {
+      "message": "אנא בקרו באמזון/פליפארט"
+   },
+   "TotalAmount": {
+      "message": "הסכום הכולל שהוצא"
+   },
+   "appDesc": {
+      "message": "\nעקוב אחר ההוצאות שלך עם מחשבון ההוצאות של Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "מחשבון הוצאות עבור Amazon ™ ו- Flipkart ™"
+   },
+   "feedback": {
+      "message": "מָשׁוֹב"
+   },
+   "fetch": {
+      "message": "מַקסִים-"
+   },
+   "instruction": {
+      "message": "הוראה"
+   },
+   "instructionfour": {
+      "message": "  4. בשלב האחרון, לחץ על \"נתח את ההוצאות הכוללות\" כדי להשיג את\n                הוצאה כוללת"
+   },
+   "instructionone": {
+      "message": "1. פתח את אתר Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. עבור לקטע \"ההזמנה שלי\" ולחץ על סמל ההרחבה"
+   },
+   "instructiontwo": {
+      "message": "2. היכנס לחשבונך"
+   },
+   "mostPurchased": {
+      "message": "המוצר הנרכש ביותר"
+   },
+   "noteOther": {
+      "message": "אנא פתח את Flipkart/Amazon"
+   },
+   "order": {
+      "message": "אנא בקרו בקטע ההזמנה שלי"
+   },
+   "rate": {
+      "message": "דרג אותנו"
+   },
+   "reAnalyze": {
+      "message": "ניתוח מחדש של הוצאות מוחלטות"
+   }
+}

@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Suriin ang kabuuang paggasta"
+   },
+   "Sorry": {
+      "message": "Mangyaring bisitahin ang Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Kabuuang halaga na ginugol"
+   },
+   "appDesc": {
+      "message": "\nSubaybayan ang iyong mga gastos sa Amazon ™ & Flipkart ™ paggastos ng calculator\n"
+   },
+   "appTitle": {
+      "message": "Paggastos ng calculator para sa Amazon ™ at Flipkart ™"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "fetch": {
+      "message": "Kumukuha-"
+   },
+   "instruction": {
+      "message": "Pagtuturo"
+   },
+   "instructionfour": {
+      "message": "  4. Sa pangwakas na hakbang, i -click ang \"Pag -aralan ang Kabuuang Paggastos\" upang makuha ang\n                Kabuuang gastos"
+   },
+   "instructionone": {
+      "message": "1. Buksan ang website ng Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Pumunta sa seksyong \"Aking Order\" at i -click ang icon ng Extension"
+   },
+   "instructiontwo": {
+      "message": "2. Mag -sign in sa iyong account"
+   },
+   "mostPurchased": {
+      "message": "Karamihan sa binili na produkto"
+   },
+   "noteOther": {
+      "message": "Mangyaring buksan ang Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Mangyaring bisitahin ang aking seksyon ng order"
+   },
+   "rate": {
+      "message": "I -rate kami"
+   },
+   "reAnalyze": {
+      "message": "Muling pag-analisa ng kabuuang paggasta"
+   }
+}

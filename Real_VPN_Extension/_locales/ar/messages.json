@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "وصول إلى الخوادم حول العالم"
+   },
+   "account": {
+      "message": "الحساب"
+   },
+   "ams": {
+      "message": "أمستردام"
+   },
+   "april": {
+      "message": "أبريل"
+   },
+   "atl": {
+      "message": "أتلانتا"
+   },
+   "au": {
+      "message": "أستراليا"
+   },
+   "august": {
+      "message": "أغسطس"
+   },
+   "blr": {
+      "message": "بنغالور"
+   },
+   "bom": {
+      "message": "مومباي"
+   },
+   "br": {
+      "message": "البرازيل"
+   },
+   "ca": {
+      "message": "كندا"
+   },
+   "cdg": {
+      "message": "باريس"
+   },
+   "chooseYourPlan": {
+      "message": "اختر خطتك"
+   },
+   "cl": {
+      "message": "تشيلي"
+   },
+   "claimOffer": {
+      "message": "احصل على العرض"
+   },
+   "connected": {
+      "message": "متصل"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "سرعات إنترنت ثابتة وسريعة"
+   },
+   "contactUs": {
+      "message": "تواصل معنا"
+   },
+   "continueFree": {
+      "message": "استمر مجانًا"
+   },
+   "continueText": {
+      "message": "أو الاستمرار بدون حساب"
+   },
+   "copyLink": {
+      "message": "نسخ الرابط"
+   },
+   "de": {
+      "message": "ألمانيا"
+   },
+   "deal": {
+      "message": "عرض"
+   },
+   "december": {
+      "message": "ديسمبر"
+   },
+   "del": {
+      "message": "دلهي"
+   },
+   "dfw": {
+      "message": "دالاس"
+   },
+   "disableWebRtc": {
+      "message": "تعطيل WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "تعطيل WebRTC لمنع تسرب عنوان IP الحقيقي الخاص بك."
+   },
+   "disconnected": {
+      "message": "غير متصل"
+   },
+   "downloadApp": {
+      "message": "تحميل التطبيق"
+   },
+   "editInfo": {
+      "message": "تعديل المعلومات"
+   },
+   "email": {
+      "message": "البريد الإلكتروني"
+   },
+   "es": {
+      "message": "إسبانيا"
+   },
+   "ewr": {
+      "message": "نيويورك"
+   },
+   "extDesc": {
+      "message": "VPN مجاني، بيانات غير محدودة، سرعات عالية، تشفير آمن، سياسة عدم الاحتفاظ بالسجلات، وسهل الاستخدام."
+   },
+   "extName": {
+      "message": "VPN مجاني - 1VPN"
+   },
+   "facebook": {
+      "message": "فيسبوك"
+   },
+   "fastestSpeeds": {
+      "message": "أعلى السرعات"
+   },
+   "february": {
+      "message": "فبراير"
+   },
+   "fr": {
+      "message": "فرنسا"
+   },
+   "fra": {
+      "message": "فرانكفورت"
+   },
+   "free": {
+      "message": "المجانية"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "استرداد كامل إذا لم تكن راضيًا"
+   },
+   "get1VPNForAndroid": {
+      "message": "احصل على 1VPN لأندرويد"
+   },
+   "getAndroidApp": {
+      "message": "احصل على تطبيق أندرويد"
+   },
+   "getPremium": {
+      "message": "احصل على بريميوم"
+   },
+   "goToLocationsPage": {
+      "message": "انتقل إلى صفحة المواقع"
+   },
+   "goToOptionsPage": {
+      "message": "انتقل إلى صفحة الخيارات"
+   },
+   "hnl": {
+      "message": "هونولولو"
+   },
+   "icn": {
+      "message": "سيول"
+   },
+   "il": {
+      "message": "إسرائيل"
+   },
+   "in": {
+      "message": "الهند"
+   },
+   "installAndroidToUnlock": {
+      "message": "ثبّت تطبيق أندرويد للفتح"
+   },
+   "installInstructions": {
+      "message": "انقر على أيقونة اللغز بجانب شريط العنوان. ثم انقر على أيقونة الدبوس لتثبيت الإضافة."
+   },
+   "installModalText": {
+      "message": "افتح هذا الموقع من خلال جعل مستخدم آخر يثبت الامتداد باستخدام هذا الرابط:"
+   },
+   "installSuccess": {
+      "message": "تم تثبيت 1VPN بنجاح"
+   },
+   "itm": {
+      "message": "أوساكا"
+   },
+   "january": {
+      "message": "يناير"
+   },
+   "jnb": {
+      "message": "جوهانسبرغ"
+   },
+   "jp": {
+      "message": "اليابان"
+   },
+   "july": {
+      "message": "يوليو"
+   },
+   "june": {
+      "message": "يونيو"
+   },
+   "kr": {
+      "message": "كوريا الجنوبية"
+   },
+   "lax": {
+      "message": "لوس أنجلوس"
+   },
+   "leaveReviewToUnlock": {
+      "message": "اترك تقييم 5 نجوم لفتح هذا الموقع"
+   },
+   "lhr": {
+      "message": "لندن"
+   },
+   "linkCopied": {
+      "message": "تم نسخ الرابط!"
+   },
+   "linkedin": {
+      "message": "لينكدإن"
+   },
+   "loading": {
+      "message": "جاري التحميل..."
+   },
+   "locations": {
+      "message": "المواقع"
+   },
+   "login": {
+      "message": "تسجيل الدخول"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "تعذر تحميل حسابك. حاول مرة أخرى."
+   },
+   "loginCouldNotReachServers": {
+      "message": "تعذر الاتصال بالخوادم. حاول مرة أخرى لاحقًا."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "يرجى إدخال البريد الإلكتروني وكلمة المرور"
+   },
+   "loginInvalidCredentials": {
+      "message": "بيانات اعتماد غير صالحة"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "رمز 2FA غير صالح أو مفقود"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "استجابة غير صالحة من الخادم"
+   },
+   "loginNetworkError": {
+      "message": "خطأ في الشبكة"
+   },
+   "loginTwoFaRequired": {
+      "message": "الرمز الخاص بـ 2FA مطلوب"
+   },
+   "logout": {
+      "message": "تسجيل الخروج"
+   },
+   "mad": {
+      "message": "مدريد"
+   },
+   "man": {
+      "message": "مانشستر"
+   },
+   "march": {
+      "message": "مارس"
+   },
+   "may": {
+      "message": "مايو"
+   },
+   "mel": {
+      "message": "ملبورن"
+   },
+   "menu": {
+      "message": "القائمة"
+   },
+   "mex": {
+      "message": "مكسيكو سيتي"
+   },
+   "mia": {
+      "message": "ميامي"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "مواقع أكثر وسرعات أعلى"
+   },
+   "mx": {
+      "message": "المكسيك"
+   },
+   "nl": {
+      "message": "هولندا"
+   },
+   "november": {
+      "message": "نوفمبر"
+   },
+   "nrt": {
+      "message": "طوكيو"
+   },
+   "october": {
+      "message": "أكتوبر"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "الخيارات"
+   },
+   "ord": {
+      "message": "شيكاغو"
+   },
+   "password": {
+      "message": "كلمة المرور"
+   },
+   "pl": {
+      "message": "بولندا"
+   },
+   "plan": {
+      "message": "الخطة"
+   },
+   "premium": {
+      "message": "المميزة"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "النطاق الرئيسي محظور. يُستخدم "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " كنسخة احتياطية."
+   },
+   "rateUsMessage": {
+      "message": "إذا كنت تستمتع بـ 1VPN، يرجى تخصيص لحظة لتقييمنا."
+   },
+   "rateYourExperience": {
+      "message": "قيّم تجربتك"
+   },
+   "referToUnlock": {
+      "message": "ادعُ للفتح"
+   },
+   "resetPassword": {
+      "message": "إعادة تعيين كلمة المرور"
+   },
+   "reviewModalButton": {
+      "message": "اترك مراجعة"
+   },
+   "reviewModalTitle": {
+      "message": "اترك مراجعة من 5 نجوم لفتح هذا الموقع"
+   },
+   "reviewToUnlock": {
+      "message": "تقييم للفتح"
+   },
+   "ro": {
+      "message": "رومانيا"
+   },
+   "sao": {
+      "message": "ساو باولو"
+   },
+   "save33OnPremium": {
+      "message": "وفر 33% على بريميوم"
+   },
+   "save33OnPremiumUntil": {
+      "message": "وفر 33% على بريميوم حتى"
+   },
+   "save33Percent": {
+      "message": "وفر 33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "امسح أو انقر على رمز الاستجابة السريعة"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "امسح رمز الاستجابة السريعة أو انقر على الزر أدناه لتنزيل تطبيق أندرويد الخاص بنا."
+   },
+   "scl": {
+      "message": "سانتياغو"
+   },
+   "se": {
+      "message": "السويد"
+   },
+   "sea": {
+      "message": "سياتل"
+   },
+   "september": {
+      "message": "سبتمبر"
+   },
+   "sg": {
+      "message": "سنغافورا"
+   },
+   "sgp": {
+      "message": "سنغافورة"
+   },
+   "shareModalTitle": {
+      "message": "شارك 1VPN لفتح هذا الموقع"
+   },
+   "shareText": {
+      "message": "لقد جربت للتو 1VPN، شبكة VPN مجانية وبسيطة وآمنة ببيانات غير محدودة وسرعات عالية. تحقق منه على https://1vpn.org?from=share"
+   },
+   "signUp": {
+      "message": "التسجيل"
+   },
+   "sjc": {
+      "message": "سان فرانسيسكو"
+   },
+   "spoofGeolocation": {
+      "message": "انتحال الموقع الجغرافي"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "تزييف واجهة برمجة تطبيقات تحديد الموقع الجغرافي HTML5 لتطابق موقع VPN الخاص بك الحالي."
+   },
+   "sto": {
+      "message": "ستوكهولم"
+   },
+   "syd": {
+      "message": "سيدني"
+   },
+   "telegram": {
+      "message": "تيليجرام"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "ضمان استعادة المال لمدة 10 أيام"
+   },
+   "tlv": {
+      "message": "تل أبيب"
+   },
+   "toUnlockThisLocation": {
+      "message": "لفتح هذا الموقع اطلب من مستخدم آخر تثبيت 1VPN عبر هذا الرابط:"
+   },
+   "tryAndroidApp": {
+      "message": "جرّب تطبيق أندرويد"
+   },
+   "tryOurAndroidApp": {
+      "message": "جرّب تطبيق أندرويد الخاص بنا"
+   },
+   "twoFaToken": {
+      "message": "رمز 2FA"
+   },
+   "uk": {
+      "message": "المملكة المتحدة"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "افتح جميع الميزات مع بريميوم"
+   },
+   "unlockAllServerLocations": {
+      "message": "افتح جميع مواقع الخوادم"
+   },
+   "until": {
+      "message": "حتى"
+   },
+   "upgrade": {
+      "message": "ترقية"
+   },
+   "upgradeLocation": {
+      "message": "حدث البرنامج للوصول إلى هذا الموقع"
+   },
+   "upgradeModalText": {
+      "message": "على الخطة السنوية. افتح المزيد من المواقع وسرعات أسرع مع ضمان استرداد لمدة 10 أيام."
+   },
+   "upgradeText1": {
+      "message": "تحديث"
+   },
+   "upgradeText2": {
+      "message": "لعرض المزيد من المواقع وسرعات أعلى"
+   },
+   "upgradeToPremium": {
+      "message": "الترقية إلى بريميوم"
+   },
+   "us": {
+      "message": "الولايات المتحدة"
+   },
+   "use": {
+      "message": "الولايات المتحدة"
+   },
+   "username": {
+      "message": "اسم المستخدم"
+   },
+   "uss": {
+      "message": "الولايات المتحدة"
+   },
+   "usw": {
+      "message": "الولايات المتحدة"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "وارسو"
+   },
+   "x": {
+      "message": "X (تويتر)"
+   },
+   "yto": {
+      "message": "تورونتو"
+   },
+   "za": {
+      "message": "جنوب أفريقيا"
+   }
+}

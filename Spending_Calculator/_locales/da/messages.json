@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analyser samlede udgifter"
+   },
+   "Sorry": {
+      "message": "Besøg Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Det samlede anvendte beløb"
+   },
+   "appDesc": {
+      "message": "\nHold styr på dine udgifter med Amazon ™ & Flipkart ™ -udnyttende lommeregner\n"
+   },
+   "appTitle": {
+      "message": "Brug af lommeregner til Amazon ™ og Flipkart ™"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "fetch": {
+      "message": "Hentning-"
+   },
+   "instruction": {
+      "message": "Instruktion"
+   },
+   "instructionfour": {
+      "message": "  4. Klik på \"Analyser forbrug\" i det sidste trin for at få\n                samlede udgifter"
+   },
+   "instructionone": {
+      "message": "1. Åbn webstedet Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Gå til afsnittet \"My Order\" og klik på Extension -ikonet"
+   },
+   "instructiontwo": {
+      "message": "2. Log ind på din konto"
+   },
+   "mostPurchased": {
+      "message": "Det mest købte produkt"
+   },
+   "noteOther": {
+      "message": "Åbn Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Besøg min ordreafdeling"
+   },
+   "rate": {
+      "message": "Bedøm os"
+   },
+   "reAnalyze": {
+      "message": "Analyser de samlede udgifter igen"
+   }
+}

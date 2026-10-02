@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analyseer de totale uitgaven"
+   },
+   "Sorry": {
+      "message": "Bezoek Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Totaal uitgegeven bedrag"
+   },
+   "appDesc": {
+      "message": "\nHoud uw uitgaven bij met de Amazon ™ & Flipkart ™ -uitgavencalculator\n"
+   },
+   "appTitle": {
+      "message": "Calculator uitgeven voor Amazon ™ en Flipkart ™"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "fetch": {
+      "message": "Ophalen-"
+   },
+   "instruction": {
+      "message": "Instructie"
+   },
+   "instructionfour": {
+      "message": "  4. Klik in de laatste stap op \"Analyseer de totale uitgaven\" om de\n                totale uitgave"
+   },
+   "instructionone": {
+      "message": "1. Open de website van Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Ga naar het gedeelte \"Mijn bestelling\" en klik op het extensiepictogram"
+   },
+   "instructiontwo": {
+      "message": "2. Meld u aan bij uw account"
+   },
+   "mostPurchased": {
+      "message": "Meest gekochte product"
+   },
+   "noteOther": {
+      "message": "Open Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Bezoek mijn bestelsectie"
+   },
+   "rate": {
+      "message": "Beoordeel ons"
+   },
+   "reAnalyze": {
+      "message": "Analyseer de totale uitgaven opnieuw"
+   }
+}

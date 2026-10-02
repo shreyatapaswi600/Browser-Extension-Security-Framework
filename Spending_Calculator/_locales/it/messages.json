@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analizzare la spesa totale"
+   },
+   "Sorry": {
+      "message": "Visita Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Importo totale speso"
+   },
+   "appDesc": {
+      "message": "\nTieni traccia delle tue spese con il calcolatore di spesa Amazon ™ e Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Calcolatore di spesa per Amazon ™ e Flipkart ™"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "fetch": {
+      "message": "Recupero"
+   },
+   "instruction": {
+      "message": "Istruzione"
+   },
+   "instructionfour": {
+      "message": "  4. Nel passaggio finale, fare clic su \"Analizza la spesa totale\" per ottenere il\n                Spesa totale"
+   },
+   "instructionone": {
+      "message": "1. Apri il sito Web Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Vai alla sezione \"My Order\" e fai clic sull'icona di estensione"
+   },
+   "instructiontwo": {
+      "message": "2. Accedi al tuo account"
+   },
+   "mostPurchased": {
+      "message": "Prodotto più acquistato"
+   },
+   "noteOther": {
+      "message": "Si prega di aprire Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Visita la mia sezione Ordine"
+   },
+   "rate": {
+      "message": "Valutaci"
+   },
+   "reAnalyze": {
+      "message": "Riemalizzare la spesa totale"
+   }
+}

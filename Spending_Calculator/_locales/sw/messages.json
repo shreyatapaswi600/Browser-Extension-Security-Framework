@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Chambua matumizi ya jumla"
+   },
+   "Sorry": {
+      "message": "Tafadhali tembelea Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Jumla ya kiasi kilichotumika"
+   },
+   "appDesc": {
+      "message": "\nFuatilia gharama zako na Calculator ya Matumizi ya Amazon & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Kutumia Calculator ya Amazon ™ na Flipkart ™"
+   },
+   "feedback": {
+      "message": "Maoni"
+   },
+   "fetch": {
+      "message": "Kuchota-"
+   },
+   "instruction": {
+      "message": "Maagizo"
+   },
+   "instructionfour": {
+      "message": "  4. Katika hatua ya mwisho, bonyeza \"Chambua matumizi ya jumla\" kupata\n                matumizi ya jumla"
+   },
+   "instructionone": {
+      "message": "1. Fungua tovuti ya Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Nenda kwa sehemu ya \"Agizo Langu\" na bonyeza ikoni ya Upanuzi"
+   },
+   "instructiontwo": {
+      "message": "2. Ingia kwenye akaunti yako"
+   },
+   "mostPurchased": {
+      "message": "Bidhaa iliyonunuliwa zaidi"
+   },
+   "noteOther": {
+      "message": "Tafadhali fungua Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Tafadhali tembelea sehemu yangu ya agizo"
+   },
+   "rate": {
+      "message": "Kiwango cha sisi"
+   },
+   "reAnalyze": {
+      "message": "Chambua tena matumizi ya jumla"
+   }
+}

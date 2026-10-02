@@ -1,0 +1,6 @@
+{
+    "id": "11_return_flow",
+    "name": "Function Return Flow",
+    "description": "Returns sensitive data from a function and transmits it.",
+    "expected_findings": 1
+}

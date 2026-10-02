@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analyzujte celkové výdavky"
+   },
+   "Sorry": {
+      "message": "Navštívte Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Celková suma vynaložená"
+   },
+   "appDesc": {
+      "message": "\nSledujte svoje výdavky s kalkulačkou výdavkov Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Kalkulačka výdavkov pre Amazon ™ a Flipkart ™"
+   },
+   "feedback": {
+      "message": "Spätná väzba"
+   },
+   "fetch": {
+      "message": "Vyzdvihnutie-"
+   },
+   "instruction": {
+      "message": "Výučba"
+   },
+   "instructionfour": {
+      "message": "  4. V poslednom kroku kliknite na položku „Analyzovať celkové výdavky“, aby ste získali\n                celkové výdavky"
+   },
+   "instructionone": {
+      "message": "1. Otvorte webovú stránku Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Prejdite do sekcie „Moja objednávka“ a kliknite na ikonu rozšírenia"
+   },
+   "instructiontwo": {
+      "message": "2. Prihláste sa do svojho účtu"
+   },
+   "mostPurchased": {
+      "message": "Väčšina zakúpených produktov"
+   },
+   "noteOther": {
+      "message": "Otvorte prosím Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Navštívte moju sekciu objednávky"
+   },
+   "rate": {
+      "message": "Ohodnoť nás"
+   },
+   "reAnalyze": {
+      "message": "Znovu analyzovať celkové výdavky"
+   }
+}

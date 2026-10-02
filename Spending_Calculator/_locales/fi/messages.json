@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analysoi kokonaismenot"
+   },
+   "Sorry": {
+      "message": "Käy Amazon/Flipkartissa"
+   },
+   "TotalAmount": {
+      "message": "Käytetty kokonaismäärä"
+   },
+   "appDesc": {
+      "message": "\nSeuraa kulujasi Amazon ™ & Flipkart ™ -kulutuslaskurin avulla\n"
+   },
+   "appTitle": {
+      "message": "Kulutuslaskin Amazon ™: lle ja Flipkart ™: lle"
+   },
+   "feedback": {
+      "message": "Palaute"
+   },
+   "fetch": {
+      "message": "Haku-"
+   },
+   "instruction": {
+      "message": "Ohje"
+   },
+   "instructionfour": {
+      "message": "  4. Napsauta viimeisessä vaiheessa \"Analysoi kokonaismenot\" saadaksesi\n                kokonaismenot"
+   },
+   "instructionone": {
+      "message": "1. Avaa Flipkart/Amazon -verkkosivusto"
+   },
+   "instructionthree": {
+      "message": "3. Siirry \"Oma tilaukseni\" -osaan ja napsauta laajennuskuvaketta"
+   },
+   "instructiontwo": {
+      "message": "2. Kirjaudu sisään tilillesi"
+   },
+   "mostPurchased": {
+      "message": "Useimmat ostetut tuote"
+   },
+   "noteOther": {
+      "message": "Avaa Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Käy tilausosastollani"
+   },
+   "rate": {
+      "message": "Anna meille arvosana"
+   },
+   "reAnalyze": {
+      "message": "Analysoi uudelleen kokonaismenot"
+   }
+}

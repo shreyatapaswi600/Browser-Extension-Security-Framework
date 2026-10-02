@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "世界中のサーバーにアクセス"
+   },
+   "account": {
+      "message": "アカウント"
+   },
+   "ams": {
+      "message": "アムステルダム"
+   },
+   "april": {
+      "message": "4月"
+   },
+   "atl": {
+      "message": "アトランタ"
+   },
+   "au": {
+      "message": "オーストラリア"
+   },
+   "august": {
+      "message": "8月"
+   },
+   "blr": {
+      "message": "バンガロール"
+   },
+   "bom": {
+      "message": "ムンバイ"
+   },
+   "br": {
+      "message": "ブラジル"
+   },
+   "ca": {
+      "message": "カナダ"
+   },
+   "cdg": {
+      "message": "パリ"
+   },
+   "chooseYourPlan": {
+      "message": "プランを選択"
+   },
+   "cl": {
+      "message": "チリ"
+   },
+   "claimOffer": {
+      "message": "オファーを受け取る"
+   },
+   "connected": {
+      "message": "接続中"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "安定した高速インターネット"
+   },
+   "contactUs": {
+      "message": "お問い合わせ"
+   },
+   "continueFree": {
+      "message": "無料のまま続行"
+   },
+   "continueText": {
+      "message": "またはアカウントなしで続行"
+   },
+   "copyLink": {
+      "message": "リンクをコピー"
+   },
+   "de": {
+      "message": "ドイツ"
+   },
+   "deal": {
+      "message": "お得"
+   },
+   "december": {
+      "message": "12月"
+   },
+   "del": {
+      "message": "デリー"
+   },
+   "dfw": {
+      "message": "ダラス"
+   },
+   "disableWebRtc": {
+      "message": "WebRTCを無効化"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "実際のIPアドレスの漏洩を防ぐためにWebRTCを無効にします。"
+   },
+   "disconnected": {
+      "message": "接続解除"
+   },
+   "downloadApp": {
+      "message": "アプリをダウンロード"
+   },
+   "editInfo": {
+      "message": "情報を編集"
+   },
+   "email": {
+      "message": "メール"
+   },
+   "es": {
+      "message": "スペイン"
+   },
+   "ewr": {
+      "message": "ニューヨーク"
+   },
+   "extDesc": {
+      "message": "無料VPN、無制限のデータ、高速、セキュアな暗号化、ログなしポリシー、簡単に使用可能。"
+   },
+   "extName": {
+      "message": "無料VPN - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Facebook"
+   },
+   "fastestSpeeds": {
+      "message": "最高速度"
+   },
+   "february": {
+      "message": "2月"
+   },
+   "fr": {
+      "message": "フランス"
+   },
+   "fra": {
+      "message": "フランクフルト"
+   },
+   "free": {
+      "message": "無料"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "ご満足いただけない場合は全額返金"
+   },
+   "get1VPNForAndroid": {
+      "message": "Android版1VPNを入手"
+   },
+   "getAndroidApp": {
+      "message": "Androidアプリを入手"
+   },
+   "getPremium": {
+      "message": "プレミアムを入手"
+   },
+   "goToLocationsPage": {
+      "message": "位置情報ページへ"
+   },
+   "goToOptionsPage": {
+      "message": "設定ページへ"
+   },
+   "hnl": {
+      "message": "ホノルル"
+   },
+   "icn": {
+      "message": "ソウル"
+   },
+   "il": {
+      "message": "イスラエル"
+   },
+   "in": {
+      "message": "インド"
+   },
+   "installAndroidToUnlock": {
+      "message": "Androidアプリをインストールしてアンロック"
+   },
+   "installInstructions": {
+      "message": "アドレスバーの横にあるパズルアイコンをクリックしてください。次にピンアイコンをクリックして拡張機能を固定してください。"
+   },
+   "installModalText": {
+      "message": "別のユーザーにこのリンクを使って拡張機能をインストールしてもらうことで、この場所をアンロックできます:"
+   },
+   "installSuccess": {
+      "message": "1VPNが正常にインストールされました"
+   },
+   "itm": {
+      "message": "大阪"
+   },
+   "january": {
+      "message": "1月"
+   },
+   "jnb": {
+      "message": "ヨハネスブルグ"
+   },
+   "jp": {
+      "message": "日本"
+   },
+   "july": {
+      "message": "7月"
+   },
+   "june": {
+      "message": "6月"
+   },
+   "kr": {
+      "message": "韓国"
+   },
+   "lax": {
+      "message": "ロサンゼルス"
+   },
+   "leaveReviewToUnlock": {
+      "message": "星5のレビューを残してこのロケーションを解除してください"
+   },
+   "lhr": {
+      "message": "ロンドン"
+   },
+   "linkCopied": {
+      "message": "リンクをコピーしました！"
+   },
+   "linkedin": {
+      "message": "LinkedIn"
+   },
+   "loading": {
+      "message": "読み込み中..."
+   },
+   "locations": {
+      "message": "位置情報"
+   },
+   "login": {
+      "message": "ログイン"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "アカウントを読み込めませんでした。もう一度お試しください。"
+   },
+   "loginCouldNotReachServers": {
+      "message": "サーバーに接続できませんでした。しばらくしてからもう一度お試しください。"
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "メールアドレスとパスワードを入力してください"
+   },
+   "loginInvalidCredentials": {
+      "message": "無効な認証情報"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "2FAトークンが無効、または見つかりません"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "サーバーからの応答が無効です"
+   },
+   "loginNetworkError": {
+      "message": "ネットワークエラー"
+   },
+   "loginTwoFaRequired": {
+      "message": "2FAコードが必要です"
+   },
+   "logout": {
+      "message": "ログアウト"
+   },
+   "mad": {
+      "message": "マドリード"
+   },
+   "man": {
+      "message": "マンチェスター"
+   },
+   "march": {
+      "message": "3月"
+   },
+   "may": {
+      "message": "5月"
+   },
+   "mel": {
+      "message": "メルボルン"
+   },
+   "menu": {
+      "message": "メニュー"
+   },
+   "mex": {
+      "message": "メキシコシティ"
+   },
+   "mia": {
+      "message": "マイアミ"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "ロケーション追加と高速通信"
+   },
+   "mx": {
+      "message": "メキシコ"
+   },
+   "nl": {
+      "message": "オランダ"
+   },
+   "november": {
+      "message": "11月"
+   },
+   "nrt": {
+      "message": "東京"
+   },
+   "october": {
+      "message": "10月"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "設定"
+   },
+   "ord": {
+      "message": "シカゴ"
+   },
+   "password": {
+      "message": "パスワード"
+   },
+   "pl": {
+      "message": "ポーランド"
+   },
+   "plan": {
+      "message": "プラン"
+   },
+   "premium": {
+      "message": "プレミアム"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "メインドメインがブロックされています。バックアップとして "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " を使用しています。"
+   },
+   "rateUsMessage": {
+      "message": "1VPNをお楽しみいただいているなら、ぜひ少しお時間をとって評価してください。"
+   },
+   "rateYourExperience": {
+      "message": "体験を評価してください"
+   },
+   "referToUnlock": {
+      "message": "招待して解除"
+   },
+   "resetPassword": {
+      "message": "パスワードをリセット"
+   },
+   "reviewModalButton": {
+      "message": "レビューを残す"
+   },
+   "reviewModalTitle": {
+      "message": "この場所をアンロックするには5つ星レビューを残してください"
+   },
+   "reviewToUnlock": {
+      "message": "レビューで解除"
+   },
+   "ro": {
+      "message": "ルーマニア"
+   },
+   "sao": {
+      "message": "サンパウロ"
+   },
+   "save33OnPremium": {
+      "message": "プレミアムで33%お得"
+   },
+   "save33OnPremiumUntil": {
+      "message": "プレミアムで33%お得、期限"
+   },
+   "save33Percent": {
+      "message": "33%お得"
+   },
+   "scanOrClickQRCode": {
+      "message": "QRコードをスキャンまたはクリック"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "QRコードをスキャンするか、ボタンを押してアプリをダウンロード。"
+   },
+   "scl": {
+      "message": "サンティアゴ"
+   },
+   "se": {
+      "message": "スウェーデン"
+   },
+   "sea": {
+      "message": "シアトル"
+   },
+   "september": {
+      "message": "9月"
+   },
+   "sg": {
+      "message": "シンガポール"
+   },
+   "sgp": {
+      "message": "シンガポール"
+   },
+   "shareModalTitle": {
+      "message": "この場所を解除するには1VPNを共有してください"
+   },
+   "shareText": {
+      "message": "私は先ほど1VPNを試しました。無料でシンプル、安全なVPNで、無制限のデータと高速通信が特徴です。https://1vpn.org?from=share をチェックしてみてください"
+   },
+   "signUp": {
+      "message": "サインアップ"
+   },
+   "sjc": {
+      "message": "サンフランシスコ"
+   },
+   "spoofGeolocation": {
+      "message": "ジオロケーションを偽装"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "HTML5ジオロケーションAPIを偽装して、現在のVPN位置に一致させます。"
+   },
+   "sto": {
+      "message": "ストックホルム"
+   },
+   "syd": {
+      "message": "シドニー"
+   },
+   "telegram": {
+      "message": "Telegram"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "10日間返金保証"
+   },
+   "tlv": {
+      "message": "テルアビブ"
+   },
+   "toUnlockThisLocation": {
+      "message": "このロケーションを解除するにはこのリンクから他のユーザーに1VPNをインストールしてもらってください:"
+   },
+   "tryAndroidApp": {
+      "message": "Androidアプリを試す"
+   },
+   "tryOurAndroidApp": {
+      "message": "Androidアプリを試す"
+   },
+   "twoFaToken": {
+      "message": "2FAトークン"
+   },
+   "uk": {
+      "message": "イギリス"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "プレミアムですべての機能を解除"
+   },
+   "unlockAllServerLocations": {
+      "message": "すべてのサーバーロケーションを解除"
+   },
+   "until": {
+      "message": "まで"
+   },
+   "upgrade": {
+      "message": "アップグレード"
+   },
+   "upgradeLocation": {
+      "message": "この位置情報の利用にはアップグレードが必要です"
+   },
+   "upgradeModalText": {
+      "message": "年間プランで。より多くのロケーションと高速通信を10日間返金保証付きで利用可能。"
+   },
+   "upgradeText1": {
+      "message": "アップグレード"
+   },
+   "upgradeText2": {
+      "message": "位置情報の選択肢を増やし速度を向上"
+   },
+   "upgradeToPremium": {
+      "message": "プレミアムにアップグレード"
+   },
+   "us": {
+      "message": "アメリカ合衆国"
+   },
+   "use": {
+      "message": "アメリカ合衆国"
+   },
+   "username": {
+      "message": "ユーザー名"
+   },
+   "uss": {
+      "message": "アメリカ合衆国"
+   },
+   "usw": {
+      "message": "アメリカ合衆国"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "ワルシャワ"
+   },
+   "x": {
+      "message": "X（Twitter）"
+   },
+   "yto": {
+      "message": "トロント"
+   },
+   "za": {
+      "message": "南アフリカ"
+   }
+}

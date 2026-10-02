@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "เข้าถึงเซิร์ฟเวอร์ทั่วโลก"
+   },
+   "account": {
+      "message": "บัญชี"
+   },
+   "ams": {
+      "message": "อัมสเตอร์ดัม"
+   },
+   "april": {
+      "message": "เมษายน"
+   },
+   "atl": {
+      "message": "แอตแลนตา"
+   },
+   "au": {
+      "message": "ออสเตรเลีย"
+   },
+   "august": {
+      "message": "สิงหาคม"
+   },
+   "blr": {
+      "message": "บังกะลอร์"
+   },
+   "bom": {
+      "message": "มุมไบ"
+   },
+   "br": {
+      "message": "บราซิล"
+   },
+   "ca": {
+      "message": "แคนาดา"
+   },
+   "cdg": {
+      "message": "ปารีส"
+   },
+   "chooseYourPlan": {
+      "message": "เลือกแพ็กเกจของคุณ"
+   },
+   "cl": {
+      "message": "ชิลี"
+   },
+   "claimOffer": {
+      "message": "รับข้อเสนอ"
+   },
+   "connected": {
+      "message": "เชื่อมต่อแล้ว"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "อินเทอร์เน็ตเร็วและเสถียร"
+   },
+   "contactUs": {
+      "message": "ติดต่อเรา"
+   },
+   "continueFree": {
+      "message": "ใช้แบบฟรีต่อไป"
+   },
+   "continueText": {
+      "message": "หรือดำเนินการต่อโดยไม่มีบัญชี"
+   },
+   "copyLink": {
+      "message": "คัดลอกลิงก์"
+   },
+   "de": {
+      "message": "เยอรมนี"
+   },
+   "deal": {
+      "message": "ข้อเสนอ"
+   },
+   "december": {
+      "message": "ธันวาคม"
+   },
+   "del": {
+      "message": "เดลี"
+   },
+   "dfw": {
+      "message": "ดัลลัส"
+   },
+   "disableWebRtc": {
+      "message": "ปิดใช้งาน WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "ปิดใช้งาน WebRTC เพื่อป้องกันไม่ให้ที่อยู่ IP จริงของคุณรั่วไหล"
+   },
+   "disconnected": {
+      "message": "ยังไม่ได้เชื่อมต่อ"
+   },
+   "downloadApp": {
+      "message": "ดาวน์โหลดแอป"
+   },
+   "editInfo": {
+      "message": "แก้ไขข้อมูล"
+   },
+   "email": {
+      "message": "อีเมล"
+   },
+   "es": {
+      "message": "สเปน"
+   },
+   "ewr": {
+      "message": "นิวยอร์ก"
+   },
+   "extDesc": {
+      "message": "VPN ฟรี, ข้อมูลไม่จำกัด, ความเร็วสูง, การเข้ารหัสที่ปลอดภัย, ไม่มีนโยบายบันทึกข้อมูล และใช้งานง่าย."
+   },
+   "extName": {
+      "message": "VPN ฟรี - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "เฟซบุ๊ก"
+   },
+   "fastestSpeeds": {
+      "message": "ความเร็วสูงสุด"
+   },
+   "february": {
+      "message": "กุมภาพันธ์"
+   },
+   "fr": {
+      "message": "ฝรั่งเศส"
+   },
+   "fra": {
+      "message": "แฟรงก์เฟิร์ต"
+   },
+   "free": {
+      "message": "ฟรี"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "คืนเงินเต็มจำนวนหากไม่พอใจ"
+   },
+   "get1VPNForAndroid": {
+      "message": "รับ 1VPN สำหรับ Android"
+   },
+   "getAndroidApp": {
+      "message": "รับแอป Android"
+   },
+   "getPremium": {
+      "message": "รับพรีเมียม"
+   },
+   "goToLocationsPage": {
+      "message": "ไปที่หน้าสถานที่"
+   },
+   "goToOptionsPage": {
+      "message": "ไปที่หน้าตัวเลือก"
+   },
+   "hnl": {
+      "message": "โฮโนลูลู"
+   },
+   "icn": {
+      "message": "โซล"
+   },
+   "il": {
+      "message": "อิสราเอล"
+   },
+   "in": {
+      "message": "อินเดีย"
+   },
+   "installAndroidToUnlock": {
+      "message": "ติดตั้งแอป Android เพื่อปลดล็อก"
+   },
+   "installInstructions": {
+      "message": "คลิกที่ไอคอนรูปปริศนาข้างแถบที่อยู่ จากนั้นคลิกไอคอนรูปหมุดเพื่อปักส่วนขยายไว้"
+   },
+   "installModalText": {
+      "message": "ปลดล็อกตำแหน่งนี้โดยให้ผู้ใช้อีกคนติดตั้งส่วนขยายผ่านลิงก์นี้:"
+   },
+   "installSuccess": {
+      "message": "ติดตั้ง 1VPN สำเร็จแล้ว"
+   },
+   "itm": {
+      "message": "โอซากะ"
+   },
+   "january": {
+      "message": "มกราคม"
+   },
+   "jnb": {
+      "message": "โยฮันเนสเบิร์ก"
+   },
+   "jp": {
+      "message": "ญี่ปุ่น"
+   },
+   "july": {
+      "message": "กรกฎาคม"
+   },
+   "june": {
+      "message": "มิถุนายน"
+   },
+   "kr": {
+      "message": "เกาหลีใต้"
+   },
+   "lax": {
+      "message": "ลอสแอนเจลิส"
+   },
+   "leaveReviewToUnlock": {
+      "message": "ให้รีวิว 5 ดาวเพื่อปลดล็อกตำแหน่งนี้"
+   },
+   "lhr": {
+      "message": "ลอนดอน"
+   },
+   "linkCopied": {
+      "message": "คัดลอกลิงก์แล้ว!"
+   },
+   "linkedin": {
+      "message": "ลิงก์อิน"
+   },
+   "loading": {
+      "message": "กำลังโหลด..."
+   },
+   "locations": {
+      "message": "สถานที่ตั้ง"
+   },
+   "login": {
+      "message": "เข้าสู่ระบบ"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "ไม่สามารถโหลดบัญชีของคุณได้ กรุณาลองใหม่อีกครั้ง"
+   },
+   "loginCouldNotReachServers": {
+      "message": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ กรุณาลองใหม่อีกครั้งภายหลัง"
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "กรุณาใส่อีเมลและรหัสผ่าน"
+   },
+   "loginInvalidCredentials": {
+      "message": "ข้อมูลรับรองไม่ถูกต้อง"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "โทเค็น 2FA ไม่ถูกต้องหรือหายไป"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "การตอบกลับจากเซิร์ฟเวอร์ไม่ถูกต้อง"
+   },
+   "loginNetworkError": {
+      "message": "ข้อผิดพลาดของเครือข่าย"
+   },
+   "loginTwoFaRequired": {
+      "message": "ต้องใช้รหัส 2FA"
+   },
+   "logout": {
+      "message": "ออกจากระบบ"
+   },
+   "mad": {
+      "message": "มาดริด"
+   },
+   "man": {
+      "message": "แมนเชสเตอร์"
+   },
+   "march": {
+      "message": "มีนาคม"
+   },
+   "may": {
+      "message": "พฤษภาคม"
+   },
+   "mel": {
+      "message": "เมลเบิร์น"
+   },
+   "menu": {
+      "message": "เมนู"
+   },
+   "mex": {
+      "message": "เม็กซิโกซิตี"
+   },
+   "mia": {
+      "message": "ไมอามี"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "ตำแหน่งมากขึ้นและเร็วขึ้น"
+   },
+   "mx": {
+      "message": "เม็กซิโก"
+   },
+   "nl": {
+      "message": "เนเธอร์แลนด์"
+   },
+   "november": {
+      "message": "พฤศจิกายน"
+   },
+   "nrt": {
+      "message": "โตเกียว"
+   },
+   "october": {
+      "message": "ตุลาคม"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "ตัวเลือก"
+   },
+   "ord": {
+      "message": "ชิคาโก"
+   },
+   "password": {
+      "message": "รหัสผ่าน"
+   },
+   "pl": {
+      "message": "โปแลนด์"
+   },
+   "plan": {
+      "message": "แผน"
+   },
+   "premium": {
+      "message": "พรีเมียม"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "โดเมนหลักถูกบล็อก กำลังใช้ "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " เป็นสำรอง"
+   },
+   "rateUsMessage": {
+      "message": "หากคุณชอบใช้ 1VPN กรุณาสละเวลาสักครู่เพื่อให้คะแนนเรา"
+   },
+   "rateYourExperience": {
+      "message": "ให้คะแนนประสบการณ์ของคุณ"
+   },
+   "referToUnlock": {
+      "message": "ชวนเพื่อนเพื่อปลดล็อก"
+   },
+   "resetPassword": {
+      "message": "รีเซ็ตรหัสผ่าน"
+   },
+   "reviewModalButton": {
+      "message": "เขียนรีวิว"
+   },
+   "reviewModalTitle": {
+      "message": "กรุณาให้รีวิว 5 ดาวเพื่อปลดล็อกตำแหน่งนี้"
+   },
+   "reviewToUnlock": {
+      "message": "ให้รีวิวเพื่อปลดล็อก"
+   },
+   "ro": {
+      "message": "โรมาเนีย"
+   },
+   "sao": {
+      "message": "เซาเปาลู"
+   },
+   "save33OnPremium": {
+      "message": "ประหยัด 33% สำหรับพรีเมียม"
+   },
+   "save33OnPremiumUntil": {
+      "message": "ประหยัด 33% สำหรับพรีเมียมถึง"
+   },
+   "save33Percent": {
+      "message": "ประหยัด 33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "สแกนหรือคลิกที่รหัส QR"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "สแกนรหัส QR หรือคลิกปุ่มด้านล่างเพื่อดาวน์โหลดแอป Android ของเรา"
+   },
+   "scl": {
+      "message": "ซานเตียโก"
+   },
+   "se": {
+      "message": "สวีเดน"
+   },
+   "sea": {
+      "message": "ซีแอตเทิล"
+   },
+   "september": {
+      "message": "กันยายน"
+   },
+   "sg": {
+      "message": "สิงคโปร์"
+   },
+   "sgp": {
+      "message": "สิงคโปร์"
+   },
+   "shareModalTitle": {
+      "message": "แชร์ 1VPN เพื่อปลดล็อกตำแหน่งนี้"
+   },
+   "shareText": {
+      "message": "ฉันเพิ่งลองใช้ 1VPN ซึ่งเป็น VPN ฟรี ใช้งานง่าย และปลอดภัย พร้อมข้อมูลไม่จำกัดและความเร็วสูง ลองดูได้ที่ https://1vpn.org?from=share"
+   },
+   "signUp": {
+      "message": "สมัครสมาชิก"
+   },
+   "sjc": {
+      "message": "ซานฟรานซิสโก"
+   },
+   "spoofGeolocation": {
+      "message": "ปลอมแปลง Geolocation"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "ปลอมแปลง API การระบุตำแหน่งทางภูมิศาสตร์ HTML5 ให้ตรงกับตำแหน่ง VPN ปัจจุบันของคุณ"
+   },
+   "sto": {
+      "message": "สตอกโฮล์ม"
+   },
+   "syd": {
+      "message": "ซิดนีย์"
+   },
+   "telegram": {
+      "message": "โทรแกรม"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "รับประกันคืนเงิน 10 วัน"
+   },
+   "tlv": {
+      "message": "เทลอาวีฟ"
+   },
+   "toUnlockThisLocation": {
+      "message": "หากต้องการปลดล็อกตำแหน่งนี้ ให้ให้ผู้ใช้อีกคนติดตั้ง 1VPN ผ่านลิงก์นี้:"
+   },
+   "tryAndroidApp": {
+      "message": "ลองใช้แอป Android"
+   },
+   "tryOurAndroidApp": {
+      "message": "ลองใช้แอป Android ของเรา"
+   },
+   "twoFaToken": {
+      "message": "โทเค็น 2FA"
+   },
+   "uk": {
+      "message": "สหราชอาณาจักร"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "ปลดล็อกทุกฟีเจอร์ด้วยพรีเมียม"
+   },
+   "unlockAllServerLocations": {
+      "message": "ปลดล็อกตำแหน่งเซิร์ฟเวอร์ทั้งหมด"
+   },
+   "until": {
+      "message": "ถึง"
+   },
+   "upgrade": {
+      "message": "อัปเกรด"
+   },
+   "upgradeLocation": {
+      "message": "อัพเกรดเพื่อเข้าถึงสถานที่ตั้งดังนี้"
+   },
+   "upgradeModalText": {
+      "message": "ในแผนรายปี. ปลดล็อกตำแหน่งเซิร์ฟเวอร์เพิ่มและความเร็วสูงขึ้น พร้อมการรับประกันคืนเงิน 10 วัน."
+   },
+   "upgradeText1": {
+      "message": "อัพเกรด"
+   },
+   "upgradeText2": {
+      "message": "เพื่อตัวเลือกสถานที่ตั้งที่มากขึ้นและความเร็วที่เร็วที่มากขึ้น"
+   },
+   "upgradeToPremium": {
+      "message": "อัปเกรดเป็นพรีเมียม"
+   },
+   "us": {
+      "message": "สหรัฐอเมริกา"
+   },
+   "use": {
+      "message": "สหรัฐอเมริกา"
+   },
+   "username": {
+      "message": "ชื่อผู้ใช้"
+   },
+   "uss": {
+      "message": "สหรัฐอเมริกา"
+   },
+   "usw": {
+      "message": "สหรัฐอเมริกา"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "วอร์ซอ"
+   },
+   "x": {
+      "message": "X (ทวิตเตอร์)"
+   },
+   "yto": {
+      "message": "โตรอนโต"
+   },
+   "za": {
+      "message": "แอฟริกาใต้"
+   }
+}

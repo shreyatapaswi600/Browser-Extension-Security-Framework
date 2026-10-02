@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "Acesse servidores no mundo todo"
+   },
+   "account": {
+      "message": "Conta"
+   },
+   "ams": {
+      "message": "Amsterdã"
+   },
+   "april": {
+      "message": "Abril"
+   },
+   "atl": {
+      "message": "Atlanta"
+   },
+   "au": {
+      "message": "Austrália"
+   },
+   "august": {
+      "message": "Agosto"
+   },
+   "blr": {
+      "message": "Bangalore"
+   },
+   "bom": {
+      "message": "Mumbai"
+   },
+   "br": {
+      "message": "Brasil"
+   },
+   "ca": {
+      "message": "Canadá"
+   },
+   "cdg": {
+      "message": "Paris"
+   },
+   "chooseYourPlan": {
+      "message": "Escolha seu plano"
+   },
+   "cl": {
+      "message": "Chile"
+   },
+   "claimOffer": {
+      "message": "Aproveitar oferta"
+   },
+   "connected": {
+      "message": "Conectado"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "Internet rápida e estável"
+   },
+   "contactUs": {
+      "message": "Fale Conosco"
+   },
+   "continueFree": {
+      "message": "Continuar grátis"
+   },
+   "continueText": {
+      "message": "ou continuar sem conta"
+   },
+   "copyLink": {
+      "message": "Copiar link"
+   },
+   "de": {
+      "message": "Alemanha"
+   },
+   "deal": {
+      "message": "Oferta"
+   },
+   "december": {
+      "message": "Dezembro"
+   },
+   "del": {
+      "message": "Délhi"
+   },
+   "dfw": {
+      "message": "Dallas"
+   },
+   "disableWebRtc": {
+      "message": "Desativar WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "Desative o WebRTC para evitar que seu endereço IP real vaze."
+   },
+   "disconnected": {
+      "message": "Desconectado"
+   },
+   "downloadApp": {
+      "message": "Baixar aplicativo"
+   },
+   "editInfo": {
+      "message": "Editar informações"
+   },
+   "email": {
+      "message": "E-mail"
+   },
+   "es": {
+      "message": "Espanha"
+   },
+   "ewr": {
+      "message": "Nova York"
+   },
+   "extDesc": {
+      "message": "VPN grátis, dados ilimitados, altas velocidades, criptografia segura, política de não registro e fácil de usar."
+   },
+   "extName": {
+      "message": "VPN Grátis - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Facebook"
+   },
+   "fastestSpeeds": {
+      "message": "Maiores velocidades"
+   },
+   "february": {
+      "message": "Fevereiro"
+   },
+   "fr": {
+      "message": "França"
+   },
+   "fra": {
+      "message": "Frankfurt"
+   },
+   "free": {
+      "message": "Grátis"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "Reembolso total se não ficar satisfeito"
+   },
+   "get1VPNForAndroid": {
+      "message": "Obter 1VPN para Android"
+   },
+   "getAndroidApp": {
+      "message": "Baixar app para Android"
+   },
+   "getPremium": {
+      "message": "Obter Premium"
+   },
+   "goToLocationsPage": {
+      "message": "Ir para a página de locais"
+   },
+   "goToOptionsPage": {
+      "message": "Ir para a página de opções"
+   },
+   "hnl": {
+      "message": "Honolulu"
+   },
+   "icn": {
+      "message": "Seul"
+   },
+   "il": {
+      "message": "Israel"
+   },
+   "in": {
+      "message": "Índia"
+   },
+   "installAndroidToUnlock": {
+      "message": "Instale o app Android para desbloquear"
+   },
+   "installInstructions": {
+      "message": "Clique no ícone de quebra-cabeça ao lado da barra de endereços. Em seguida, clique no ícone de alfinete para fixar a extensão."
+   },
+   "installModalText": {
+      "message": "Desbloqueie este local pedindo a outro usuário para instalar a extensão usando este link:"
+   },
+   "installSuccess": {
+      "message": "1VPN foi instalado com sucesso"
+   },
+   "itm": {
+      "message": "Osaka"
+   },
+   "january": {
+      "message": "Janeiro"
+   },
+   "jnb": {
+      "message": "Joanesburgo"
+   },
+   "jp": {
+      "message": "Japão"
+   },
+   "july": {
+      "message": "Julho"
+   },
+   "june": {
+      "message": "Junho"
+   },
+   "kr": {
+      "message": "Coreia do Sul"
+   },
+   "lax": {
+      "message": "Los Angeles"
+   },
+   "leaveReviewToUnlock": {
+      "message": "Deixe uma avaliação de 5 estrelas para desbloquear este local"
+   },
+   "lhr": {
+      "message": "Londres"
+   },
+   "linkCopied": {
+      "message": "Link copiado!"
+   },
+   "linkedin": {
+      "message": "LinkedIn"
+   },
+   "loading": {
+      "message": "Carregando..."
+   },
+   "locations": {
+      "message": "Locais"
+   },
+   "login": {
+      "message": "Entrar"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "Não foi possível carregar sua conta. Tente novamente."
+   },
+   "loginCouldNotReachServers": {
+      "message": "Não foi possível acessar os servidores. Tente novamente mais tarde."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "Digite seu e-mail e senha"
+   },
+   "loginInvalidCredentials": {
+      "message": "Credenciais inválidas"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "Token 2FA inválido ou ausente"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "Resposta inválida do servidor"
+   },
+   "loginNetworkError": {
+      "message": "Erro de rede"
+   },
+   "loginTwoFaRequired": {
+      "message": "Código 2FA necessário"
+   },
+   "logout": {
+      "message": "Sair"
+   },
+   "mad": {
+      "message": "Madri"
+   },
+   "man": {
+      "message": "Manchester"
+   },
+   "march": {
+      "message": "Março"
+   },
+   "may": {
+      "message": "Maio"
+   },
+   "mel": {
+      "message": "Melbourne"
+   },
+   "menu": {
+      "message": "Menu"
+   },
+   "mex": {
+      "message": "Cidade do México"
+   },
+   "mia": {
+      "message": "Miami"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "Mais locais e mais velocidade"
+   },
+   "mx": {
+      "message": "México"
+   },
+   "nl": {
+      "message": "Holanda"
+   },
+   "november": {
+      "message": "Novembro"
+   },
+   "nrt": {
+      "message": "Tóquio"
+   },
+   "october": {
+      "message": "Outubro"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "Opções"
+   },
+   "ord": {
+      "message": "Chicago"
+   },
+   "password": {
+      "message": "Senha"
+   },
+   "pl": {
+      "message": "Polônia"
+   },
+   "plan": {
+      "message": "Plano"
+   },
+   "premium": {
+      "message": "Premium"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "O domínio principal está bloqueado. Usando "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " como backup."
+   },
+   "rateUsMessage": {
+      "message": "Se você está gostando do 1VPN, por favor reserve um momento para nos avaliar."
+   },
+   "rateYourExperience": {
+      "message": "Avalie sua experiência"
+   },
+   "referToUnlock": {
+      "message": "Indicar para desbloquear"
+   },
+   "resetPassword": {
+      "message": "Redefinir senha"
+   },
+   "reviewModalButton": {
+      "message": "Deixar avaliação"
+   },
+   "reviewModalTitle": {
+      "message": "Deixe uma avaliação de 5 estrelas para desbloquear este local"
+   },
+   "reviewToUnlock": {
+      "message": "Avaliar para desbloquear"
+   },
+   "ro": {
+      "message": "Romênia"
+   },
+   "sao": {
+      "message": "São Paulo"
+   },
+   "save33OnPremium": {
+      "message": "Economize 33% no Premium"
+   },
+   "save33OnPremiumUntil": {
+      "message": "Economize 33% no premium até"
+   },
+   "save33Percent": {
+      "message": "Economize 33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "Escaneie ou clique no código QR"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "Escaneie o código QR ou clique no botão abaixo para baixar nosso aplicativo Android."
+   },
+   "scl": {
+      "message": "Santiago"
+   },
+   "se": {
+      "message": "Suécia"
+   },
+   "sea": {
+      "message": "Seattle"
+   },
+   "september": {
+      "message": "Setembro"
+   },
+   "sg": {
+      "message": "Singapura"
+   },
+   "sgp": {
+      "message": "Singapura"
+   },
+   "shareModalTitle": {
+      "message": "Compartilhe o 1VPN para desbloquear esta localização"
+   },
+   "shareText": {
+      "message": "Acabei de experimentar o 1VPN, um VPN gratuito, simples e seguro com dados ilimitados e alta velocidade. Veja em https://1vpn.org?from=share"
+   },
+   "signUp": {
+      "message": "Cadastrar"
+   },
+   "sjc": {
+      "message": "São Francisco"
+   },
+   "spoofGeolocation": {
+      "message": "Falsificar geolocalização"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "Falsifique a API de Geolocalização HTML5 para coincidir com sua localização atual de VPN."
+   },
+   "sto": {
+      "message": "Estocolmo"
+   },
+   "syd": {
+      "message": "Sydney"
+   },
+   "telegram": {
+      "message": "Telegram"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "Garantia de reembolso de 10 dias"
+   },
+   "tlv": {
+      "message": "Tel Aviv"
+   },
+   "toUnlockThisLocation": {
+      "message": "Para desbloquear este local peça para outro usuário instalar o 1VPN usando este link:"
+   },
+   "tryAndroidApp": {
+      "message": "Experimente o app Android"
+   },
+   "tryOurAndroidApp": {
+      "message": "Experimente o app Android"
+   },
+   "twoFaToken": {
+      "message": "Token 2FA"
+   },
+   "uk": {
+      "message": "Reino Unido"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "Desbloqueie todos os recursos com o Premium"
+   },
+   "unlockAllServerLocations": {
+      "message": "Desbloquear todos os servidores"
+   },
+   "until": {
+      "message": "até"
+   },
+   "upgrade": {
+      "message": "Atualizar"
+   },
+   "upgradeLocation": {
+      "message": "Faça o upgrade para acessar este local"
+   },
+   "upgradeModalText": {
+      "message": "no plano anual. Desbloqueie mais locais e velocidades mais rápidas com garantia de reembolso de 10 dias."
+   },
+   "upgradeText1": {
+      "message": "Faça o upgrade"
+   },
+   "upgradeText2": {
+      "message": "para mais locais e velocidade mais rápida"
+   },
+   "upgradeToPremium": {
+      "message": "Atualizar para Premium"
+   },
+   "us": {
+      "message": "Estados Unidos"
+   },
+   "use": {
+      "message": "Estados Unidos"
+   },
+   "username": {
+      "message": "Nome de usuário"
+   },
+   "uss": {
+      "message": "Estados Unidos"
+   },
+   "usw": {
+      "message": "Estados Unidos"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "Varsóvia"
+   },
+   "x": {
+      "message": "X (Twitter)"
+   },
+   "yto": {
+      "message": "Toronto"
+   },
+   "za": {
+      "message": "África do Sul"
+   }
+}

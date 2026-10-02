@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Menganalisis jumlah perbelanjaan"
+   },
+   "Sorry": {
+      "message": "Sila lawati Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Jumlah jumlah yang dibelanjakan"
+   },
+   "appDesc": {
+      "message": "\nJejaki perbelanjaan anda dengan Kalkulator Perbelanjaan Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Kalkulator perbelanjaan untuk Amazon ™ dan Flipkart ™"
+   },
+   "feedback": {
+      "message": "Maklum balas"
+   },
+   "fetch": {
+      "message": "Pengambilan-"
+   },
+   "instruction": {
+      "message": "Arahan"
+   },
+   "instructionfour": {
+      "message": "  4. Dalam langkah terakhir, klik \"menganalisis jumlah perbelanjaan\" untuk mendapatkan\n                Jumlah perbelanjaan"
+   },
+   "instructionone": {
+      "message": "1. Buka laman web Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Pergi ke bahagian \"Pesanan Saya\" & klik ikon Sambungan"
+   },
+   "instructiontwo": {
+      "message": "2. Log masuk ke akaun anda"
+   },
+   "mostPurchased": {
+      "message": "Kebanyakan produk yang dibeli"
+   },
+   "noteOther": {
+      "message": "Sila buka Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Sila lawati bahagian pesanan saya"
+   },
+   "rate": {
+      "message": "Nilai kami"
+   },
+   "reAnalyze": {
+      "message": "Menganalisis semula perbelanjaan total"
+   }
+}

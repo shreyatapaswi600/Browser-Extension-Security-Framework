@@ -1,0 +1,6 @@
+{
+    "id": "20_benign_network",
+    "name": "Benign Fixed Network Request",
+    "description": "Makes a fixed network request without sensitive source data.",
+    "expected_findings": 0
+}

@@ -1,0 +1,482 @@
+{
+   "accessServersWorldwide": {
+      "message": "Доступ к серверам по всему миру"
+   },
+   "account": {
+      "message": "Учетная запись"
+   },
+   "ams": {
+      "message": "Амстердам"
+   },
+   "april": {
+      "message": "Апрель"
+   },
+   "atl": {
+      "message": "Атланта"
+   },
+   "au": {
+      "message": "Австралия"
+   },
+   "august": {
+      "message": "Август"
+   },
+   "blockedServersModalButton": {
+      "message": "Продолжить"
+   },
+   "blockedServersModalTitle": {
+      "message": "Некоторые серверы могут быть заблокированы в России из-за государственных ограничений. Мы работаем над решением этой проблемы. Спасибо за понимание"
+   },
+   "blr": {
+      "message": "Бенгалуру"
+   },
+   "bom": {
+      "message": "Мумбаи"
+   },
+   "br": {
+      "message": "Бразилия"
+   },
+   "ca": {
+      "message": "Канада"
+   },
+   "cdg": {
+      "message": "Париж"
+   },
+   "chooseYourPlan": {
+      "message": "Выберите план"
+   },
+   "cl": {
+      "message": "Чили"
+   },
+   "claimOffer": {
+      "message": "Получить предложение"
+   },
+   "connected": {
+      "message": "Подключено"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "Стабильная и быстрая скорость интернета"
+   },
+   "contactUs": {
+      "message": "Свяжитесь с нами"
+   },
+   "continueFree": {
+      "message": "Продолжить бесплатно"
+   },
+   "continueText": {
+      "message": "Или продолжить без учетной записи"
+   },
+   "copyLink": {
+      "message": "Скопировать ссылку"
+   },
+   "de": {
+      "message": "Германия"
+   },
+   "deal": {
+      "message": "Предложение"
+   },
+   "december": {
+      "message": "Декабрь"
+   },
+   "del": {
+      "message": "Дели"
+   },
+   "dfw": {
+      "message": "Даллас"
+   },
+   "disableWebRtc": {
+      "message": "Отключить WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "Отключите WebRTC, чтобы предотвратить утечку вашего реального IP-адреса."
+   },
+   "disconnected": {
+      "message": "Отключено"
+   },
+   "downloadApp": {
+      "message": "Скачать приложение"
+   },
+   "editInfo": {
+      "message": "Редактировать информацию"
+   },
+   "email": {
+      "message": "Электронная почта"
+   },
+   "es": {
+      "message": "Испания"
+   },
+   "ewr": {
+      "message": "Нью-Йорк"
+   },
+   "extDesc": {
+      "message": "Бесплатный ВПН / VPN , неограниченные данные, высокая скорость, безопасное шифрование, отсутствие логов и простота использования."
+   },
+   "extName": {
+      "message": "Бесплатный VPN / ВПН - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Фейсбук"
+   },
+   "fastestSpeeds": {
+      "message": "Максимальная скорость"
+   },
+   "february": {
+      "message": "Февраль"
+   },
+   "fr": {
+      "message": "Франция"
+   },
+   "fra": {
+      "message": "Франкфурт"
+   },
+   "free": {
+      "message": "Бесплатный"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "Полный возврат если не понравится"
+   },
+   "get1VPNForAndroid": {
+      "message": "Скачать 1VPN для Android"
+   },
+   "getAndroidApp": {
+      "message": "Android приложение"
+   },
+   "getPremium": {
+      "message": "Купить Премиум"
+   },
+   "goToLocationsPage": {
+      "message": "Перейти на страницу местоположений"
+   },
+   "goToOptionsPage": {
+      "message": "Перейти на страницу опций"
+   },
+   "hnl": {
+      "message": "Гонолулу"
+   },
+   "icn": {
+      "message": "Сеул"
+   },
+   "il": {
+      "message": "Израиль"
+   },
+   "in": {
+      "message": "Индия"
+   },
+   "installAndroidToUnlock": {
+      "message": "Установите приложение Android для разблокировки"
+   },
+   "installInstructions": {
+      "message": "Нажмите на значок пазла рядом со строкой адреса. Затем нажмите на значок булавки, чтобы закрепить расширение."
+   },
+   "installModalText": {
+      "message": "Разблокируйте это местоположение, попросив другого пользователя установить расширение по этой ссылке:"
+   },
+   "installSuccess": {
+      "message": "1VPN успешно установлен"
+   },
+   "itm": {
+      "message": "Осака"
+   },
+   "january": {
+      "message": "Январь"
+   },
+   "jnb": {
+      "message": "Йоханнесбург"
+   },
+   "jp": {
+      "message": "Япония"
+   },
+   "july": {
+      "message": "Июль"
+   },
+   "june": {
+      "message": "Июнь"
+   },
+   "kr": {
+      "message": "Южная Корея"
+   },
+   "lax": {
+      "message": "Лос-Анджелес"
+   },
+   "leaveReviewToUnlock": {
+      "message": "Оставьте 5 звезд чтобы разблокировать этот регион"
+   },
+   "lhr": {
+      "message": "Лондон"
+   },
+   "linkCopied": {
+      "message": "Ссылка скопирована!"
+   },
+   "linkedin": {
+      "message": "Линкедин"
+   },
+   "loading": {
+      "message": "Загрузка..."
+   },
+   "locations": {
+      "message": "Местоположения"
+   },
+   "login": {
+      "message": "Войти"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "Не удалось загрузить ваш аккаунт. Попробуйте еще раз."
+   },
+   "loginCouldNotReachServers": {
+      "message": "Не удалось подключиться к серверам. Повторите попытку позже."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "Пожалуйста, введите адрес электронной почты и пароль"
+   },
+   "loginInvalidCredentials": {
+      "message": "Неверные учетные данные"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "Неверный или отсутствующий токен 2FA"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "Неверный ответ от сервера"
+   },
+   "loginNetworkError": {
+      "message": "Ошибка сети"
+   },
+   "loginTwoFaRequired": {
+      "message": "Требуется код 2FA"
+   },
+   "logout": {
+      "message": "Выйти"
+   },
+   "mad": {
+      "message": "Мадрид"
+   },
+   "man": {
+      "message": "Манчестер"
+   },
+   "march": {
+      "message": "Март"
+   },
+   "may": {
+      "message": "Май"
+   },
+   "mel": {
+      "message": "Мельбурн"
+   },
+   "menu": {
+      "message": "Меню"
+   },
+   "mex": {
+      "message": "Мехико"
+   },
+   "mia": {
+      "message": "Майами"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "Больше локаций и выше скорость"
+   },
+   "mx": {
+      "message": "Мексика"
+   },
+   "nl": {
+      "message": "Нидерланды"
+   },
+   "november": {
+      "message": "Ноябрь"
+   },
+   "nrt": {
+      "message": "Токио"
+   },
+   "october": {
+      "message": "Октябрь"
+   },
+   "ok": {
+      "message": "Одноклассники"
+   },
+   "options": {
+      "message": "Опции"
+   },
+   "ord": {
+      "message": "Чикаго"
+   },
+   "password": {
+      "message": "Пароль"
+   },
+   "pl": {
+      "message": "Польша"
+   },
+   "plan": {
+      "message": "План"
+   },
+   "premium": {
+      "message": "Премиум"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "Основной домен заблокирован. Используется "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " в качестве резервного."
+   },
+   "rateUsMessage": {
+      "message": "Если вам нравится 1VPN, пожалуйста, уделите минуту, чтобы оценить нас."
+   },
+   "rateYourExperience": {
+      "message": "Оцените свой опыт"
+   },
+   "referToUnlock": {
+      "message": "Пригласите чтобы разблокировать"
+   },
+   "resetPassword": {
+      "message": "Сбросить пароль"
+   },
+   "reviewModalButton": {
+      "message": "Оставить отзыв"
+   },
+   "reviewModalTitle": {
+      "message": "Оставьте 5-звёздочный отзыв, чтобы разблокировать это местоположение"
+   },
+   "reviewToUnlock": {
+      "message": "Отзыв для разблокировки"
+   },
+   "ro": {
+      "message": "Румыния"
+   },
+   "sao": {
+      "message": "Сан-Паулу"
+   },
+   "save33OnPremium": {
+      "message": "Экономьте 33% на Премиум"
+   },
+   "save33OnPremiumUntil": {
+      "message": "Экономьте 33% на премиум до"
+   },
+   "save33Percent": {
+      "message": "Экономьте 33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "Сканируйте или нажмите на QR-код"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "Сканируйте QR-код или нажмите кнопку для загрузки."
+   },
+   "scl": {
+      "message": "Сантьяго"
+   },
+   "se": {
+      "message": "Швеция"
+   },
+   "sea": {
+      "message": "Сиэтл"
+   },
+   "september": {
+      "message": "Сентябрь"
+   },
+   "sg": {
+      "message": "Сингапур"
+   },
+   "sgp": {
+      "message": "Сингапур"
+   },
+   "shareModalTitle": {
+      "message": "Поделитесь 1VPN, чтобы разблокировать это местоположение"
+   },
+   "shareText": {
+      "message": "Я только что попробовал 1VPN — бесплатный, простой и безопасный VPN с неограниченным трафиком и высокой скоростью. Посмотрите на https://1vpn.org?from=share"
+   },
+   "signUp": {
+      "message": "Регистр"
+   },
+   "sjc": {
+      "message": "Сан-Франциско"
+   },
+   "spoofGeolocation": {
+      "message": "Подделка геолокации"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "Подделка API геолокации HTML5, чтобы соответствовать вашему текущему местоположению VPN."
+   },
+   "sto": {
+      "message": "Стокгольм"
+   },
+   "syd": {
+      "message": "Сидней"
+   },
+   "telegram": {
+      "message": "Телеграм"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "10 дней возврата ден"
+   },
+   "tlv": {
+      "message": "Тель-Авив"
+   },
+   "toUnlockThisLocation": {
+      "message": "Чтобы разблокировать этот регион, пригласите пользователя установить 1VPN по этой ссылке:"
+   },
+   "tryAndroidApp": {
+      "message": "Попробовать приложение для Android"
+   },
+   "tryOurAndroidApp": {
+      "message": "Попробуйте Android-приложение"
+   },
+   "twoFaToken": {
+      "message": "Токен 2FA"
+   },
+   "uk": {
+      "message": "Великобритания"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "Разблокируйте все функции с Премиум"
+   },
+   "unlockAllServerLocations": {
+      "message": "Разблокировать все серверы"
+   },
+   "until": {
+      "message": "До"
+   },
+   "upgrade": {
+      "message": "Обновить"
+   },
+   "upgradeLocation": {
+      "message": "Для доступа к местоположению обновите план"
+   },
+   "upgradeModalText": {
+      "message": "на годовом плане. Разблокируйте больше локаций и более высокую скорость с 10-дневной гарантией возврата."
+   },
+   "upgradeText1": {
+      "message": "Обновить"
+   },
+   "upgradeText2": {
+      "message": "для большего количества местоположений и повышения скорости"
+   },
+   "upgradeToPremium": {
+      "message": "Перейти на Премиум"
+   },
+   "us": {
+      "message": "США"
+   },
+   "use": {
+      "message": "США"
+   },
+   "username": {
+      "message": "Имя пользователя"
+   },
+   "uss": {
+      "message": "США"
+   },
+   "usw": {
+      "message": "США"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "Варшава"
+   },
+   "x": {
+      "message": "X (Твиттер)"
+   },
+   "yto": {
+      "message": "Торонто"
+   },
+   "za": {
+      "message": "ЮАР"
+   }
+}

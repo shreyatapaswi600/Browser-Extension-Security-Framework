@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "전 세계 서버에 접속"
+   },
+   "account": {
+      "message": "계정"
+   },
+   "ams": {
+      "message": "암스테르담"
+   },
+   "april": {
+      "message": "4월"
+   },
+   "atl": {
+      "message": "애틀랜타"
+   },
+   "au": {
+      "message": "호주"
+   },
+   "august": {
+      "message": "8월"
+   },
+   "blr": {
+      "message": "벵갈루루"
+   },
+   "bom": {
+      "message": "뭄바이"
+   },
+   "br": {
+      "message": "브라질"
+   },
+   "ca": {
+      "message": "캐나다"
+   },
+   "cdg": {
+      "message": "파리"
+   },
+   "chooseYourPlan": {
+      "message": "요금제를 선택하세요"
+   },
+   "cl": {
+      "message": "칠레"
+   },
+   "claimOffer": {
+      "message": "혜택 받기"
+   },
+   "connected": {
+      "message": "연결됨"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "안정적이고 빠른 인터넷 속도"
+   },
+   "contactUs": {
+      "message": "문의하기"
+   },
+   "continueFree": {
+      "message": "무료로 계속"
+   },
+   "continueText": {
+      "message": "또는 계정 없이 계속하기"
+   },
+   "copyLink": {
+      "message": "링크 복사"
+   },
+   "de": {
+      "message": "독일"
+   },
+   "deal": {
+      "message": "할인"
+   },
+   "december": {
+      "message": "12월"
+   },
+   "del": {
+      "message": "델리"
+   },
+   "dfw": {
+      "message": "댈러스"
+   },
+   "disableWebRtc": {
+      "message": "WebRTC 비활성화"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "실제 IP 주소가 누출되지 않도록 WebRTC를 비활성화합니다."
+   },
+   "disconnected": {
+      "message": "연결 끊김"
+   },
+   "downloadApp": {
+      "message": "앱 다운로드"
+   },
+   "editInfo": {
+      "message": "정보 수정"
+   },
+   "email": {
+      "message": "이메일"
+   },
+   "es": {
+      "message": "스페인"
+   },
+   "ewr": {
+      "message": "뉴욕"
+   },
+   "extDesc": {
+      "message": "무료 VPN, 무제한 데이터, 빠른 속도, 안전한 암호화, 로그 없음 정책, 사용이 간편."
+   },
+   "extName": {
+      "message": "무료 VPN - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "페이스북"
+   },
+   "fastestSpeeds": {
+      "message": "가장 빠른 속도"
+   },
+   "february": {
+      "message": "2월"
+   },
+   "fr": {
+      "message": "프랑스"
+   },
+   "fra": {
+      "message": "프랑크푸르트"
+   },
+   "free": {
+      "message": "무료"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "만족하지 못하면 전액 환불"
+   },
+   "get1VPNForAndroid": {
+      "message": "Android용 1VPN 받기"
+   },
+   "getAndroidApp": {
+      "message": "Android 앱 받기"
+   },
+   "getPremium": {
+      "message": "프리미엄 받기"
+   },
+   "goToLocationsPage": {
+      "message": "지역위치 페이지로 이동가기"
+   },
+   "goToOptionsPage": {
+      "message": "옵션 페이지로 이동가기"
+   },
+   "hnl": {
+      "message": "호놀룰루"
+   },
+   "icn": {
+      "message": "서울"
+   },
+   "il": {
+      "message": "이스라엘"
+   },
+   "in": {
+      "message": "인도"
+   },
+   "installAndroidToUnlock": {
+      "message": "Android 앱 설치하여 잠금 해제"
+   },
+   "installInstructions": {
+      "message": "주소창 옆의 퍼즐 아이콘을 클릭하세요. 그런 다음 확장 프로그램을 고정하기 위해 핀 아이콘을 클릭하세요."
+   },
+   "installModalText": {
+      "message": "다른 사용자가 이 링크로 확장 프로그램을 설치하도록 하여 이 위치를 잠금 해제하세요:"
+   },
+   "installSuccess": {
+      "message": "1VPN이 성공적으로 설치되었습니다"
+   },
+   "itm": {
+      "message": "오사카"
+   },
+   "january": {
+      "message": "1월"
+   },
+   "jnb": {
+      "message": "요하네스버그"
+   },
+   "jp": {
+      "message": "일본"
+   },
+   "july": {
+      "message": "7월"
+   },
+   "june": {
+      "message": "6월"
+   },
+   "kr": {
+      "message": "대한민국"
+   },
+   "lax": {
+      "message": "로스앤젤레스"
+   },
+   "leaveReviewToUnlock": {
+      "message": "이 위치를 잠금 해제하려면 별 5개 리뷰를 남기세요"
+   },
+   "lhr": {
+      "message": "런던"
+   },
+   "linkCopied": {
+      "message": "링크 복사됨!"
+   },
+   "linkedin": {
+      "message": "LinkedIn"
+   },
+   "loading": {
+      "message": "로딩 중..."
+   },
+   "locations": {
+      "message": "지역위치"
+   },
+   "login": {
+      "message": "로그인"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "계정을 불러올 수 없습니다. 다시 시도해 주세요."
+   },
+   "loginCouldNotReachServers": {
+      "message": "서버에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "이메일과 비밀번호를 입력하세요"
+   },
+   "loginInvalidCredentials": {
+      "message": "잘못된 인증 정보"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "2FA 토큰이 올바르지 않거나 누락되었습니다"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "서버 응답이 올바르지 않습니다"
+   },
+   "loginNetworkError": {
+      "message": "네트워크 오류"
+   },
+   "loginTwoFaRequired": {
+      "message": "2FA 코드가 필요합니다"
+   },
+   "logout": {
+      "message": "로그아웃"
+   },
+   "mad": {
+      "message": "마드리드"
+   },
+   "man": {
+      "message": "맨체스터"
+   },
+   "march": {
+      "message": "3월"
+   },
+   "may": {
+      "message": "5월"
+   },
+   "mel": {
+      "message": "멜버른"
+   },
+   "menu": {
+      "message": "메뉴"
+   },
+   "mex": {
+      "message": "멕시코시티"
+   },
+   "mia": {
+      "message": "마이애미"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "더 많은 위치와 더 빠른 속도"
+   },
+   "mx": {
+      "message": "멕시코"
+   },
+   "nl": {
+      "message": "네덜란드"
+   },
+   "november": {
+      "message": "11월"
+   },
+   "nrt": {
+      "message": "도쿄"
+   },
+   "october": {
+      "message": "10월"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "옵션"
+   },
+   "ord": {
+      "message": "시카고"
+   },
+   "password": {
+      "message": "비밀번호"
+   },
+   "pl": {
+      "message": "폴란드"
+   },
+   "plan": {
+      "message": "플랜"
+   },
+   "premium": {
+      "message": "프리미엄"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "기본 도메인이 차단되었습니다. 백업으로 "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " 를 사용합니다."
+   },
+   "rateUsMessage": {
+      "message": "1VPN을 즐겨 사용하고 계신다면, 잠시 시간을 내어 평가해 주세요."
+   },
+   "rateYourExperience": {
+      "message": "경험을 평가해 주세요"
+   },
+   "referToUnlock": {
+      "message": "초대해서 잠금 해제"
+   },
+   "resetPassword": {
+      "message": "비밀번호 재설정"
+   },
+   "reviewModalButton": {
+      "message": "리뷰 남기기"
+   },
+   "reviewModalTitle": {
+      "message": "이 위치를 잠금 해제하려면 별 5개 리뷰를 남겨주세요"
+   },
+   "reviewToUnlock": {
+      "message": "리뷰로 잠금 해제"
+   },
+   "ro": {
+      "message": "루마니아"
+   },
+   "sao": {
+      "message": "상파울루"
+   },
+   "save33OnPremium": {
+      "message": "프리미엄 33% 절약"
+   },
+   "save33OnPremiumUntil": {
+      "message": "프리미엄 33% 절약, 기한"
+   },
+   "save33Percent": {
+      "message": "33% 절약"
+   },
+   "scanOrClickQRCode": {
+      "message": "QR 코드 스캔 또는 클릭"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "QR 코드를 스캔하거나 아래 버튼을 클릭하여 Android 앱을 다운로드하세요."
+   },
+   "scl": {
+      "message": "산티아고"
+   },
+   "se": {
+      "message": "스웨덴"
+   },
+   "sea": {
+      "message": "시애틀"
+   },
+   "september": {
+      "message": "9월"
+   },
+   "sg": {
+      "message": "싱가포르"
+   },
+   "sgp": {
+      "message": "싱가포르"
+   },
+   "shareModalTitle": {
+      "message": "이 위치를 잠금 해제하려면 1VPN을 공유하세요"
+   },
+   "shareText": {
+      "message": "방금 1VPN을 사용해봤어요. 무제한 데이터와 빠른 속도를 제공하는 무료, 간단, 안전한 VPN입니다. https://1vpn.org?from=share 에서 확인해보세요"
+   },
+   "signUp": {
+      "message": "회원가입하기"
+   },
+   "sjc": {
+      "message": "샌프란시스코"
+   },
+   "spoofGeolocation": {
+      "message": "지오로케이션 위조"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "현재 VPN 위치에 맞추기 위해 HTML5 지리적 위치 API를 스푸핑합니다."
+   },
+   "sto": {
+      "message": "스톡홀름"
+   },
+   "syd": {
+      "message": "시드니"
+   },
+   "telegram": {
+      "message": "텔레그램"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "10일 환불 보장"
+   },
+   "tlv": {
+      "message": "텔아비브"
+   },
+   "toUnlockThisLocation": {
+      "message": "이 위치를 잠금 해제하려면 이 링크로 다른 사용자가 1VPN을 설치하도록 하세요:"
+   },
+   "tryAndroidApp": {
+      "message": "Android 앱 사용해 보기"
+   },
+   "tryOurAndroidApp": {
+      "message": "Android 앱 사용해 보세요"
+   },
+   "twoFaToken": {
+      "message": "2FA 토큰"
+   },
+   "uk": {
+      "message": "영국"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "프리미엄으로 모든 기능 잠금 해제"
+   },
+   "unlockAllServerLocations": {
+      "message": "모든 서버 위치 잠금 해제"
+   },
+   "until": {
+      "message": "까지"
+   },
+   "upgrade": {
+      "message": "업그레이드"
+   },
+   "upgradeLocation": {
+      "message": "이 지역위치에 접근하려면 업그레이드하세요"
+   },
+   "upgradeModalText": {
+      "message": "연간 요금제에서. 더 많은 위치와 빠른 속도를 10일 환불 보장과 함께 이용하세요."
+   },
+   "upgradeText1": {
+      "message": "업그레이드"
+   },
+   "upgradeText2": {
+      "message": "더 많은 위치와 더 빠른 속도를 위해"
+   },
+   "upgradeToPremium": {
+      "message": "프리미엄으로 업그레이드"
+   },
+   "us": {
+      "message": "미국"
+   },
+   "use": {
+      "message": "미국"
+   },
+   "username": {
+      "message": "사용자 이름"
+   },
+   "uss": {
+      "message": "미국"
+   },
+   "usw": {
+      "message": "미국"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "바르샤바"
+   },
+   "x": {
+      "message": "X (트위터)"
+   },
+   "yto": {
+      "message": "토론토"
+   },
+   "za": {
+      "message": "남아프리카 공화국"
+   }
+}

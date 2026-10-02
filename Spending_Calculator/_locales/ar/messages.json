@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "تحليل إجمالي الإنفاق"
+   },
+   "Sorry": {
+      "message": "يرجى زيارة Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "إجمالي المبلغ المنفق"
+   },
+   "appDesc": {
+      "message": "\nتتبع النفقات الخاصة بك مع حاسبة الإنفاق Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "حاسبة الإنفاق لـ Amazon ™ و Flipkart ™"
+   },
+   "feedback": {
+      "message": "تعليق"
+   },
+   "fetch": {
+      "message": "جلب-"
+   },
+   "instruction": {
+      "message": "تعليمات"
+   },
+   "instructionfour": {
+      "message": "  4. في الخطوة الأخيرة ، انقر فوق \"تحليل الإنفاق الكلي\" للحصول على\n                إجمالي الإنفاق"
+   },
+   "instructionone": {
+      "message": "1. افتح موقع Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. انتقل إلى قسم \"My Order\" وانقر على أيقونة الامتداد"
+   },
+   "instructiontwo": {
+      "message": "2. تسجيل الدخول إلى حسابك"
+   },
+   "mostPurchased": {
+      "message": "معظم المنتجات المشتراة"
+   },
+   "noteOther": {
+      "message": "الرجاء فتح Flipkart/Amazon"
+   },
+   "order": {
+      "message": "يرجى زيارة قسم الطلب الخاص بي"
+   },
+   "rate": {
+      "message": "قيمنا"
+   },
+   "reAnalyze": {
+      "message": "إعادة تحليل الإنفاق الكلي"
+   }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest_version": 3,
+    "name": "Realistic Validation - Benign Content Script",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    }
+}

@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analizirajte skupno porabo"
+   },
+   "Sorry": {
+      "message": "Obiščite Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Skupni porabljen znesek"
+   },
+   "appDesc": {
+      "message": "\nSpremljajte svoje stroške s kalkulatorjem porabe Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Kalkulator porabe za Amazon ™ in Flipkart ™"
+   },
+   "feedback": {
+      "message": "Povratne informacije"
+   },
+   "fetch": {
+      "message": "Pridobivanje-"
+   },
+   "instruction": {
+      "message": "Pouk"
+   },
+   "instructionfour": {
+      "message": "  4. V zadnjem koraku kliknite \"Analiziraj skupno porabo\", da dobite\n                Skupni izdatki"
+   },
+   "instructionone": {
+      "message": "1. Odprite spletno mesto Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Pojdite na razdelek »Moje naročilo« in kliknite ikono razširitve"
+   },
+   "instructiontwo": {
+      "message": "2. Prijavite se v svoj račun"
+   },
+   "mostPurchased": {
+      "message": "Večina kupljenega izdelka"
+   },
+   "noteOther": {
+      "message": "Odprite Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Obiščite moj razdelek"
+   },
+   "rate": {
+      "message": "Ocenite nas"
+   },
+   "reAnalyze": {
+      "message": "Ponovno analizirajte skupno porabo"
+   }
+}

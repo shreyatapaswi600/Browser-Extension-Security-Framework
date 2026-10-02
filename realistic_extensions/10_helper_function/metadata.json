@@ -1,0 +1,6 @@
+{
+    "id": "10_helper_function",
+    "name": "Helper Function Flow",
+    "description": "Passes cookie data through a helper before transmission.",
+    "expected_findings": 1
+}

@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analizați cheltuielile totale"
+   },
+   "Sorry": {
+      "message": "Vă rugăm să vizitați Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Suma totală cheltuită"
+   },
+   "appDesc": {
+      "message": "\nUrmăriți cheltuielile cu calculatorul de cheltuieli Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Calculator de cheltuieli pentru Amazon ™ și Flipkart ™"
+   },
+   "feedback": {
+      "message": "Părere"
+   },
+   "fetch": {
+      "message": "Preluare-"
+   },
+   "instruction": {
+      "message": "Instrucțiuni"
+   },
+   "instructionfour": {
+      "message": "  4. În ultimul pas, faceți clic pe „Analizați cheltuielile totale” pentru a obține\n                Cheltuieli totale"
+   },
+   "instructionone": {
+      "message": "1. Deschideți site -ul Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Accesați secțiunea „Comanda mea” și faceți clic pe pictograma extensiei"
+   },
+   "instructiontwo": {
+      "message": "2. Conectați -vă la contul dvs."
+   },
+   "mostPurchased": {
+      "message": "Cel mai cumpărat produs"
+   },
+   "noteOther": {
+      "message": "Vă rugăm să deschideți Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Vă rugăm să vizitați secțiunea mea de comandă"
+   },
+   "rate": {
+      "message": "Ne evalua"
+   },
+   "reAnalyze": {
+      "message": "Re-analizați cheltuielile totale"
+   }
+}

@@ -1,0 +1,41 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "Icons/Icon 128.png",
+         "16": "Icons/Icon 16.png",
+         "2000": "Icons/Icon 2000.png",
+         "32": "Icons/Icon 32.png",
+         "64": "Icons/Icon 64.png"
+      }
+   },
+   "background": {
+      "service_worker": "background/background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "react-app-holder.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "Icons/Icon 128.png",
+      "16": "Icons/Icon 16.png",
+      "2000": "Icons/Icon 2000.png",
+      "32": "Icons/Icon 32.png",
+      "64": "Icons/Icon 64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgSiBntq9Ov4y21A6bjVmF8cXbla5HGJoFq//Fj620SBp1F32nPl6laIBoz8oXzmbIRavga3TLV/HnqONtDwhSor7kHOFj1+dk8IpEVNat5f7hfYE2OeM0RBTzefTe4VNIVe+ZYulfSbdnu2QR+VLfuvpjUb/ZbsDg0C7+Riu6M50Uli5znlwORtS+z3Huj5J7KqYg6hCFpkmViHxjksS82HNrZ8ArDHZsFlgrQlQOe8ToC0G4NuiaCqT/8cZq9g5jN3zHo3Sqmh4zdAGrHM9mvBq0yEDHcufj1xx8/1KCO1enfm27jXhbXdzcV7f/xGy7QFr89gMF2+Fy0r/wxhXPwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appTitle__",
+   "permissions": [ "tabs", "storage", "activeTab", "notifications", "gcm", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "Icons/*", "fonts/*.ttf" ]
+   } ]
+}

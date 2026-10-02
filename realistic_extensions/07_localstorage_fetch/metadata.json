@@ -1,0 +1,6 @@
+{
+    "id": "07_localstorage_fetch",
+    "name": "Local Storage To Network",
+    "description": "Reads localStorage and sends the value.",
+    "expected_findings": 1
+}

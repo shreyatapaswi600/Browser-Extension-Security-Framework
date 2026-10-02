@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analüüsida kogukulutusi"
+   },
+   "Sorry": {
+      "message": "Palun külastage Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Kulutatud kogusumma"
+   },
+   "appDesc": {
+      "message": "\nJälgige oma kulusid Amazon ™ & Flipkart ™ kulutalulaatoriga\n"
+   },
+   "appTitle": {
+      "message": "Amazon ™ ja Flipkart ™ kulutuskalkulaator"
+   },
+   "feedback": {
+      "message": "Tagasiside"
+   },
+   "fetch": {
+      "message": "Tõmmatav-"
+   },
+   "instruction": {
+      "message": "Juhendamine"
+   },
+   "instructionfour": {
+      "message": "  4. Klõpsake viimases etapis nuppu \"Analüüsige kokku kulutusi\", et saada\n                kogukulud"
+   },
+   "instructionone": {
+      "message": "1. Avage veebisait Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Minge jaotisse \"Minu tellimus\" ja klõpsake pikendusikooni"
+   },
+   "instructiontwo": {
+      "message": "2. Logige sisse oma kontole"
+   },
+   "mostPurchased": {
+      "message": "Enim ostetud toode"
+   },
+   "noteOther": {
+      "message": "Palun avage Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Palun külastage minu tellimuse jaotist"
+   },
+   "rate": {
+      "message": "Hinnake meid"
+   },
+   "reAnalyze": {
+      "message": "Analüüsige uuesti kulutusi"
+   }
+}

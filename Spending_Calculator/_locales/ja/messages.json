@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "総支出を分析します"
+   },
+   "Sorry": {
+      "message": "Amazon/Flipkartをご覧ください"
+   },
+   "TotalAmount": {
+      "message": "総額を費やします"
+   },
+   "appDesc": {
+      "message": "\nAmazon™＆Flipkart™支出計算機であなたの費用を追跡してください\n"
+   },
+   "appTitle": {
+      "message": "Amazon™およびFlipkart™の支出計算機"
+   },
+   "feedback": {
+      "message": "フィードバック"
+   },
+   "fetch": {
+      "message": "フェッチ -"
+   },
+   "instruction": {
+      "message": "命令"
+   },
+   "instructionfour": {
+      "message": "  4.最後のステップで、「総支出を分析する」をクリックして\n                総支出額"
+   },
+   "instructionone": {
+      "message": "1. Flipkart/Amazon Webサイトを開きます"
+   },
+   "instructionthree": {
+      "message": "3.「私の注文」セクションに移動し、拡張機能アイコンをクリックします"
+   },
+   "instructiontwo": {
+      "message": "2.アカウントにサインインします"
+   },
+   "mostPurchased": {
+      "message": "ほとんどの購入製品"
+   },
+   "noteOther": {
+      "message": "Flipkart/Amazonを開いてください"
+   },
+   "order": {
+      "message": "注文セクションをご覧ください"
+   },
+   "rate": {
+      "message": "私たちを評価してください"
+   },
+   "reAnalyze": {
+      "message": "総支出を再分析します"
+   }
+}

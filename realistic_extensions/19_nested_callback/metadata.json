@@ -1,0 +1,6 @@
+{
+    "id": "19_nested_callback",
+    "name": "Nested Callback Flow",
+    "description": "Sensitive data flows through nested callback logic.",
+    "expected_findings": 1
+}

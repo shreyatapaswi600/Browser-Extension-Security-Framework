@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "author": "Free VPN - 1VPN",
+   "background": {
+      "service_worker": "background.bundle.js",
+      "type": "module"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "homepage_url": "https://1vpn.org",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4lwPUuVJLhUbNwJSvCHKVqEeqLuMTL50rSnLzYzRcM+uPdRjTFGqlhePnuoGtuTCs7joWOeMHGQYIJjXaUw5EcrOOPTfBs12gNVdCKdbX4KQ++TCWVhFZsS+gwCS6jscoIgU+7iwW2RhVcuIujYVjfO8By1mBs9NNPaFv/Q4BtufgMaQ69cdJbB/0zBYsF3TK/VoIo77f43nRqyN1bzW0Sm+/sEj5SuoTlsfh6wQwGXwluZo4js4WvFWKjXVEEfDHvf5Bz1b0ZETtJ6+fj7+xWAwAjqX6tBwhlCkm4qF6z1ZFBispfIzEJjBR2bs/VBpjOklW70tY93hhkWpgaSK4QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "activeTab", "proxy", "storage", "webRequest", "privacy", "alarms", "management", "scripting", "webNavigation", "webRequestAuthProvider" ],
+   "short_name": "Free VPN - 1VPN",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.6"
+}

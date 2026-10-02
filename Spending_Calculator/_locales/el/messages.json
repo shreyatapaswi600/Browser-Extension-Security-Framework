@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Αναλύστε τις συνολικές δαπάνες"
+   },
+   "Sorry": {
+      "message": "Επισκεφθείτε το Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Συνολικό ποσό που δαπανάται"
+   },
+   "appDesc": {
+      "message": "\nΠαρακολουθήστε τα έξοδά σας με τον αριθμομηχανή Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Υπολογιστής δαπανών για το Amazon ™ και το Flipkart ™"
+   },
+   "feedback": {
+      "message": "Ανατροφοδότηση"
+   },
+   "fetch": {
+      "message": "Γοητευτικός-"
+   },
+   "instruction": {
+      "message": "Εντολή"
+   },
+   "instructionfour": {
+      "message": "  4. Στο τελικό βήμα, κάντε κλικ στην επιλογή \"Αναλύστε τις συνολικές δαπάνες\" για να λάβετε το\n                συνολικές δαπάνες"
+   },
+   "instructionone": {
+      "message": "1. Ανοίξτε τον ιστότοπο Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Μεταβείτε στην ενότητα \"Η παραγγελία μου\" και κάντε κλικ στο εικονίδιο επέκτασης"
+   },
+   "instructiontwo": {
+      "message": "2. Συνδεθείτε στον λογαριασμό σας"
+   },
+   "mostPurchased": {
+      "message": "Το πιο αγορασμένο προϊόν"
+   },
+   "noteOther": {
+      "message": "Ανοίξτε το Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Επισκεφθείτε την ενότητα παραγγελίας μου"
+   },
+   "rate": {
+      "message": "Βαθμολογήστε μας"
+   },
+   "reAnalyze": {
+      "message": "Αναλύστε ξανά τις συνολικές δαπάνες"
+   }
+}

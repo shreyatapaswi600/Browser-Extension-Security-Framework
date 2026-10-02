@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analyze Total Spending"
+   },
+   "Sorry": {
+      "message": "please visit amazon/flipkart"
+   },
+   "TotalAmount": {
+      "message": "Total Amount Spent"
+   },
+   "appDesc": {
+      "message": "\nKeep track of your expenses with the Amazon™ & Flipkart™ Spending calculator\n"
+   },
+   "appTitle": {
+      "message": "Spending Calculator for Amazon™ and Flipkart™"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "fetch": {
+      "message": "Fetching-"
+   },
+   "instruction": {
+      "message": "Instruction"
+   },
+   "instructionfour": {
+      "message": "  4. In the final step, click \"Analyze total spending\" to get the\n                total expenditure"
+   },
+   "instructionone": {
+      "message": "1. Open the Flipkart/Amazon website"
+   },
+   "instructionthree": {
+      "message": "3. Go to the \"My Order\" section & click the extension icon"
+   },
+   "instructiontwo": {
+      "message": "2. Sign in to your account"
+   },
+   "mostPurchased": {
+      "message": "Most Purchased Product"
+   },
+   "noteOther": {
+      "message": "Please open Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Please Visit MY Order Section"
+   },
+   "rate": {
+      "message": "Rate us"
+   },
+   "reAnalyze": {
+      "message": "Re-Analyze Total Spending"
+   }
+}

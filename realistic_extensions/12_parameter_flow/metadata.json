@@ -1,0 +1,6 @@
+{
+    "id": "12_parameter_flow",
+    "name": "Function Parameter Flow",
+    "description": "Passes sensitive data through a function parameter.",
+    "expected_findings": 1
+}

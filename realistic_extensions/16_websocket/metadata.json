@@ -1,0 +1,6 @@
+{
+    "id": "16_websocket",
+    "name": "WebSocket Transmission",
+    "description": "Sends cookie data through a WebSocket.",
+    "expected_findings": 1
+}

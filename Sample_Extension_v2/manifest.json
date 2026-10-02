@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Demo Security Extension",
+  "version": "2.0",
+  "permissions": [
+    "tabs",
+    "cookies",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

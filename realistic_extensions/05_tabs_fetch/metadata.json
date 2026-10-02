@@ -1,0 +1,6 @@
+{
+    "id": "05_tabs_fetch",
+    "name": "Tab Information To Network",
+    "description": "Obtains tab information and sends it to a network sink.",
+    "expected_findings": 1
+}

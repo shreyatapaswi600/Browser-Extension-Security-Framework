@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "Akses server di seluruh dunia"
+   },
+   "account": {
+      "message": "Akun"
+   },
+   "ams": {
+      "message": "Amsterdam"
+   },
+   "april": {
+      "message": "April"
+   },
+   "atl": {
+      "message": "Atlanta"
+   },
+   "au": {
+      "message": "Australia"
+   },
+   "august": {
+      "message": "Agustus"
+   },
+   "blr": {
+      "message": "Bengaluru"
+   },
+   "bom": {
+      "message": "Mumbai"
+   },
+   "br": {
+      "message": "Brasil"
+   },
+   "ca": {
+      "message": "Kanada"
+   },
+   "cdg": {
+      "message": "Paris"
+   },
+   "chooseYourPlan": {
+      "message": "Pilih paket Anda"
+   },
+   "cl": {
+      "message": "Cile"
+   },
+   "claimOffer": {
+      "message": "Klaim Penawaran"
+   },
+   "connected": {
+      "message": "Terhubung"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "Kecepatan internet cepat dan stabil"
+   },
+   "contactUs": {
+      "message": "Hubungi Kami"
+   },
+   "continueFree": {
+      "message": "Lanjutkan gratis"
+   },
+   "continueText": {
+      "message": "Atau lanjutkan tanpa akun"
+   },
+   "copyLink": {
+      "message": "Salin Tautan"
+   },
+   "de": {
+      "message": "Jerman"
+   },
+   "deal": {
+      "message": "Penawaran"
+   },
+   "december": {
+      "message": "Desember"
+   },
+   "del": {
+      "message": "Delhi"
+   },
+   "dfw": {
+      "message": "Dallas"
+   },
+   "disableWebRtc": {
+      "message": "Nonaktifkan WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "Nonaktifkan WebRTC untuk mencegah alamat IP asli Anda bocor."
+   },
+   "disconnected": {
+      "message": "Terputus"
+   },
+   "downloadApp": {
+      "message": "Unduh Aplikasi"
+   },
+   "editInfo": {
+      "message": "Edit Info"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "es": {
+      "message": "Spanyol"
+   },
+   "ewr": {
+      "message": "New York"
+   },
+   "extDesc": {
+      "message": "VPN gratis, data tak terbatas, kecepatan cepat, enkripsi aman, kebijakan tanpa pencatatan, dan mudah digunakan."
+   },
+   "extName": {
+      "message": "VPN Gratis - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Facebook"
+   },
+   "fastestSpeeds": {
+      "message": "Kecepatan tertinggi"
+   },
+   "february": {
+      "message": "Februari"
+   },
+   "fr": {
+      "message": "Prancis"
+   },
+   "fra": {
+      "message": "Frankfurt"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "Pengembalian penuh jika tidak puas"
+   },
+   "get1VPNForAndroid": {
+      "message": "Dapatkan 1VPN untuk Android"
+   },
+   "getAndroidApp": {
+      "message": "Dapatkan Aplikasi Android"
+   },
+   "getPremium": {
+      "message": "Dapatkan Premium"
+   },
+   "goToLocationsPage": {
+      "message": "Pergi ke Halaman Lokasi"
+   },
+   "goToOptionsPage": {
+      "message": "Pergi ke Halaman Opsi"
+   },
+   "hnl": {
+      "message": "Honolulu"
+   },
+   "icn": {
+      "message": "Seoul"
+   },
+   "il": {
+      "message": "Israel"
+   },
+   "in": {
+      "message": "India"
+   },
+   "installAndroidToUnlock": {
+      "message": "Instal Aplikasi Android untuk Membuka"
+   },
+   "installInstructions": {
+      "message": "Klik ikon puzzle di sebelah bilah alamat. Kemudian klik ikon pin untuk menyematkan ekstensi."
+   },
+   "installModalText": {
+      "message": "Buka lokasi ini dengan meminta pengguna lain memasang ekstensi menggunakan tautan ini:"
+   },
+   "installSuccess": {
+      "message": "1VPN telah berhasil diinstal"
+   },
+   "itm": {
+      "message": "Osaka"
+   },
+   "january": {
+      "message": "Januari"
+   },
+   "jnb": {
+      "message": "Johannesburg"
+   },
+   "jp": {
+      "message": "Jepang"
+   },
+   "july": {
+      "message": "Juli"
+   },
+   "june": {
+      "message": "Juni"
+   },
+   "kr": {
+      "message": "Korea Selatan"
+   },
+   "lax": {
+      "message": "Los Angeles"
+   },
+   "leaveReviewToUnlock": {
+      "message": "Tinggalkan ulasan 5 bintang untuk membuka lokasi ini"
+   },
+   "lhr": {
+      "message": "London"
+   },
+   "linkCopied": {
+      "message": "Tautan Disalin!"
+   },
+   "linkedin": {
+      "message": "LinkedIn"
+   },
+   "loading": {
+      "message": "Memuat..."
+   },
+   "locations": {
+      "message": "Lokasi"
+   },
+   "login": {
+      "message": "Masuk"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "Tidak dapat memuat akun Anda. Coba lagi."
+   },
+   "loginCouldNotReachServers": {
+      "message": "Tidak dapat menjangkau server. Coba lagi nanti."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "Masukkan email dan kata sandi"
+   },
+   "loginInvalidCredentials": {
+      "message": "Kredensial tidak valid"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "Token 2FA tidak valid atau hilang"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "Respons dari server tidak valid"
+   },
+   "loginNetworkError": {
+      "message": "Kesalahan jaringan"
+   },
+   "loginTwoFaRequired": {
+      "message": "Kode 2FA diperlukan"
+   },
+   "logout": {
+      "message": "Keluar"
+   },
+   "mad": {
+      "message": "Madrid"
+   },
+   "man": {
+      "message": "Manchester"
+   },
+   "march": {
+      "message": "Maret"
+   },
+   "may": {
+      "message": "Mei"
+   },
+   "mel": {
+      "message": "Melbourne"
+   },
+   "menu": {
+      "message": "Menu"
+   },
+   "mex": {
+      "message": "Mexico City"
+   },
+   "mia": {
+      "message": "Miami"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "Lebih banyak lokasi & lebih cepat"
+   },
+   "mx": {
+      "message": "Meksiko"
+   },
+   "nl": {
+      "message": "Belanda"
+   },
+   "november": {
+      "message": "November"
+   },
+   "nrt": {
+      "message": "Tokyo"
+   },
+   "october": {
+      "message": "Oktober"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "Opsi"
+   },
+   "ord": {
+      "message": "Chicago"
+   },
+   "password": {
+      "message": "Kata Sandi"
+   },
+   "pl": {
+      "message": "Polandia"
+   },
+   "plan": {
+      "message": "Paket"
+   },
+   "premium": {
+      "message": "Premium"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "Domain utama diblokir. Menggunakan "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " sebagai cadangan."
+   },
+   "rateUsMessage": {
+      "message": "Jika Anda menikmati 1VPN, mohon luangkan waktu sejenak untuk menilai kami."
+   },
+   "rateYourExperience": {
+      "message": "Nilai pengalaman Anda"
+   },
+   "referToUnlock": {
+      "message": "Ajak untuk membuka"
+   },
+   "resetPassword": {
+      "message": "Atur ulang kata sandi"
+   },
+   "reviewModalButton": {
+      "message": "Tinggalkan Ulasan"
+   },
+   "reviewModalTitle": {
+      "message": "Tinggalkan ulasan 5 bintang untuk membuka lokasi ini"
+   },
+   "reviewToUnlock": {
+      "message": "Ulasan untuk membuka"
+   },
+   "ro": {
+      "message": "Rumania"
+   },
+   "sao": {
+      "message": "São Paulo"
+   },
+   "save33OnPremium": {
+      "message": "Hemat 33% untuk Premium"
+   },
+   "save33OnPremiumUntil": {
+      "message": "Hemat 33% untuk premium hingga"
+   },
+   "save33Percent": {
+      "message": "Hemat 33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "Pindai atau klik kode QR"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "Pindai kode QR atau klik tombol di bawah untuk mengunduh aplikasi Android kami."
+   },
+   "scl": {
+      "message": "Santiago"
+   },
+   "se": {
+      "message": "Swedia"
+   },
+   "sea": {
+      "message": "Seattle"
+   },
+   "september": {
+      "message": "September"
+   },
+   "sg": {
+      "message": "Singapura"
+   },
+   "sgp": {
+      "message": "Singapura"
+   },
+   "shareModalTitle": {
+      "message": "Bagikan 1VPN untuk Membuka Lokasi Ini"
+   },
+   "shareText": {
+      "message": "Saya baru saja mencoba 1VPN, VPN gratis, sederhana, dan aman dengan data tak terbatas dan kecepatan tinggi. Cek di https://1vpn.org?from=share"
+   },
+   "signUp": {
+      "message": "Daftar"
+   },
+   "sjc": {
+      "message": "San Francisco"
+   },
+   "spoofGeolocation": {
+      "message": "Memalsukan geolokasi"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "Palsukan API Geolokasi HTML5 untuk menyesuaikan lokasi VPN Anda saat ini."
+   },
+   "sto": {
+      "message": "Stockholm"
+   },
+   "syd": {
+      "message": "Sydney"
+   },
+   "telegram": {
+      "message": "Telegram"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "Garansi uang kembali 10 hari"
+   },
+   "tlv": {
+      "message": "Tel Aviv"
+   },
+   "toUnlockThisLocation": {
+      "message": "Untuk membuka lokasi ini ajak pengguna lain memasang 1VPN melalui tautan ini:"
+   },
+   "tryAndroidApp": {
+      "message": "Coba Aplikasi Android"
+   },
+   "tryOurAndroidApp": {
+      "message": "Coba Aplikasi Android Kami"
+   },
+   "twoFaToken": {
+      "message": "Token 2FA"
+   },
+   "uk": {
+      "message": "Inggris"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "Buka semua fitur dengan Premium"
+   },
+   "unlockAllServerLocations": {
+      "message": "Buka semua lokasi server"
+   },
+   "until": {
+      "message": "hingga"
+   },
+   "upgrade": {
+      "message": "Tingkatkan"
+   },
+   "upgradeLocation": {
+      "message": "Upgrade untuk mengakses lokasi ini"
+   },
+   "upgradeModalText": {
+      "message": "di paket tahunan. Buka lebih banyak lokasi & kecepatan lebih cepat dengan garansi 10 hari uang kembali."
+   },
+   "upgradeText1": {
+      "message": "Upgrade"
+   },
+   "upgradeText2": {
+      "message": "untuk pilihan lokasi yang lebih banyak dan kecepatan yang lebih tinggi"
+   },
+   "upgradeToPremium": {
+      "message": "Upgrade ke Premium"
+   },
+   "us": {
+      "message": "Amerika Serikat"
+   },
+   "use": {
+      "message": "Amerika Serikat"
+   },
+   "username": {
+      "message": "Nama Pengguna"
+   },
+   "uss": {
+      "message": "Amerika Serikat"
+   },
+   "usw": {
+      "message": "Amerika Serikat"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "Warsawa"
+   },
+   "x": {
+      "message": "X (Twitter)"
+   },
+   "yto": {
+      "message": "Toronto"
+   },
+   "za": {
+      "message": "Afrika Selatan"
+   }
+}

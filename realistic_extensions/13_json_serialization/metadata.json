@@ -1,0 +1,6 @@
+{
+    "id": "13_json_serialization",
+    "name": "JSON Serialization",
+    "description": "Serializes sensitive data before transmission.",
+    "expected_findings": 1
+}

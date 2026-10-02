@@ -1,0 +1,6 @@
+{
+    "id": "17_url_variable",
+    "name": "URL Stored In Variable",
+    "description": "Uses a variable for the network destination.",
+    "expected_findings": 1
+}

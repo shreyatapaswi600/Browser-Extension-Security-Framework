@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Elemezze a teljes kiadásokat"
+   },
+   "Sorry": {
+      "message": "Kérjük, látogasson el az Amazon/Flipkartra"
+   },
+   "TotalAmount": {
+      "message": "Teljes összege az elköltött összeg"
+   },
+   "appDesc": {
+      "message": "\nKövesse nyomon a költségeit az Amazon ™ & Flipkart ™ kiadások számológéppel\n"
+   },
+   "appTitle": {
+      "message": "Költési számológép az Amazon ™ és a Flipkart ™ számára"
+   },
+   "feedback": {
+      "message": "Visszacsatolás"
+   },
+   "fetch": {
+      "message": "Elragadó-"
+   },
+   "instruction": {
+      "message": "Utasítás"
+   },
+   "instructionfour": {
+      "message": "  4. Az utolsó lépésben kattintson az \"Elemzés elemzése\" elemre a megszerzéshez\n                teljes kiadás"
+   },
+   "instructionone": {
+      "message": "1. Nyissa meg a Flipkart/Amazon webhelyet"
+   },
+   "instructionthree": {
+      "message": "3. Lépjen a \"Megrendelésem\" szakaszra, és kattintson a Hosszabbító ikonra"
+   },
+   "instructiontwo": {
+      "message": "2. Jelentkezzen be a fiókjába"
+   },
+   "mostPurchased": {
+      "message": "A legtöbb vásárolt termék"
+   },
+   "noteOther": {
+      "message": "Kérjük, nyissa meg a Flipkart/Amazon -ot"
+   },
+   "order": {
+      "message": "Kérjük, látogasson el a Megrendelési szakaszra"
+   },
+   "rate": {
+      "message": "Értékelj minket"
+   },
+   "reAnalyze": {
+      "message": "A teljes kiadások újraanalitizálása"
+   }
+}

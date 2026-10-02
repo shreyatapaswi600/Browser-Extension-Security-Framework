@@ -1,0 +1,476 @@
+{
+   "accessServersWorldwide": {
+      "message": "Truy cập máy chủ trên toàn thế giới"
+   },
+   "account": {
+      "message": "Tài khoản"
+   },
+   "ams": {
+      "message": "Amsterdam"
+   },
+   "april": {
+      "message": "Tháng Tư"
+   },
+   "atl": {
+      "message": "Atlanta"
+   },
+   "au": {
+      "message": "Úc"
+   },
+   "august": {
+      "message": "Tháng Tám"
+   },
+   "blr": {
+      "message": "Bengaluru"
+   },
+   "bom": {
+      "message": "Mumbai"
+   },
+   "br": {
+      "message": "Brazil"
+   },
+   "ca": {
+      "message": "Canada"
+   },
+   "cdg": {
+      "message": "Paris"
+   },
+   "chooseYourPlan": {
+      "message": "Chọn gói của bạn"
+   },
+   "cl": {
+      "message": "Chile"
+   },
+   "claimOffer": {
+      "message": "Nhận ưu đãi"
+   },
+   "connected": {
+      "message": "Đã kết nối"
+   },
+   "consistentAndFastInternetSpeeds": {
+      "message": "Tốc độ internet ổn định và nhanh"
+   },
+   "contactUs": {
+      "message": "Liên hệ với chúng tôi"
+   },
+   "continueFree": {
+      "message": "Tiếp tục miễn phí"
+   },
+   "continueText": {
+      "message": "Hoặc tiếp tục không cần tài khoản"
+   },
+   "copyLink": {
+      "message": "Sao chép liên kết"
+   },
+   "de": {
+      "message": "Đức"
+   },
+   "deal": {
+      "message": "Ưu đãi"
+   },
+   "december": {
+      "message": "Tháng Mười Hai"
+   },
+   "del": {
+      "message": "Delhi"
+   },
+   "dfw": {
+      "message": "Dallas"
+   },
+   "disableWebRtc": {
+      "message": "Tắt WebRTC"
+   },
+   "disableWebRtcSubTitle": {
+      "message": "Tắt WebRTC để ngăn địa chỉ IP thực của bạn bị rò rỉ."
+   },
+   "disconnected": {
+      "message": "Đã ngắt kết nối"
+   },
+   "downloadApp": {
+      "message": "Tải ứng dụng"
+   },
+   "editInfo": {
+      "message": "Chỉnh sửa thông tin"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "es": {
+      "message": "Tây Ban Nha"
+   },
+   "ewr": {
+      "message": "New York"
+   },
+   "extDesc": {
+      "message": "VPN miễn phí, dữ liệu không giới hạn, tốc độ nhanh, mã hóa an toàn, không ghi nhật ký và dễ sử dụng."
+   },
+   "extName": {
+      "message": "VPN Miễn Phí - Free VPN - 1VPN"
+   },
+   "facebook": {
+      "message": "Facebook"
+   },
+   "fastestSpeeds": {
+      "message": "Tốc độ nhanh nhất"
+   },
+   "february": {
+      "message": "Tháng Hai"
+   },
+   "fr": {
+      "message": "Pháp"
+   },
+   "fra": {
+      "message": "Frankfurt"
+   },
+   "free": {
+      "message": "Miễn phí"
+   },
+   "fullRefundIfNotSatisfied": {
+      "message": "Hoàn tiền đầy đủ nếu không hài lòng"
+   },
+   "get1VPNForAndroid": {
+      "message": "Tải 1VPN cho Android"
+   },
+   "getAndroidApp": {
+      "message": "Tải ứng dụng Android"
+   },
+   "getPremium": {
+      "message": "Nhận Premium"
+   },
+   "goToLocationsPage": {
+      "message": "Đi tới Trang Địa điểm"
+   },
+   "goToOptionsPage": {
+      "message": "Đi tới Trang Tùy chọn"
+   },
+   "hnl": {
+      "message": "Honolulu"
+   },
+   "icn": {
+      "message": "Seoul"
+   },
+   "il": {
+      "message": "Israel"
+   },
+   "in": {
+      "message": "Ấn Độ"
+   },
+   "installAndroidToUnlock": {
+      "message": "Cài đặt ứng dụng Android để mở khóa"
+   },
+   "installInstructions": {
+      "message": "Nhấp vào biểu tượng mảnh ghép bên cạnh thanh địa chỉ. Sau đó, nhấp vào biểu tượng ghim để ghim tiện ích."
+   },
+   "installModalText": {
+      "message": "Mở khóa vị trí này bằng cách nhờ người dùng khác cài tiện ích bằng liên kết này:"
+   },
+   "installSuccess": {
+      "message": "1VPN đã được cài đặt thành công"
+   },
+   "itm": {
+      "message": "Osaka"
+   },
+   "january": {
+      "message": "Tháng Một"
+   },
+   "jnb": {
+      "message": "Johannesburg"
+   },
+   "jp": {
+      "message": "Nhật Bản"
+   },
+   "july": {
+      "message": "Tháng Bảy"
+   },
+   "june": {
+      "message": "Tháng Sáu"
+   },
+   "kr": {
+      "message": "Hàn Quốc"
+   },
+   "lax": {
+      "message": "Los Angeles"
+   },
+   "leaveReviewToUnlock": {
+      "message": "Để lại đánh giá 5 sao để mở khóa vị trí này"
+   },
+   "lhr": {
+      "message": "Luân Đôn"
+   },
+   "linkCopied": {
+      "message": "Đã sao chép liên kết!"
+   },
+   "linkedin": {
+      "message": "LinkedIn"
+   },
+   "loading": {
+      "message": "Đang tải..."
+   },
+   "locations": {
+      "message": "Địa điểm"
+   },
+   "login": {
+      "message": "Đăng nhập"
+   },
+   "loginCouldNotLoadAccount": {
+      "message": "Không thể tải tài khoản của bạn. Vui lòng thử lại."
+   },
+   "loginCouldNotReachServers": {
+      "message": "Không thể kết nối tới máy chủ. Vui lòng thử lại sau."
+   },
+   "loginEnterEmailAndPassword": {
+      "message": "Vui lòng nhập email và mật khẩu"
+   },
+   "loginInvalidCredentials": {
+      "message": "Thông tin đăng nhập không hợp lệ"
+   },
+   "loginInvalidOrMissingTwoFaToken": {
+      "message": "Mã thông báo 2FA không hợp lệ hoặc bị thiếu"
+   },
+   "loginInvalidResponseFromServer": {
+      "message": "Phản hồi không hợp lệ từ máy chủ"
+   },
+   "loginNetworkError": {
+      "message": "Lỗi mạng"
+   },
+   "loginTwoFaRequired": {
+      "message": "Cần mã 2FA"
+   },
+   "logout": {
+      "message": "Đăng xuất"
+   },
+   "mad": {
+      "message": "Madrid"
+   },
+   "man": {
+      "message": "Manchester"
+   },
+   "march": {
+      "message": "Tháng Ba"
+   },
+   "may": {
+      "message": "Tháng Năm"
+   },
+   "mel": {
+      "message": "Melbourne"
+   },
+   "menu": {
+      "message": "Menu"
+   },
+   "mex": {
+      "message": "Thành phố Mexico"
+   },
+   "mia": {
+      "message": "Miami"
+   },
+   "moreLocationsAndFasterSpeeds": {
+      "message": "Nhiều vị trí hơn và tốc độ nhanh hơn"
+   },
+   "mx": {
+      "message": "Mexico"
+   },
+   "nl": {
+      "message": "Hà Lan"
+   },
+   "november": {
+      "message": "Tháng Mười Một"
+   },
+   "nrt": {
+      "message": "Tokyo"
+   },
+   "october": {
+      "message": "Tháng Mười"
+   },
+   "ok": {
+      "message": "Odnoklassniki"
+   },
+   "options": {
+      "message": "Tùy chọn"
+   },
+   "ord": {
+      "message": "Chicago"
+   },
+   "password": {
+      "message": "Mật khẩu"
+   },
+   "pl": {
+      "message": "Ba Lan"
+   },
+   "plan": {
+      "message": "Gói"
+   },
+   "premium": {
+      "message": "Cao cấp"
+   },
+   "primaryApiBlockedPart1": {
+      "message": "Tên miền chính bị chặn. Đang dùng "
+   },
+   "primaryApiBlockedPart2": {
+      "message": " làm dự phòng."
+   },
+   "rateUsMessage": {
+      "message": "Nếu bạn đang thích 1VPN, vui lòng dành một chút thời gian để đánh giá chúng tôi."
+   },
+   "rateYourExperience": {
+      "message": "Đánh giá trải nghiệm của bạn"
+   },
+   "referToUnlock": {
+      "message": "Giới thiệu để mở khóa"
+   },
+   "resetPassword": {
+      "message": "Đặt lại mật khẩu"
+   },
+   "reviewModalButton": {
+      "message": "Để lại đánh giá"
+   },
+   "reviewModalTitle": {
+      "message": "Để lại đánh giá 5 sao để mở khóa vị trí này"
+   },
+   "reviewToUnlock": {
+      "message": "Đánh giá để mở khóa"
+   },
+   "ro": {
+      "message": "Rumani"
+   },
+   "sao": {
+      "message": "São Paulo"
+   },
+   "save33OnPremium": {
+      "message": "Tiết kiệm 33% cho Premium"
+   },
+   "save33OnPremiumUntil": {
+      "message": "Tiết kiệm 33% cho premium đến"
+   },
+   "save33Percent": {
+      "message": "Tiết kiệm 33%"
+   },
+   "scanOrClickQRCode": {
+      "message": "Quét hoặc nhấp vào mã QR"
+   },
+   "scanQrCodeOrClickButton": {
+      "message": "Quét mã QR hoặc nhấp vào nút bên dưới để tải ứng dụng Android của chúng tôi."
+   },
+   "scl": {
+      "message": "Santiago"
+   },
+   "se": {
+      "message": "Thụy Điển"
+   },
+   "sea": {
+      "message": "Seattle"
+   },
+   "september": {
+      "message": "Tháng Chín"
+   },
+   "sg": {
+      "message": "Singapore"
+   },
+   "sgp": {
+      "message": "Singapore"
+   },
+   "shareModalTitle": {
+      "message": "Chia sẻ 1VPN để mở khóa vị trí này"
+   },
+   "shareText": {
+      "message": "Tôi vừa thử 1VPN, một VPN miễn phí, đơn giản và an toàn với dữ liệu không giới hạn và tốc độ nhanh. Hãy xem tại https://1vpn.org?from=share"
+   },
+   "signUp": {
+      "message": "Đăng ký"
+   },
+   "sjc": {
+      "message": "San Francisco"
+   },
+   "spoofGeolocation": {
+      "message": "Giả mạo vị trí địa lý"
+   },
+   "spoofGeolocationSubTitle": {
+      "message": "Giả mạo API định vị địa lý HTML5 để khớp với vị trí VPN hiện tại của bạn."
+   },
+   "sto": {
+      "message": "Stockholm"
+   },
+   "syd": {
+      "message": "Sydney"
+   },
+   "telegram": {
+      "message": "Telegram"
+   },
+   "tenDayMoneyBackGuarantee": {
+      "message": "Đảm bảo hoàn tiền trong 10 ngày"
+   },
+   "tlv": {
+      "message": "Tel Aviv"
+   },
+   "toUnlockThisLocation": {
+      "message": "Để mở khóa vị trí này hãy nhờ người dùng khác cài đặt 1VPN bằng liên kết này:"
+   },
+   "tryAndroidApp": {
+      "message": "Thử ứng dụng Android"
+   },
+   "tryOurAndroidApp": {
+      "message": "Thử app Android"
+   },
+   "twoFaToken": {
+      "message": "Mã thông báo 2FA"
+   },
+   "uk": {
+      "message": "Vương quốc Anh"
+   },
+   "unlockAllFeaturesWithPremium": {
+      "message": "Mở khóa mọi tính năng với Premium"
+   },
+   "unlockAllServerLocations": {
+      "message": "Mở khóa tất cả vị trí máy chủ"
+   },
+   "until": {
+      "message": "Đến"
+   },
+   "upgrade": {
+      "message": "Nâng cấp"
+   },
+   "upgradeLocation": {
+      "message": "Hãy nâng cấp để truy cập địa điểm này"
+   },
+   "upgradeModalText": {
+      "message": "trong gói năm. Mở khóa nhiều vị trí và tốc độ nhanh hơn với đảm bảo hoàn tiền 10 ngày."
+   },
+   "upgradeText1": {
+      "message": "Nâng cấp"
+   },
+   "upgradeText2": {
+      "message": "để có thêm nhiều địa điểm và có tốc độ nhanh hơn"
+   },
+   "upgradeToPremium": {
+      "message": "Nâng cấp lên Premium"
+   },
+   "us": {
+      "message": "Hoa Kỳ"
+   },
+   "use": {
+      "message": "Hoa Kỳ"
+   },
+   "username": {
+      "message": "Tên người dùng"
+   },
+   "uss": {
+      "message": "Hoa Kỳ"
+   },
+   "usw": {
+      "message": "Hoa Kỳ"
+   },
+   "vk": {
+      "message": "VK"
+   },
+   "waw": {
+      "message": "Warsaw"
+   },
+   "x": {
+      "message": "X (Twitter)"
+   },
+   "yto": {
+      "message": "Toronto"
+   },
+   "za": {
+      "message": "Nam Phi"
+   }
+}

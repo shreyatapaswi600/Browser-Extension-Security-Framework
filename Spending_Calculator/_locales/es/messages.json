@@ -1,0 +1,53 @@
+{
+   "Analyze": {
+      "message": "Analizar el gasto total"
+   },
+   "Sorry": {
+      "message": "Visite Amazon/Flipkart"
+   },
+   "TotalAmount": {
+      "message": "Monto total gastado"
+   },
+   "appDesc": {
+      "message": "\nRealice sus gastos con la calculadora de gastos de Amazon ™ & Flipkart ™\n"
+   },
+   "appTitle": {
+      "message": "Calculadora de gastos para Amazon ™ y Flipkart ™"
+   },
+   "feedback": {
+      "message": "Comentario"
+   },
+   "fetch": {
+      "message": "Atractivo-"
+   },
+   "instruction": {
+      "message": "Instrucción"
+   },
+   "instructionfour": {
+      "message": "  4. En el paso final, haga clic en \"Analizar el gasto total\" para obtener el\n                el gasto total"
+   },
+   "instructionone": {
+      "message": "1. Abra el sitio web de Flipkart/Amazon"
+   },
+   "instructionthree": {
+      "message": "3. Vaya a la sección \"Mi pedido\" y haga clic en el icono de extensión"
+   },
+   "instructiontwo": {
+      "message": "2. Inicie sesión en su cuenta"
+   },
+   "mostPurchased": {
+      "message": "Producto más comprado"
+   },
+   "noteOther": {
+      "message": "Abra Flipkart/Amazon"
+   },
+   "order": {
+      "message": "Visite mi sección de pedidos"
+   },
+   "rate": {
+      "message": "Nos califica"
+   },
+   "reAnalyze": {
+      "message": "Volver a analizar el gasto total"
+   }
+}
