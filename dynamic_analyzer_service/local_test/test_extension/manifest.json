@@ -1,0 +1,13 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Local Dynamic Analyzer Test",
+  "version": "1.0",
+  "description": "Harmless local extension for testing analyzer instrumentation.",
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1:8765/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

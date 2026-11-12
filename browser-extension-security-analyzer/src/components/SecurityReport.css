@@ -1,0 +1,449 @@
+.security-report {
+  width: 100%;
+  color: #edf1ff;
+  font-family: inherit;
+}
+
+.security-report *,
+.security-report *::before,
+.security-report *::after {
+  box-sizing: border-box;
+}
+
+.security-report .report-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.security-report .report-kicker {
+  color: #a78bfa;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+
+.security-report .report-header h2 {
+  margin: 8px 0;
+  color: #f5f7ff;
+  font-size: 23px;
+}
+
+.security-report .report-header p {
+  margin: 0;
+  color: #98a9c4;
+  font-size: 12px;
+}
+
+.security-report .report-status {
+  padding: 8px 13px;
+  border: 1px solid #276c58;
+  border-radius: 20px;
+  background: #12372e;
+  color: #75e0b3;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.security-report .report-assessment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  padding: 23px;
+  border: 1px solid #57492b;
+  border-radius: 14px;
+  background: linear-gradient(120deg, #282519, #201e1a);
+}
+
+.security-report .assessment-label {
+  color: #f3d58b;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.security-report .report-assessment h3 {
+  margin: 8px 0;
+  color: #f5d78e;
+  font-size: 20px;
+}
+
+.security-report .report-assessment p {
+  max-width: 600px;
+  margin: 0;
+  color: #c4b992;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.security-report .report-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 115px;
+  padding: 14px;
+  border: 1px solid #57492b;
+  border-radius: 12px;
+  background: #211f1a;
+}
+
+.security-report .report-score strong {
+  color: #f3d58b;
+  font-size: 34px;
+}
+
+.security-report .report-score span {
+  color: #e9d5a1;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.security-report .report-score small {
+  margin-top: 5px;
+  color: #a99c77;
+  font-size: 9px;
+  text-align: center;
+}
+
+.security-report .report-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 13px;
+  margin: 18px 0 26px;
+}
+
+.security-report .report-metrics article {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+  padding: 19px;
+  border: 1px solid #293a56;
+  border-radius: 12px;
+  background: #101c2e;
+}
+
+.security-report .report-metrics strong {
+  color: #b8a5ff;
+  font-size: 27px;
+}
+
+.security-report .report-metrics span {
+  color: #98a9c4;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.security-report .report-section {
+  margin-top: 22px;
+  padding: 22px;
+  border: 1px solid #263651;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #101a2b, #0b1322);
+}
+
+.security-report .report-section h3 {
+  margin: 0 0 15px;
+  color: #e8eaff;
+  font-size: 16px;
+}
+
+.security-report .report-description {
+  margin: -5px 0 16px;
+  color: #98a9c4;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.security-report .report-information {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.security-report .report-information div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+  padding: 13px;
+  border-radius: 9px;
+  background: #0c1627;
+}
+
+.security-report .report-information span {
+  color: #8396b3;
+  font-size: 10px;
+}
+
+.security-report .report-information strong {
+  color: #dce5f6;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.security-report .permission-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.security-report .permission-tag {
+  padding: 8px 12px;
+  border: 1px solid #414477;
+  border-radius: 8px;
+  background: #222447;
+  color: #c7bcff;
+  font-family: Consolas, monospace;
+  font-size: 11px;
+}
+
+.security-report .permission-warning {
+  border-color: #755c35;
+  background: #302719;
+  color: #f3d58b;
+}
+
+.security-report .manifest-finding {
+  padding: 15px;
+  border: 1px solid #57492b;
+  border-radius: 10px;
+  background: #211f1a;
+}
+
+.security-report .manifest-finding p {
+  margin: 10px 0 7px;
+  color: #e9d5a1;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.security-report .manifest-finding small {
+  color: #b8ad8e;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.security-report .severity-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 7px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+  white-space: nowrap;
+}
+
+.security-report .severity-high {
+  border: 1px solid #85414a;
+  background: #3c2029;
+  color: #ff9da9;
+}
+
+.security-report .severity-medium {
+  border: 1px solid #755c35;
+  background: #302719;
+  color: #f3d58b;
+}
+
+.security-report .severity-low {
+  border: 1px solid #414477;
+  background: #222447;
+  color: #b8a5ff;
+}
+
+.security-report .severity-info {
+  border: 1px solid #35516d;
+  background: #172b40;
+  color: #91c8f5;
+}
+
+.security-report .finding-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 15px;
+}
+
+.security-report .finding-summary span {
+  padding: 7px 11px;
+  border: 1px solid #34435e;
+  border-radius: 7px;
+  background: #152137;
+  color: #cbd6eb;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.security-report .security-finding {
+  margin-top: 13px;
+  overflow: hidden;
+  border: 1px solid #2c3b55;
+  border-radius: 11px;
+  background: #0c1524;
+}
+
+.security-report .finding-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 17px;
+  background: #121f33;
+}
+
+.security-report .finding-number {
+  color: #a78bfa;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.security-report .finding-heading h4 {
+  margin: 7px 0 0;
+  color: #e8eaff;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.security-report .finding-details {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  padding: 17px;
+}
+
+.security-report .finding-details strong {
+  color: #c6baff;
+  font-size: 11px;
+}
+
+.security-report .finding-details p {
+  margin: 8px 0 0;
+  color: #9eafc9;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.security-report .finding-evidence {
+  border-top: 1px solid #273750;
+}
+
+.security-report .finding-evidence summary {
+  padding: 13px 17px;
+  color: #b8a5ff;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.security-report .finding-evidence summary:hover {
+  background: #152137;
+}
+
+.security-report .finding-evidence dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 15px 17px;
+  background: #0a1220;
+}
+
+.security-report .finding-evidence dl div {
+  min-width: 0;
+}
+
+.security-report .finding-evidence dt {
+  margin-bottom: 5px;
+  color: #8194b1;
+  font-size: 10px;
+}
+
+.security-report .finding-evidence dd {
+  margin: 0;
+  color: #dce5f6;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.security-report .finding-evidence code {
+  color: #b8a5ff;
+  font-family: Consolas, monospace;
+}
+
+.security-report .report-recommendations {
+  margin: 0;
+  padding-left: 22px;
+  color: #aabbd5;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.security-report .report-dynamic {
+  margin-top: 22px;
+  padding: 17px 19px;
+  border: 1px solid #57492b;
+  border-radius: 11px;
+  background: #211f1a;
+}
+
+.security-report .report-dynamic strong {
+  color: #f3d58b;
+  font-size: 12px;
+}
+
+.security-report .report-dynamic p {
+  margin: 7px 0 0;
+  color: #c4b992;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.security-report .report-disclaimer {
+  margin: 17px 0 0;
+  color: #7588a6;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+@media (max-width: 850px) {
+  .security-report .report-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .security-report .finding-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .security-report .report-header,
+  .security-report .report-assessment {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .security-report .report-score {
+    align-items: flex-start;
+  }
+
+  .security-report .report-information,
+  .security-report .finding-evidence dl {
+    grid-template-columns: 1fr;
+  }
+
+  .security-report .report-section {
+    padding: 16px;
+  }
+
+  .security-report .report-metrics article {
+    padding: 14px;
+  }
+}

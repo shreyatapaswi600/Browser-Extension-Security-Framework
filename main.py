@@ -6,6 +6,7 @@ from analyzer.manifest_analyzer import analyze_manifest
 from analyzer.ast_analyzer import analyze_javascript_file
 from analyzer.data_flow_analyzer import analyze_data_flow
 from analyzer.evidence_engine import analyze_evidence
+from analyzer.risk_engine import assess_extension
 
 
 def print_separator(char="=", length=80):
@@ -92,6 +93,142 @@ def print_evidence(index, evidence):
 
         for item in chain:
             print(f"  -> {item}")
+
+
+def print_risk_assessment(assessment):
+    print()
+    print_separator()
+    print("SECURITY RISK ASSESSMENT")
+    print_separator()
+
+    print()
+    print("Overall Risk Score:", assessment.get("score"), "/ 100")
+    print("Overall Risk Level:", assessment.get("level"))
+    print("Overall Confidence:", assessment.get("confidence"))
+
+    print()
+    print("BEHAVIOR SUMMARY")
+    print("-" * 70)
+
+    behavior_summary = assessment.get("behavior_summary", {})
+
+    print(
+        "Data Transmission:",
+        behavior_summary.get("data_transmission", 0)
+    )
+    print(
+        "Destination Control:",
+        behavior_summary.get("destination_control", 0)
+    )
+    print(
+        "Normal Network:",
+        behavior_summary.get("normal_network", 0)
+    )
+
+    print()
+    print("CAPABILITY ASSESSMENT")
+    print("-" * 70)
+
+    capabilities = assessment.get("capabilities", [])
+
+    if not capabilities:
+        print("No specifically classified security-sensitive capabilities.")
+
+    else:
+        for index, capability in enumerate(capabilities, 1):
+            print(f"\nCapability {index}")
+            print("  Name:", capability.get("name"))
+            print("  Severity:", capability.get("severity"))
+            print("  Confidence:", capability.get("confidence"))
+            print("  Evidence:", capability.get("evidence"))
+            print("  Reason:", capability.get("reason"))
+
+    print()
+    print("RISK FINDINGS")
+    print("-" * 70)
+
+    findings = assessment.get("findings", [])
+
+    if not findings:
+        print("No behavior-level findings were established.")
+
+    else:
+        for index, finding in enumerate(findings, 1):
+            print(f"\nRisk Finding {index}")
+            print("  Behavior:", finding.get("behavior_type"))
+            print("  Severity:", finding.get("level"))
+            print("  Score:", finding.get("score"))
+            print("  Confidence:", finding.get("confidence"))
+            print("  File:", finding.get("file"))
+            print("  Line:", finding.get("line"))
+            print("  Source:", finding.get("source"))
+            print("  Source Type:", finding.get("source_type"))
+            print("  Sink:", finding.get("sink"))
+            print("  Destination:", finding.get("destination"))
+
+            factors = finding.get("factors", {})
+
+            print("  Risk Factors:")
+            print(
+                "    Data Sensitivity:",
+                factors.get("data_sensitivity")
+            )
+            print(
+                "    Flow Confidence:",
+                factors.get("flow_confidence")
+            )
+            print(
+                "    Destination Context:",
+                factors.get("destination_context")
+            )
+            print(
+                "    Behavioral Context:",
+                factors.get("behavioral_context")
+            )
+
+            contributions = finding.get(
+                "factor_contributions",
+                {}
+            )
+
+            if contributions:
+                print("  Factor Contributions:")
+                for name, value in contributions.items():
+                    print(f"    {name}: {value}")
+
+            reasons = finding.get("reasons", [])
+
+            if reasons:
+                print("  Reasons:")
+                for reason in reasons:
+                    print(f"    - {reason}")
+
+            evidence_chain = finding.get("evidence", [])
+
+            if evidence_chain:
+                print("  Evidence Chain:")
+                for item in evidence_chain:
+                    print(f"    -> {item}")
+
+    print()
+    print("STATIC INTERPRETATION")
+    print("-" * 70)
+
+    if assessment.get("confirmed_sensitive_data_flow"):
+        print(
+            "Sensitive Data Transmission:",
+            "CONFIRMED BY STATIC CORRELATION"
+        )
+    else:
+        print(
+            "Sensitive Data Transmission:",
+            "NOT CONFIRMED BY STATIC CORRELATION"
+        )
+
+    print(
+        "Note: Permissions and network APIs describe capability/context; "
+        "they are not by themselves proof of malicious behavior."
+    )
 
 
 def analyze_extension(extension_path):
@@ -212,10 +349,6 @@ def analyze_extension(extension_path):
                 errors="ignore"
             )
 
-            # ---------------------------------------------------------
-            # AST ANALYSIS
-            # ---------------------------------------------------------
-
             ast_start = time.perf_counter()
 
             program_model = analyze_javascript_file(
@@ -223,10 +356,6 @@ def analyze_extension(extension_path):
             )
 
             ast_time = time.perf_counter() - ast_start
-
-            # ---------------------------------------------------------
-            # DATA-FLOW ANALYSIS
-            # ---------------------------------------------------------
 
             flow_start = time.perf_counter()
 
@@ -237,10 +366,6 @@ def analyze_extension(extension_path):
 
             flow_time = time.perf_counter() - flow_start
 
-            # ---------------------------------------------------------
-            # EVIDENCE ANALYSIS
-            # ---------------------------------------------------------
-
             evidence_start = time.perf_counter()
 
             evidence_result = analyze_evidence(
@@ -250,10 +375,6 @@ def analyze_extension(extension_path):
             evidence_time = time.perf_counter() - evidence_start
 
             total_time = time.perf_counter() - total_start
-
-            # ---------------------------------------------------------
-            # RESULTS
-            # ---------------------------------------------------------
 
             sources = data_flow_result.get(
                 "sources",
@@ -290,10 +411,6 @@ def analyze_extension(extension_path):
             all_evidence.extend(evidence)
 
             analyzed_files += 1
-
-            # ---------------------------------------------------------
-            # TIMING REPORT
-            # ---------------------------------------------------------
 
             print()
             print("ANALYSIS TIMING")
@@ -354,10 +471,6 @@ def analyze_extension(extension_path):
                 f"{type(exc).__name__}: {exc}"
             )
 
-    # -------------------------------------------------------------
-    # DATA-FLOW FINDINGS
-    # -------------------------------------------------------------
-
     print()
     print_separator("-", 70)
     print("DATA-FLOW FINDINGS")
@@ -378,10 +491,6 @@ def analyze_extension(extension_path):
                 index,
                 finding
             )
-
-    # -------------------------------------------------------------
-    # EVIDENCE ANALYSIS
-    # -------------------------------------------------------------
 
     print()
     print_separator("-", 70)
@@ -405,8 +514,29 @@ def analyze_extension(extension_path):
             )
 
     # -------------------------------------------------------------
-    # FINAL SUMMARY
+    # RISK ASSESSMENT
     # -------------------------------------------------------------
+    # This is intentionally performed only after all files have been
+    # analyzed, so the risk engine sees extension-level evidence rather
+    # than making an isolated decision for each JavaScript file.
+
+    try:
+        risk_result = assess_extension(
+            manifest=manifest_result,
+            evidence=all_evidence,
+        )
+
+        print_risk_assessment(risk_result)
+
+    except Exception as exc:
+        print()
+        print_separator("-", 70)
+        print("RISK ASSESSMENT ERROR")
+        print_separator("-", 70)
+        print(
+            f"{type(exc).__name__}: {exc}"
+        )
+        risk_result = None
 
     print()
     print_separator()
@@ -463,6 +593,24 @@ def analyze_extension(extension_path):
         "Evidence Findings:",
         total_evidence
     )
+
+    if risk_result:
+        print()
+        print(
+            "Risk Score:",
+            risk_result.get("score"),
+            "/ 100"
+        )
+
+        print(
+            "Risk Level:",
+            risk_result.get("level")
+        )
+
+        print(
+            "Risk Confidence:",
+            risk_result.get("confidence")
+        )
 
     print()
 

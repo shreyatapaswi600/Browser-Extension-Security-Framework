@@ -1,0 +1,20 @@
+{
+  "name": "extensionguard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser Extension Security Framework",
+  "scripts": {
+    "dev": "vite",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "lucide-react": "^1.55.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.10.1"
+  }
+}

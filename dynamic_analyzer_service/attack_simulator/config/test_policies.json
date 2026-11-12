@@ -1,0 +1,4 @@
+{
+  "run_xss": true,
+  "run_fuzzing": true
+}

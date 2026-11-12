@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Dynamic Behaviour Test Extension",
+  "version": "1.0",
+  "description": "Harmless extension for testing runtime DOM monitoring.",
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1:8765/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

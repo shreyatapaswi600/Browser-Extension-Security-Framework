@@ -6,3 +6,33 @@ env/
 node_modules/
 .env
 *.zip
+
+# Project virtual environments
+.venv-dynamic/
+
+# Generated analysis data and extracted test extensions
+analyzer_profile/
+real_extension_extracted/
+test_extracted/
+
+# Generated project reports and inventories
+context_test_log.txt
+PROJECT_FILE_INVENTORY.txt
+PROJECT_TREE.txt
+
+# Local backup copies
+*.bak
+*.backup
+*_backup*.py
+*_broken_backup.py
+*_before_*_fix.py
+
+# Temporary analyzer backups
+analyzer/*.before_*_fix
+analyzer/*backup*.py
+
+# Runtime uploads - do not publish submitted extension files
+dynamic_analyzer_service/uploads/
+
+# Root-level orphan lockfile (no root package.json)
+/package-lock.json

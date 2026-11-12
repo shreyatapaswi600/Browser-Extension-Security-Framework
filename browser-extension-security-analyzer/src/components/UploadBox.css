@@ -1,0 +1,419 @@
+
+/* ==========================================
+   BROWSER EXTENSION ANALYZER — UPLOAD UI
+   ========================================== */
+
+.upload-workspace {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #edf1ff;
+  font-family: inherit;
+}
+
+.upload-workspace *,
+.upload-workspace *::before,
+.upload-workspace *::after {
+  box-sizing: border-box;
+}
+
+.upload-workspace .upload-card {
+  width: 100%;
+  min-width: 0;
+  padding: 28px;
+  background: linear-gradient(145deg, #101a2b 0%, #0b1322 100%);
+  border: 1px solid #263651;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+  color: #edf1ff;
+}
+
+.upload-workspace .upload-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 26px;
+}
+
+.upload-workspace .upload-kicker {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #a78bfa;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+
+.upload-workspace .upload-card h3 {
+  margin: 0 0 9px;
+  color: #f5f7ff;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.upload-workspace .upload-card-heading p {
+  margin: 0;
+  color: #98a9c4;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.upload-workspace .upload-shield {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #433b75;
+  border-radius: 15px;
+  background: #211d43;
+  color: #b8a5ff;
+  font-size: 29px;
+}
+
+/* Hide the browser's default file picker control */
+.upload-workspace input.upload-hidden-input {
+  display: none !important;
+}
+
+/* Drag-and-drop panel */
+.upload-workspace .upload-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 265px;
+  padding: 30px 22px;
+  border: 1.5px dashed #455779;
+  border-radius: 15px;
+  background:
+    radial-gradient(ellipse at top, rgba(99, 102, 241, 0.10), transparent 65%),
+    #0c1627;
+  text-align: center;
+  transition: border-color 180ms ease, background 180ms ease,
+    transform 180ms ease;
+}
+
+.upload-workspace .upload-dropzone:hover {
+  border-color: #7776e8;
+  background-color: #111c31;
+}
+
+.upload-workspace .upload-dropzone.is-dragging {
+  border-color: #a78bfa;
+  background: #1c2040;
+  transform: scale(1.005);
+}
+
+.upload-workspace .upload-dropzone.has-file {
+  border-style: solid;
+  border-color: #4caa91;
+  background: linear-gradient(145deg, #102a2a, #101a2b);
+}
+
+.upload-workspace .upload-cloud-icon {
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  margin-bottom: 18px;
+  border: 1px solid #414477;
+  border-radius: 19px;
+  background: #222447;
+  color: #b8a5ff;
+  font-size: 36px;
+  line-height: 1;
+  box-shadow: 0 8px 25px rgba(95, 79, 210, 0.12);
+}
+
+.upload-workspace .upload-dropzone h4 {
+  max-width: 100%;
+  margin: 0 0 9px;
+  color: #f1f4ff;
+  font-size: 16px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.upload-workspace .upload-dropzone p {
+  margin: 0 0 21px;
+  color: #8fa1bd;
+  font-size: 12px;
+}
+
+/* Consistent button styling */
+.upload-workspace button.upload-browse-button,
+.upload-workspace button.upload-primary-button,
+.upload-workspace button.upload-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 43px;
+  padding: 11px 20px;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease,
+    transform 160ms ease, box-shadow 160ms ease;
+}
+
+.upload-workspace button.upload-browse-button,
+.upload-workspace button.upload-primary-button {
+  border: 1px solid #7770f5;
+  background: linear-gradient(135deg, #7868f6, #6356db);
+  color: #fff;
+  box-shadow: 0 5px 16px rgba(99, 86, 219, 0.20);
+}
+
+.upload-workspace button.upload-browse-button:hover:not(:disabled),
+.upload-workspace button.upload-primary-button:hover:not(:disabled) {
+  border-color: #a49aff;
+  background: linear-gradient(135deg, #8a7bff, #7062eb);
+  box-shadow: 0 7px 22px rgba(99, 86, 219, 0.30);
+  transform: translateY(-1px);
+}
+
+.upload-workspace button.upload-secondary-button {
+  border: 1px solid #354663;
+  background: #152137;
+  color: #cbd6eb;
+  box-shadow: none;
+}
+
+.upload-workspace button.upload-secondary-button:hover:not(:disabled) {
+  border-color: #6578a0;
+  background: #1c2b44;
+  color: #fff;
+}
+
+.upload-workspace button:focus-visible {
+  outline: 2px solid #a78bfa;
+  outline-offset: 3px;
+}
+
+.upload-workspace button:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.upload-workspace .upload-file-hint {
+  margin-top: 15px;
+  color: #7286a5;
+  font-size: 10px;
+}
+
+/* Safety notice */
+.upload-workspace .upload-safety-note {
+  margin-top: 19px;
+  padding: 17px 19px;
+  border: 1px solid #57492b;
+  border-radius: 12px;
+  background: linear-gradient(110deg, #282519, #201e1a);
+  color: #e9d5a1;
+}
+
+.upload-workspace .upload-safety-note strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #f3d58b;
+  font-size: 12px;
+}
+
+.upload-workspace .upload-safety-note p {
+  margin: 0;
+  color: #c4b992;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+/* Action buttons */
+.upload-workspace .upload-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 23px;
+}
+
+/* Error state */
+.upload-workspace .upload-error {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border: 1px solid #753c4b;
+  border-radius: 11px;
+  background: #2c1723;
+  color: #ffb6c1;
+}
+
+.upload-workspace .upload-error strong {
+  font-size: 12px;
+}
+
+.upload-workspace .upload-error p {
+  margin: 7px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+/* Progress section */
+.upload-workspace .upload-progress-card,
+.upload-workspace .upload-results-card {
+  padding-top: 25px;
+}
+
+.upload-workspace .upload-step-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+}
+
+.upload-workspace .upload-step {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-height: 62px;
+  padding: 12px 0;
+  border-bottom: 1px solid #243149;
+  color: #dce5f6;
+  font-size: 12px;
+}
+
+.upload-workspace .upload-step:last-child {
+  border-bottom: 0;
+}
+
+.upload-workspace .upload-step-number {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 33px;
+  height: 33px;
+  border: 1px solid #34435e;
+  border-radius: 10px;
+  background: #17243a;
+  color: #a8b7d1;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.upload-workspace .upload-step-number.running {
+  border-color: #76632f;
+  background: #30291b;
+  color: #f4d37d;
+}
+
+.upload-workspace .upload-step-number.completed {
+  border-color: #276c58;
+  background: #12372e;
+  color: #75e0b3;
+}
+
+.upload-workspace .upload-step-number.failed {
+  border-color: #85414a;
+  background: #3c2029;
+  color: #ff9da9;
+}
+
+.upload-workspace .upload-step-status {
+  margin-left: auto;
+  color: #8799b5;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.upload-workspace .upload-disabled-stage {
+  margin: 17px 0 0;
+  padding: 12px 14px;
+  border-radius: 9px;
+  background: #211f1a;
+  color: #d9c58d;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+/* JSON result panels */
+.upload-workspace .upload-result {
+  margin: 13px 0;
+  overflow: hidden;
+  border: 1px solid #2c3b55;
+  border-radius: 11px;
+  background: #0c1524;
+}
+
+.upload-workspace .upload-result summary {
+  padding: 15px 17px;
+  background: #121f33;
+  color: #e0e8f8;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.upload-workspace .upload-result summary:hover {
+  background: #1a2942;
+}
+
+.upload-workspace .upload-result pre {
+  max-height: 400px;
+  margin: 0;
+  padding: 17px;
+  overflow: auto;
+  border-top: 1px solid #273750;
+  color: #b9c9e5;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 11px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.upload-workspace .upload-results-card > button {
+  margin-top: 12px;
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+  .upload-workspace .upload-card {
+    padding: 19px;
+    border-radius: 14px;
+  }
+
+  .upload-workspace .upload-card h3 {
+    font-size: 18px;
+  }
+
+  .upload-workspace .upload-dropzone {
+    min-height: 230px;
+    padding: 24px 15px;
+  }
+
+  .upload-workspace .upload-actions {
+    justify-content: stretch;
+  }
+
+  .upload-workspace .upload-actions button {
+    flex: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .upload-workspace *,
+  .upload-workspace *::before,
+  .upload-workspace *::after {
+    transition: none !important;
+    transform: none !important;
+  }
+}

@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Local Dynamic Analyzer Test</title>
+</head>
+<body>
+  <h1>Harmless Local Test Page</h1>
+  <p>This page uses dummy data only.</p>
+  <script>
+    setTimeout(() => {
+      const input = document.createElement("input");
+      input.type = "password";
+      input.placeholder = "Dummy test field";
+      document.body.appendChild(input);
+
+      fetch("/test-request")
+        .then(response => response.text())
+        .then(text => console.log("Local request completed:", text))
+        .catch(error => console.log("Local request result:", error.message));
+    }, 1000);
+  </script>
+</body>
+</html>

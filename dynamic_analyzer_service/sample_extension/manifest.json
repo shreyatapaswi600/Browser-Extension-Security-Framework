@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Security Analyzer Test Extension",
+  "version": "1.0",
+  "description": "A dummy extension to test the Dynamic Analyzer framework.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -2827,21 +2827,18 @@ def build_function_sink_index(source_code):
 
     # ------------------------------------------------------------
     # Get exact source text for a Tree-sitter node.
+    #
+    # source_code is already a Python str. Tree-sitter exposes
+    # byte offsets, so use the shared UTF-8-aware helper rather
+    # than calling .decode() on a Python string.
     # ------------------------------------------------------------
 
     def node_text(node):
 
-        try:
-            return source_code[
-                node.start_byte:
-                node.end_byte
-            ].decode(
-                "utf-8",
-                errors="ignore"
-            ).strip()
-
-        except Exception:
-            return ""
+        return get_node_text(
+            node,
+            source_code
+        ).strip()
 
     # ------------------------------------------------------------
     # Extract literal HTTP/HTTPS destination.
@@ -2851,17 +2848,12 @@ def build_function_sink_index(source_code):
         node
     ):
 
-        try:
+        expression_text = get_node_text(
+            node,
+            source_code
+        )
 
-            expression_text = source_code[
-                node.start_byte:
-                node.end_byte
-            ].decode(
-                "utf-8",
-                errors="ignore"
-            )
-
-        except Exception:
+        if not expression_text:
             return None
 
         match = re.search(
@@ -3428,12 +3420,50 @@ def correlate_sources_and_sinks(
         return None
 
     def operation_expression(operation):
+        """Return the complete expression used by a network operation."""
+
         if isinstance(operation, dict):
-            return (
-                operation.get("expression")
-                or operation.get("code")
-                or ""
-            )
+            expression = operation.get("expression") or operation.get("code")
+
+            if expression:
+                return str(expression)
+
+            # analyze_network_sinks stores call arguments separately.
+            # Reconstruct the call here so direct source -> sink
+            # correlation can see variables such as cookieData in:
+            #
+            #     fetch(url, { body: cookieData })
+            #
+            # This is essential for direct flows and also preserves
+            # compatibility with older network-operation records that
+            # already supplied an expression.
+            sink = operation.get("sink") or operation.get("name") or "network"
+            arguments = operation.get("arguments") or []
+
+            normalized_arguments = []
+
+            for argument in arguments:
+                if isinstance(argument, dict):
+                    argument_text = (
+                        argument.get("expression")
+                        or argument.get("code")
+                        or argument.get("text")
+                        or ""
+                    )
+                else:
+                    argument_text = str(argument)
+
+                if argument_text:
+                    normalized_arguments.append(argument_text)
+
+            if normalized_arguments:
+                return (
+                    f"{sink}("
+                    + ", ".join(normalized_arguments)
+                    + ")"
+                )
+
+            return f"{sink}()"
 
         return str(operation)
 
@@ -5284,6 +5314,5 @@ def analyze_data_flow(
                 ].items()
             },
     }
-
 
 

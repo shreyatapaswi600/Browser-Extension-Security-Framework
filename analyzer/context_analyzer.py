@@ -445,24 +445,14 @@ def collect_observed_apis(program_models):
 def collect_network_operations(
     data_flow_results
 ):
-
     operations = []
 
     for result in data_flow_results:
-
-        for sink in result.get(
-            "network_sinks",
-            []
-        ):
-
-            name = sink.get("sink")
-
-            if (
-                name
-                and name not in operations
-            ):
-
-                operations.append(name)
+        for operation in result.get("network_operations", []):
+            if isinstance(operation, dict):
+                name = operation.get("sink")
+                if name and name not in operations:
+                    operations.append(name)
 
     return sorted(operations)
 
@@ -474,28 +464,14 @@ def collect_network_operations(
 def collect_network_destinations(
     data_flow_results
 ):
-
     destinations = []
 
     for result in data_flow_results:
-
-        for sink in result.get(
-            "network_sinks",
-            []
-        ):
-
-            destination = sink.get(
-                "destination"
-            )
-
-            if (
-                destination
-                and destination not in destinations
-            ):
-
-                destinations.append(
-                    destination
-                )
+        for operation in result.get("network_operations", []):
+            if isinstance(operation, dict):
+                destination = operation.get("destination")
+                if destination and destination not in destinations:
+                    destinations.append(destination)
 
     return sorted(destinations)
 
@@ -1035,80 +1011,52 @@ def analyze_context(
 
     data_flow_results = []
 
-    for filepath in javascript_files:
-
-        result = analyze_data_flow(
-            filepath
-        )
-
-        data_flow_results.append(
-            result
-        )
+    for model in program_models:
+        result = analyze_data_flow(model)
+        data_flow_results.append(result)
 
     # --------------------------------------------------------
     # Combine data-flow information
     # --------------------------------------------------------
 
     combined_data_flow = {
+    "file": extension_folder,
 
-        "file":
-            extension_folder,
+    "syntax_error": any(
+        result.get("syntax_error", False)
+        for result in data_flow_results
+    ),
 
-        "syntax_error":
-            any(
-                result.get(
-                    "syntax_error",
-                    False
-                )
-                for result in data_flow_results
-            ),
+    "sources": [
+        item
+        for result in data_flow_results
+        for item in result.get("sources", [])
+    ],
 
-        "sources": [
-            source
-            for result in data_flow_results
-            for source in result.get(
-                "sources",
-                []
-            )
-        ],
+    "variable_flows": [
+        item
+        for result in data_flow_results
+        for item in result.get("variable_flows", [])
+    ],
 
-        "variable_flows": [
-            flow
-            for result in data_flow_results
-            for flow in result.get(
-                "variable_flows",
-                []
-            )
-        ],
+    "transformations": [
+        item
+        for result in data_flow_results
+        for item in result.get("transformations", [])
+    ],
 
-        "transformations": [
-            transformation
-            for result in data_flow_results
-            for transformation in result.get(
-                "transformations",
-                []
-            )
-        ],
+    "network_sinks": [
+        item
+        for result in data_flow_results
+        for item in result.get("network_operations", [])
+    ],
 
-        "network_sinks": [
-            sink
-            for result in data_flow_results
-            for sink in result.get(
-                "network_sinks",
-                []
-            )
-        ],
-
-        "evidence": [
-            evidence
-            for result in data_flow_results
-            for evidence in result.get(
-                "evidence",
-                []
-            )
-        ]
+    "evidence": [
+        item
+        for result in data_flow_results
+        for item in result.get("findings", [])
+    ]
     }
-
     # --------------------------------------------------------
     # Evidence analysis
     # --------------------------------------------------------

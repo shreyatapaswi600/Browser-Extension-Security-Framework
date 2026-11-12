@@ -1,3 +1,5 @@
+
+from analyzer.ast_analyzer import analyze_javascript_file
 from analyzer.data_flow_analyzer import analyze_data_flow
 from analyzer.evidence_engine import analyze_evidence
 from analyzer.reasoning_engine import reason_about_evidence
@@ -12,32 +14,44 @@ filepath = "Sample_Extension_v2/background.js"
 
 # ============================================================
 # Step 1
-# Data-flow analysis
+# AST analysis
 # ============================================================
 
-data_flow_result = analyze_data_flow(
-    filepath
-)
+program_model = analyze_javascript_file(filepath)
+
+if program_model is None:
+    raise RuntimeError(
+        f"AST analysis returned no program model: {filepath}"
+    )
+
+if getattr(program_model, "syntax_error", False):
+    raise RuntimeError(
+        f"JavaScript syntax error detected in: {filepath}"
+    )
 
 
 # ============================================================
 # Step 2
-# Evidence analysis
+# Data-flow analysis
 # ============================================================
 
-evidence_result = analyze_evidence(
-    data_flow_result
-)
+data_flow_result = analyze_data_flow(program_model)
 
 
 # ============================================================
 # Step 3
+# Evidence analysis
+# ============================================================
+
+evidence_result = analyze_evidence(data_flow_result)
+
+
+# ============================================================
+# Step 4
 # Reasoning
 # ============================================================
 
-reasoning_result = reason_about_evidence(
-    evidence_result
-)
+reasoning_result = reason_about_evidence(evidence_result)
 
 
 # ============================================================
@@ -48,6 +62,8 @@ print("=" * 75)
 print("BEHAVIORAL REASONING ENGINE")
 print("=" * 75)
 
+print(f"\nAnalyzed file: {filepath}")
+
 
 # ============================================================
 # Individual Findings
@@ -56,7 +72,6 @@ print("=" * 75)
 print("\nEvidence Assessments")
 print("-" * 75)
 
-
 if reasoning_result["findings"]:
 
     for index, item in enumerate(
@@ -64,219 +79,63 @@ if reasoning_result["findings"]:
         start=1
     ):
 
-        evidence = item[
-            "evidence"
-        ]
+        evidence = item["evidence"]
+        assessment = item["assessment"]
 
-        assessment = item[
-            "assessment"
-        ]
+        print(f"\nFinding #{index}")
 
-
-        print(
-            f"\nFinding #{index}"
-        )
-
-
-        # ----------------------------------------------------
-        # Behavior
-        # ----------------------------------------------------
-
-        print(
-            "Behavior:",
-            evidence.get(
-                "behavior"
-            )
-        )
-
-
-        # ----------------------------------------------------
-        # Source
-        # ----------------------------------------------------
-
-        print(
-            "Source:",
-            evidence.get(
-                "source"
-            )
-        )
-
-
+        print("Behavior:", evidence.get("behavior"))
+        print("Source:", evidence.get("source"))
         print(
             "Source Sensitivity:",
-            assessment.get(
-                "source_sensitivity"
-            )
+            assessment.get("source_sensitivity")
         )
 
-
-        # ----------------------------------------------------
-        # Sink
-        # ----------------------------------------------------
-
-        print(
-            "Network Sink:",
-            assessment.get(
-                "sink"
-            )
-        )
-
-
-        # ----------------------------------------------------
-        # Destination
-        # ----------------------------------------------------
-
-        print(
-            "Destination:",
-            assessment.get(
-                "destination"
-            )
-        )
-
-
+        print("Network Sink:", assessment.get("sink"))
+        print("Destination:", assessment.get("destination"))
         print(
             "Destination Category:",
-            assessment.get(
-                "destination_category"
-            )
+            assessment.get("destination_category")
         )
 
+        print("Evidence Chain:")
+        chain = evidence.get("evidence_chain", [])
+        print("    " + "  ->  ".join(str(part) for part in chain))
 
-        # ----------------------------------------------------
-        # Evidence Chain
-        # ----------------------------------------------------
+        print("Indicators:")
+        for indicator in assessment.get("indicators", []):
+            print(f"    - {indicator}")
 
-        print(
-            "Evidence Chain:"
-        )
-
-        print(
-            "    "
-            + "  ->  ".join(
-                evidence.get(
-                    "evidence_chain",
-                    []
-                )
-            )
-        )
-
-
-        # ----------------------------------------------------
-        # Indicators
-        # ----------------------------------------------------
-
-        print(
-            "Indicators:"
-        )
-
-        for indicator in assessment.get(
-            "indicators",
-            []
-        ):
-
-            print(
-                f"    - {indicator}"
-            )
-
-
-        # ----------------------------------------------------
-        # Concern
-        # ----------------------------------------------------
-
-        print(
-            "Concern Level:",
-            assessment.get(
-                "concern_level"
-            )
-        )
-
-
-        # ----------------------------------------------------
-        # Confidence
-        # ----------------------------------------------------
-
+        print("Concern Level:", assessment.get("concern_level"))
         print(
             "Static Confidence:",
-            assessment.get(
-                "static_confidence"
-            )
+            assessment.get("static_confidence")
         )
 
-
-        # ----------------------------------------------------
-        # Reasoning
-        # ----------------------------------------------------
-
-        print(
-            "Reasoning:"
-        )
-
-        for reason in assessment.get(
-            "reasoning",
-            []
-        ):
-
-            print(
-                f"    - {reason}"
-            )
-
+        print("Reasoning:")
+        for reason in assessment.get("reasoning", []):
+            print(f"    - {reason}")
 
 else:
-
-    print(
-        "No evidence findings available."
-    )
+    print("No evidence findings available.")
 
 
 # ============================================================
 # Overall Assessment
 # ============================================================
 
-overall = reasoning_result[
-    "overall"
-]
-
+overall = reasoning_result["overall"]
 
 print("\n\nOverall Assessment")
 print("-" * 75)
 
+print("Overall Concern:", overall["overall_concern"])
+print("Overall Confidence:", overall["overall_confidence"])
+print("Finding Count:", overall["finding_count"])
 
-print(
-    "Overall Concern:",
-    overall[
-        "overall_concern"
-    ]
-)
-
-
-print(
-    "Overall Confidence:",
-    overall[
-        "overall_confidence"
-    ]
-)
-
-
-print(
-    "Finding Count:",
-    overall[
-        "finding_count"
-    ]
-)
-
-
-print(
-    "Overall Reasoning:"
-)
-
-
-for reason in overall[
-    "reasoning"
-]:
-
-    print(
-        f"    - {reason}"
-    )
+print("Overall Reasoning:")
+for reason in overall["reasoning"]:
+    print(f"    - {reason}")
 
 
 # ============================================================
