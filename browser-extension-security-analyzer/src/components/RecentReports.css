@@ -1,0 +1,355 @@
+
+/* =========================================
+   REPORTS PAGE
+========================================= */
+
+.reports-section {
+  width: 100%;
+  color: var(--text-primary, #e8eef8);
+}
+
+.reports-intro {
+  margin: 0 0 22px;
+}
+
+.reports-intro p {
+  margin: 0;
+  color: var(--text-secondary, #a8b5c8);
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+/* Toolbar */
+
+.reports-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 16px;
+}
+
+.reports-count {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 7px;
+  color: var(--text-secondary, #a8b5c8);
+  font-size: 0.92rem;
+}
+
+.reports-count-number {
+  color: var(--text-primary, #f4f7fc);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.reports-count-total {
+  margin-left: 8px;
+  padding-left: 12px;
+  border-left: 1px solid var(--border-color, #26364b);
+  color: var(--text-muted, #8292a8);
+  font-size: 0.85rem;
+}
+
+/* Buttons */
+
+.reports-refresh-button,
+.reports-retry-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 8px 14px;
+  border: 1px solid var(--border-color, #2b3b52);
+  border-radius: 9px;
+  background: var(--surface-raised, #101d30);
+  color: var(--text-primary, #e8eef8);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease,
+    opacity 150ms ease;
+}
+
+.reports-refresh-button:hover,
+.reports-retry-button:hover {
+  border-color: #8b5cf6;
+  background: rgba(139, 92, 246, 0.12);
+}
+
+.reports-refresh-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Loading animation */
+
+.is-spinning {
+  animation: reports-spin 1s linear infinite;
+}
+
+@keyframes reports-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =========================================
+   REPORTS TABLE
+========================================= */
+
+.reports-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--border-color, #26364b);
+  border-radius: 12px;
+  background: var(--surface, #07111f);
+}
+
+.reports-table {
+  width: 100%;
+  min-width: 920px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.reports-table thead {
+  background: var(--surface-raised, #101d30);
+}
+
+.reports-table th {
+  padding: 17px 16px;
+  color: var(--text-secondary, #b9c5d6);
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.reports-table td {
+  padding: 16px;
+  border-top: 1px solid var(--border-color, #26364b);
+  color: var(--text-primary, #e8eef8);
+  font-size: 0.88rem;
+  vertical-align: middle;
+}
+
+.reports-table tbody tr {
+  transition: background 150ms ease;
+}
+
+.reports-table tbody tr:hover {
+  background: rgba(148, 163, 184, 0.055);
+}
+
+/* Extension name and job ID */
+
+.reports-extension-cell {
+  min-width: 190px;
+}
+
+.reports-extension-name {
+  display: block;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.reports-job-id {
+  display: block;
+  margin-top: 5px;
+  color: var(--text-muted, #8292a8);
+  font-size: 0.74rem;
+  letter-spacing: 0.02em;
+}
+
+/* Risk score */
+
+.reports-score {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* =========================================
+   RISK BADGES
+========================================= */
+
+.reports-risk-badge,
+.reports-status {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 5px 9px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 750;
+  letter-spacing: 0.025em;
+  white-space: nowrap;
+}
+
+.risk-low {
+  border-color: rgba(34, 197, 94, 0.25);
+  background: rgba(34, 197, 94, 0.12);
+  color: #6ee7a0;
+}
+
+.risk-medium {
+  border-color: rgba(245, 158, 11, 0.28);
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+}
+
+.risk-high,
+.risk-critical {
+  border-color: rgba(239, 68, 68, 0.28);
+  background: rgba(239, 68, 68, 0.12);
+  color: #fca5a5;
+}
+
+.risk-unknown {
+  border-color: rgba(148, 163, 184, 0.25);
+  background: rgba(148, 163, 184, 0.1);
+  color: #cbd5e1;
+}
+
+/* =========================================
+   JOB STATUS
+========================================= */
+
+.status-completed {
+  border-color: rgba(34, 197, 94, 0.22);
+  background: rgba(34, 197, 94, 0.09);
+  color: #86efac;
+}
+
+.status-prepared,
+.status-running {
+  border-color: rgba(59, 130, 246, 0.25);
+  background: rgba(59, 130, 246, 0.1);
+  color: #93c5fd;
+}
+
+.status-failed {
+  border-color: rgba(239, 68, 68, 0.25);
+  background: rgba(239, 68, 68, 0.1);
+  color: #fca5a5;
+}
+
+/* =========================================
+   REPORT ACTION BUTTONS
+========================================= */
+
+.reports-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reports-icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: 37px;
+  height: 37px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: var(--surface-raised, #101d30);
+  color: var(--text-secondary, #b9c5d6);
+  cursor: pointer;
+  transition:
+    color 150ms ease,
+    background 150ms ease,
+    border-color 150ms ease;
+}
+
+.reports-icon-button:hover {
+  border-color: rgba(139, 92, 246, 0.45);
+  background: rgba(139, 92, 246, 0.15);
+  color: #c4b5fd;
+}
+
+.reports-unavailable {
+  color: var(--text-muted, #8292a8);
+  font-size: 0.82rem;
+}
+
+/* =========================================
+   LOADING, ERROR AND EMPTY STATES
+========================================= */
+
+.reports-state,
+.reports-empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 180px;
+  padding: 28px;
+  border: 1px dashed var(--border-color, #26364b);
+  border-radius: 12px;
+  color: var(--text-secondary, #a8b5c8);
+  text-align: center;
+}
+
+.reports-empty-state {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reports-empty-state h3 {
+  margin: 4px 0 0;
+  color: var(--text-primary, #e8eef8);
+  font-size: 1.05rem;
+}
+
+.reports-empty-state p {
+  max-width: 520px;
+  margin: 0;
+  color: var(--text-secondary, #a8b5c8);
+  line-height: 1.6;
+}
+
+.reports-empty-icon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 15px;
+  background: rgba(139, 92, 246, 0.13);
+  color: #a78bfa;
+}
+
+.reports-error {
+  justify-content: flex-start;
+  border-color: rgba(239, 68, 68, 0.35);
+  color: #fca5a5;
+  text-align: left;
+}
+
+.reports-error p {
+  margin: 5px 0 12px;
+  color: var(--text-secondary, #a8b5c8);
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 700px) {
+  .reports-toolbar {
+    align-items: flex-start;
+  }
+
+  .reports-count {
+    max-width: 70%;
+  }
+
+  .reports-count-total {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+}

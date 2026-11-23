@@ -1,14 +1,11 @@
-﻿"""Track sandbox analysis jobs without executing extensions."""
+﻿"""Track Docker-based extension analysis jobs."""
 
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any, Literal
 from uuid import uuid4
 
-JobStatus = Literal[
-    "queued", "preparing", "running",
-    "collecting", "completed", "failed"
-]
+JobStatus = Literal["queued", "preparing", "prepared", "running", "completed", "failed"]
 
 
 def _now() -> str:
@@ -16,11 +13,11 @@ def _now() -> str:
 
 
 @dataclass
-class SandboxJob:
+class AnalysisJob:
     extension_name: str
     target_url: str
     job_id: str = field(
-        default_factory=lambda: f"SBX-{uuid4().hex[:10].upper()}"
+        default_factory=lambda: f"ANL-{uuid4().hex[:10].upper()}"
     )
     status: JobStatus = "queued"
     created_at: str = field(default_factory=_now)
@@ -37,20 +34,20 @@ class SandboxJob:
     ) -> None:
         allowed = {
             "queued": {"preparing", "failed"},
-            "preparing": {"running", "failed"},
-            "running": {"collecting", "failed"},
-            "collecting": {"completed", "failed"},
+            "preparing": {"prepared", "failed"},
+            "prepared": {"running", "failed"},
+            "running": {"completed", "failed"},
             "completed": set(),
             "failed": set(),
         }
 
         if new_status not in allowed[self.status]:
             raise ValueError(
-                f"Invalid job transition: {self.status} -> {new_status}"
+                f"Invalid analysis job transition: {self.status} -> {new_status}"
             )
 
         if new_status == "completed" and results is None:
-            raise ValueError("Collected results are required.")
+            raise ValueError("Analysis results are required.")
 
         self.status = new_status
         self.updated_at = _now()

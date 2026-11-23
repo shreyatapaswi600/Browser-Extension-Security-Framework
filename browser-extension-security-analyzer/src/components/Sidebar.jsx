@@ -3,17 +3,23 @@ import {
   LayoutDashboard,
   Upload,
   Search,
+  Activity,
   FileText,
   History,
   Settings,
   Info,
   Shield,
+  Zap,
+  Radar,
 } from "lucide-react";
 
 const navigation = [
   { label: "Dashboard", icon: LayoutDashboard },
   { label: "Upload Extension", icon: Upload },
   { label: "Analysis", icon: Search },
+  { label: "Static Analyzer", icon: Activity },
+  { label: "Dynamic Analyzer", icon: Radar },
+  { label: "Attack Simulator", icon: Zap },
   { label: "Reports", icon: FileText },
   { label: "History", icon: History },
   { label: "Settings", icon: Settings },
@@ -27,6 +33,7 @@ function Sidebar({ activePage, onNavigate }) {
         <div className="brand-icon">
           <Shield size={30} />
         </div>
+
         <div>
           <h2>Browser Extension</h2>
           <h2>Security Analyzer</h2>
@@ -38,9 +45,13 @@ function Sidebar({ activePage, onNavigate }) {
           <button
             key={label}
             type="button"
-            className={`nav-item ${activePage === label ? "active" : ""}`}
+            className={`nav-item ${
+              activePage === label ? "active" : ""
+            }`}
             onClick={() => onNavigate(label)}
-            aria-current={activePage === label ? "page" : undefined}
+            aria-current={
+              activePage === label ? "page" : undefined
+            }
           >
             <Icon size={21} />
             <span>{label}</span>
@@ -53,6 +64,7 @@ function Sidebar({ activePage, onNavigate }) {
           <Shield size={22} />
           <span>Our Goal</span>
         </div>
+
         <p>
           Detect and prevent browser extension supply chain attacks
           through comprehensive analysis and risk assessment.

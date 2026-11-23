@@ -1,3 +1,4 @@
+
 .security-report {
   width: 100%;
   color: #edf1ff;
@@ -9,6 +10,8 @@
 .security-report *::after {
   box-sizing: border-box;
 }
+
+/* Header */
 
 .security-report .report-header {
   display: flex;
@@ -48,19 +51,21 @@
   white-space: nowrap;
 }
 
+/* Risk assessment - neutral default */
+
 .security-report .report-assessment {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 22px;
   padding: 23px;
-  border: 1px solid #57492b;
+  border: 1px solid #3b4961;
   border-radius: 14px;
-  background: linear-gradient(120deg, #282519, #201e1a);
+  background: linear-gradient(120deg, #202b3d, #172235);
 }
 
 .security-report .assessment-label {
-  color: #f3d58b;
+  color: #bdc9dc;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: 1.5px;
@@ -68,17 +73,104 @@
 
 .security-report .report-assessment h3 {
   margin: 8px 0;
-  color: #f5d78e;
+  color: #e5ebf5;
   font-size: 20px;
 }
 
 .security-report .report-assessment p {
   max-width: 600px;
   margin: 0;
-  color: #c4b992;
+  color: #aabbd1;
   font-size: 12px;
   line-height: 1.8;
 }
+
+/* LOW risk */
+
+.security-report .report-assessment.risk-low {
+  border-color: #276c58;
+  background: linear-gradient(120deg, #142f2b, #10251f);
+}
+
+.security-report .report-assessment.risk-low .assessment-label,
+.security-report .report-assessment.risk-low h3 {
+  color: #75e0b3;
+}
+
+.security-report .report-assessment.risk-low p {
+  color: #b0d9c9;
+}
+
+.security-report .report-assessment.risk-low .report-score {
+  border-color: #276c58;
+  background: #102b25;
+}
+
+.security-report .report-assessment.risk-low .report-score strong,
+.security-report .report-assessment.risk-low .report-score span {
+  color: #75e0b3;
+}
+
+/* MEDIUM risk */
+
+.security-report .report-assessment.risk-medium {
+  border-color: #755c35;
+  background: linear-gradient(120deg, #302719, #241f19);
+}
+
+.security-report .report-assessment.risk-medium .assessment-label,
+.security-report .report-assessment.risk-medium h3 {
+  color: #f3d58b;
+}
+
+.security-report .report-assessment.risk-medium p {
+  color: #d2c39f;
+}
+
+.security-report .report-assessment.risk-medium .report-score {
+  border-color: #755c35;
+  background: #211f1a;
+}
+
+.security-report .report-assessment.risk-medium .report-score strong,
+.security-report .report-assessment.risk-medium .report-score span {
+  color: #f3d58b;
+}
+
+/* HIGH risk */
+
+.security-report .report-assessment.risk-high {
+  border-color: #85414a;
+  background: linear-gradient(120deg, #3c2029, #281820);
+}
+
+.security-report .report-assessment.risk-high .assessment-label,
+.security-report .report-assessment.risk-high h3 {
+  color: #ff9da9;
+}
+
+.security-report .report-assessment.risk-high p {
+  color: #e5b5bd;
+}
+
+.security-report .report-assessment.risk-high .report-score {
+  border-color: #85414a;
+  background: #301b23;
+}
+
+.security-report .report-assessment.risk-high .report-score strong,
+.security-report .report-assessment.risk-high .report-score span {
+  color: #ff9da9;
+}
+
+/* UNKNOWN risk */
+
+.security-report .report-assessment.risk-unknown .report-score {
+  border-color: #3b4961;
+  background: #172235;
+}
+
+/* Score */
 
 .security-report .report-score {
   display: flex;
@@ -87,28 +179,30 @@
   flex-shrink: 0;
   min-width: 115px;
   padding: 14px;
-  border: 1px solid #57492b;
+  border: 1px solid #3b4961;
   border-radius: 12px;
-  background: #211f1a;
+  background: #172235;
 }
 
 .security-report .report-score strong {
-  color: #f3d58b;
+  color: #dce5f6;
   font-size: 34px;
 }
 
 .security-report .report-score span {
-  color: #e9d5a1;
+  color: #dce5f6;
   font-size: 11px;
   font-weight: 700;
 }
 
 .security-report .report-score small {
   margin-top: 5px;
-  color: #a99c77;
+  color: #a1afc5;
   font-size: 9px;
   text-align: center;
 }
+
+/* Metrics */
 
 .security-report .report-metrics {
   display: grid;
@@ -139,6 +233,8 @@
   line-height: 1.5;
 }
 
+/* Sections */
+
 .security-report .report-section {
   margin-top: 22px;
   padding: 22px;
@@ -159,6 +255,8 @@
   font-size: 12px;
   line-height: 1.7;
 }
+
+/* Extension information */
 
 .security-report .report-information {
   display: grid;
@@ -187,6 +285,8 @@
   overflow-wrap: anywhere;
 }
 
+/* Permissions */
+
 .security-report .permission-list {
   display: flex;
   flex-wrap: wrap;
@@ -209,6 +309,8 @@
   color: #f3d58b;
 }
 
+/* Manifest findings */
+
 .security-report .manifest-finding {
   padding: 15px;
   border: 1px solid #57492b;
@@ -228,6 +330,8 @@
   font-size: 11px;
   line-height: 1.6;
 }
+
+/* Severity badges */
 
 .security-report .severity-badge {
   display: inline-flex;
@@ -264,6 +368,8 @@
   color: #91c8f5;
 }
 
+/* Finding summary */
+
 .security-report .finding-summary {
   display: flex;
   flex-wrap: wrap;
@@ -280,6 +386,8 @@
   font-size: 10px;
   font-weight: 700;
 }
+
+/* Individual findings */
 
 .security-report .security-finding {
   margin-top: 13px;
@@ -331,6 +439,8 @@
   line-height: 1.8;
 }
 
+/* Evidence */
+
 .security-report .finding-evidence {
   border-top: 1px solid #273750;
 }
@@ -378,6 +488,8 @@
   font-family: Consolas, monospace;
 }
 
+/* Recommendations */
+
 .security-report .report-recommendations {
   margin: 0;
   padding-left: 22px;
@@ -386,25 +498,29 @@
   line-height: 2;
 }
 
+/* Legacy notice class - neutral, not a risk warning */
+
 .security-report .report-dynamic {
   margin-top: 22px;
   padding: 17px 19px;
-  border: 1px solid #57492b;
+  border: 1px solid #35516d;
   border-radius: 11px;
-  background: #211f1a;
+  background: #172b40;
 }
 
 .security-report .report-dynamic strong {
-  color: #f3d58b;
+  color: #91c8f5;
   font-size: 12px;
 }
 
 .security-report .report-dynamic p {
   margin: 7px 0 0;
-  color: #c4b992;
+  color: #b0c9df;
   font-size: 11px;
   line-height: 1.8;
 }
+
+/* Disclaimer */
 
 .security-report .report-disclaimer {
   margin: 17px 0 0;
@@ -412,6 +528,8 @@
   font-size: 10px;
   line-height: 1.8;
 }
+
+/* Responsive layout */
 
 @media (max-width: 850px) {
   .security-report .report-metrics {
@@ -445,5 +563,9 @@
 
   .security-report .report-metrics article {
     padding: 14px;
+  }
+
+  .security-report .finding-heading {
+    flex-direction: column;
   }
 }

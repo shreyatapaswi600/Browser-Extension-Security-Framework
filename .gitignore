@@ -36,3 +36,36 @@ dynamic_analyzer_service/uploads/
 
 # Root-level orphan lockfile (no root package.json)
 /package-lock.json
+
+# Local review snapshots and duplicate worker implementation
+/integration_review/
+/dynamic_browser_worker/dynamic_browser_worker/
+/dynamic_browser_worker/worker.py.before-crashpad-fix
+
+# Generated analysis reports
+/ANL-*.html
+/ANL-*.json
+
+# Local staging and performance backups
+/_stage1/
+/_stage2/
+/performance_optimization_backup_*/
+/pre_dynamic_integration_backup/
+/browser-extension-security-analyzer/backups/
+
+# Local VM evidence and review files
+/browser_sandbox_vm_details.txt
+/main.py.review-copy
+/dynamic_analyzer_service/core_analyzer/report_generator.py.backup-*
+
+# Local analyzer comparison and baseline experiments
+/compare_data_flow_analyzers.py
+/analyzer/data_flow_analyzer_baseline_*.py
+/analyzer/data_flow_analyzer_before_*.py
+
+# Raw machine-specific VM evidence
+/evidence/phase2/kali-live-vm-config.txt
+
+/ Local duplicate and generated audit snapshot
+/crud.py
+/compatibility_audit.txt

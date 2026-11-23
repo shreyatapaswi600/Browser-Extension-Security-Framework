@@ -1,0 +1,15 @@
+﻿.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.git/
+.env
+*.backup*
+*.pre_*
+dynamic_analyzer_service/uploads/
+dynamic_analyzer_service/collected_evidence/
+dynamic_analyzer_service/test_evidence_staging/
+dynamic_analyzer_service/guest_runner/
+dynamic_analyzer_service/attack_simulator/
+*.zip
